@@ -13,6 +13,12 @@ Most of my work is done on weekends, in my free time, but sometimes I also work 
 
 I spend all my free time doing open-source projects/websites/software/query's.<br>
 
+I recently lost my old account, but I got my username and email back, thanks to GitHub support.<br>
+
+All old repositories were added here.<br>
+
+If possible, follow me here again.<br>
+
 Most of my repos are private, but the new projects will be opened.<br>
 
 I'm currently focused on translating my GitHub projects to English.<br><br>
