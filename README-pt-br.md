@@ -14,13 +14,13 @@ Eu gasto todo o meu tempo livre fazendo projetos/sites/softwares/query's open-so
 
 Recentemente eu perdi minha antiga conta, mas, eu recuperei meu nome usuário e o e-mail cadastrado, graças ao suporte do GitHub.<br>
 
-Todos os antigos repositórios foram adicionados aqui.<br>
+Todos os antigos repositórios serão adicionados aqui.<br>
 
 Se possível, me siga novamente aqui.<br>
 
 A maioria dos meus repos estão privados, mas, os novos projetos serão abertos.<br>
 
-Atualmente estou focado em traduzir os mods da comunidade de Necesse.<br><br>
+Atualmente estou focado em traduzir meus projetos do GitHub para o inglês.<br><br>
 
 ### <h2 align="center">Curiosidades ✨</h2>
 
