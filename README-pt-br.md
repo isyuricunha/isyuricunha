@@ -49,13 +49,13 @@ Atualmente estou focado em traduzir os mods da comunidade de Necesse.<br><br>
 [![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
 [![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
-[![Personal Site Badge](https://img.shields.io/badge/isyuricunha-2D425E?style=flat&logo=Website&logoColor=white)](https://garotogordo.codes/)<br><br><br><br>
+[![Personal Site Badge](https://img.shields.io/badge/isyuricunha-2D425E?style=flat&logo=Website&logoColor=white)](https://yuricunha.xyz/)<br><br><br><br>
 
 <!-- ### <h2 align="center">Sites 🌐</h2>
 
-[Antigo Portfolio](https://www.portfolio-antigo.garotogordo.codes//)<br>
-[Unes Page](https://wwww.unes.garotogordo.codes/)<br>
-[Bluise Page](https://bluise.garotogordo.codes/)<br> -->
+[Antigo Portfolio](https://www.portfolio-antigo.yuricunha.xyz//)<br>
+[Unes Page](https://wwww.unes.yuricunha.xyz/)<br>
+[Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
 ![isyuricunha github stats](https://github-readme-stats.vercel.app/api?username=isyuricunha&show_icons=true&theme=dracula&show_owner=true)
 
