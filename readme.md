@@ -7,7 +7,7 @@
 
 <img align="right" src="https://github.com/isyuricunha/isyuricunha/raw/5cb4b213f667fff226839d2736c1d7c1e31351b1/images/database1.gif" width="180"/>
 
-My name is Yuri Cunha, I'm 24 years old, I live in São Paulo, I'm a Database student and I'm currently a Frontend Programmer.<br><br>
+My name is Yuri Cunha, I'm 24 years old, I live in São Paulo, I'm a Physicist, Database student and I'm currently a Frontend Programmer.<br><br>
 
 Most of my work is done on weekends, in my free time, but sometimes I also work during the week. If I don't respond to your problem, it's usually because I'm busy at the moment or I'm enjoying some of my free time. I will try to keep up to date everywhere I can, although I don't respond immediately.<br>
 
