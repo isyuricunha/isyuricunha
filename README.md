@@ -15,7 +15,7 @@ I spend all my free time doing open-source projects/websites/software/query's.<b
 
 I recently lost my old account, but I got my username and email back, thanks to GitHub support.<br>
 
-All old repositories were added here.<br>
+All old repositories will be added here.<br>
 
 If possible, follow me here again.<br>
 
