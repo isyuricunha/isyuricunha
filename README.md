@@ -51,7 +51,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
 [![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
 [![Personal Site Badge](https://img.shields.io/badge/Website-2D425E?style=flat&logo=codeproject&logoColor=white)](https://yuricunha.xyz/)
-[![E-mail](https://img.shields.io/badge/E-mail-2D425E?style=flat&logo=mail&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
+[![E-mail](https://img.shields.io/badge/E-mail-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
 
 <!-- ### <h2 align="center">Websites 🌐</h2>
 
