@@ -49,7 +49,6 @@ Atualmente estou focado em traduzir meus projetos do GitHub para o inglês.<br><
 [![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
 [![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
-[![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
 [![Personal Site Badge](https://img.shields.io/badge/Website-2D425E?style=flat&logo=codeproject&logoColor=white)](https://yuricunha.xyz/)
 [![Discord Direct Message](https://img.shields.io/badge/Website-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
@@ -60,7 +59,7 @@ Atualmente estou focado em traduzir meus projetos do GitHub para o inglês.<br><
 [Unes Page](https://wwww.unes.yuricunha.xyz/)<br>
 [Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
-![isyuricunha github stats](https://github-readme-stats.vercel.app/api?username=isyuricunha&show_icons=true&theme=dracula&show_owner=true)
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11)
 
 <details>
 <summary>Profile visitors</summary>
