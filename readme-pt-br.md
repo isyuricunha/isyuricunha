@@ -12,7 +12,7 @@ A maior parte do meu trabalho é feita nos finais de semana, no meu tempo livre,
 
 Eu gasto todo o meu tempo livre fazendo projetos/sites/softwares/query's open-source.<br>
 
-Recentemente eu perdi minha antiga conta([conta antiga](https://github.com/isyuricunha-zz)), mas, eu recuperei meu nome usuário e o e-mail cadastrado, graças ao suporte do GitHub.<br>
+Recentemente eu perdi minha antiga conta ([conta antiga](https://github.com/isyuricunha-zz)), mas, eu recuperei meu nome usuário e o e-mail cadastrado, graças ao suporte do GitHub.<br>
 
 Todos os antigos repositórios serão adicionados aqui.<br>
 
