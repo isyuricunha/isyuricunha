@@ -70,4 +70,12 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
 </div>
 </details>
 
-<!-- [![Discord Badge](https://img.shields.io/badge/Acesse%20minha%20comunidade%20no%20Discord-7289da?style=for-the-badge&logo=discord&logoColor=white&link=https://discord.gg/fNgjj2mU)](https://discord.gg/fNgjj2mU) --->
+<details>
+<summary>Listening on the Spotify</summary>
+<p align="center">:round_pushpin: Profile visitors</p>
+<div align="center">
+    ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy)
+</div>
+</details>
+
+
