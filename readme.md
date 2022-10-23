@@ -66,6 +66,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
     <div align="center">
      <img alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
     </div>    
+ <br>
     <div align="center">
      <a href="https://github.com/sousamarcia">
       <img height="160em" src="https://github-readme-stats.vercel.app/api?username=isyuricunha&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
