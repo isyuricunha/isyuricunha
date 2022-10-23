@@ -71,10 +71,12 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
 </details>
 
 <details>
+ 
 <summary>Listening on the Spotify</summary>
  
- <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
- 
+  <div align="center">
+    <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
+  </div>
 </details>
 
 
