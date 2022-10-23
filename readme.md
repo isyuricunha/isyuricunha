@@ -60,19 +60,34 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
 [Unes Page](https://wwww.unes.yuricunha.xyz/)<br>
 [Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11)
-
 <details>
-<summary>Profile visitors</summary>
-<p align="center">:round_pushpin: Profile visitors</p>
-<div align="center">
-    <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
-</div>
+ <summary>GitHub Activity Graphs</summary>
+ 
+  <p align="center">:round_pushpin: GitHub Activity Graph</p>
+  
+    <div align="center">
+     <img alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
+    </div>
+    
+    <div align="center">
+     <a href="https://github.com/sousamarcia">
+      <img height="160em" src="https://github-readme-stats.vercel.app/api?username=sousamarcia&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+      <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sousamarcia&layout=compact&langs_count=7&theme=dracula"/>
+    </div>
 </details>
 
 <details>
+ <summary>Profile visitors</summary>
  
-<summary>Listening on the Spotify</summary>
+  <p align="center">:round_pushpin: Profile visitors</p>
+   
+   <div align="center">
+    <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
+   </div>
+</details>
+
+<details>
+ <summary>Listening on the Spotify</summary>
  
   <div align="center">
     <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
