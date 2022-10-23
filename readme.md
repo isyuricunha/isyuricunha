@@ -64,7 +64,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
  <summary>GitHub Activity Graphs</summary>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
     <div align="center">
-     <img alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
+     <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
     </div>    
  <br>
     <div align="center">
