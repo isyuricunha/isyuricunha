@@ -64,7 +64,8 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
  <summary>GitHub Activity Graphs</summary>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
     <div align="center">
-     <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
+     <a href="https://github.com/isyuricunha">
+      <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
     </div>    
  <br>
     <div align="center">
@@ -73,6 +74,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
     </div>
  <br>
     <div align="center">
+      <a href="https://github.com/isyuricunha">
        <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isyuricunha&layout=compact&langs_count=7&theme=dracula"/>
     </div>
 </details>
@@ -83,6 +85,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
   <p align="center">:round_pushpin: Profile visitors</p>
    
    <div align="center">
+                      <a href="https://github.com/isyuricunha">
     <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
    </div>
 </details>
@@ -91,6 +94,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
  <summary>Listening on the Spotify</summary>
  
   <div align="center">
+                     <a href="https://github.com/isyuricunha">
     <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
   </div>
 </details>
