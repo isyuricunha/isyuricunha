@@ -71,7 +71,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
      <a href="https://github.com/isyuricunha">
       <img height="160em" src="https://github-readme-stats.vercel.app/api?username=isyuricunha&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
     </div>
-    
+ <br>
     <div align="center">
        <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isyuricunha&layout=compact&langs_count=7&theme=dracula"/>
     </div>
