@@ -72,10 +72,9 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
 
 <details>
 <summary>Listening on the Spotify</summary>
-<p align="center">:round_pushpin: Profile visitors</p>
  
     ![Alt text](https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy)
-
+ 
 </details>
 
 
