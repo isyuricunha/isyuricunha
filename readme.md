@@ -77,6 +77,11 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
       <a href="https://github.com/isyuricunha">
        <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isyuricunha&layout=compact&langs_count=7&theme=dracula"/>
     </div>
+    <br>
+        <div align="center">
+     <a href="https://github.com/isyuricunha">
+      <img height="160em alt="Streak Graphics" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dark">
+    </div>
 </details>
 
 <details>
