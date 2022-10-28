@@ -80,7 +80,7 @@ I'm currently focused on translating my GitHub projects to English.<br><br>
     <br>
         <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="160em alt="Streak Graphics" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dark">
+      <img height="160em alt="Streak Graphics" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula">
     </div>
 </details>
 
