@@ -19,9 +19,7 @@ All old repositories will be added here.<br>
 
 If possible, follow me here again.<br>
 
-Most of my repos are private, but the new projects will be opened.<br>
-
-I'm currently focused on translating my GitHub projects to English.<br><br>
+Most of my repos are private, but the new projects will be opened.<br><br>
 
 ### <h2 align="center">Curiosities ✨</h2>
 
