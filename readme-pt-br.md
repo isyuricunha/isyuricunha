@@ -57,11 +57,9 @@ A maioria dos meus repos estão privados, mas, os novos projetos serão abertos.
 [Unes Page](https://wwww.unes.yuricunha.xyz/)<br>
 [Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11)
-
 <details>
- <summary>Gráfico de Atividaddes do GitHub</summary>
-  <p align="center">:round_pushpin: Gráfico de Atividaddes do GitHub</p>  
+ <summary>Gráfico de Atividades do GitHub</summary>
+  <p align="center">:round_pushpin: Gráfico de Atividades do GitHub</p>  
     <div align="center">
      <a href="https://github.com/isyuricunha">
       <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
