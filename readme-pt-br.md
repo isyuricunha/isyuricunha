@@ -18,9 +18,7 @@ Todos os antigos repositórios serão adicionados aqui.<br>
 
 Se possível, me siga novamente aqui.<br>
 
-A maioria dos meus repos estão privados, mas, os novos projetos serão abertos.<br>
-
-Atualmente estou focado em traduzir meus projetos do GitHub para o inglês.<br><br>
+A maioria dos meus repos estão privados, mas, os novos projetos serão abertos.<br><br>
 
 ### <h2 align="center">Curiosidades ✨</h2>
 
@@ -62,11 +60,45 @@ Atualmente estou focado em traduzir meus projetos do GitHub para o inglês.<br><
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11)
 
 <details>
-<summary>Profile visitors</summary>
-<p align="center">:round_pushpin: Profile visitors</p>
-<div align="center">
-    <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
-</div>
+ <summary>Gráfico de Atividaddes do GitHub</summary>
+  <p align="center">:round_pushpin: Gráfico de Atividaddes do GitHub</p>  
+    <div align="center">
+     <a href="https://github.com/isyuricunha">
+      <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
+    </div>    
+ <br>
+    <div align="center">
+     <a href="https://github.com/isyuricunha">
+      <img height="160em" src="https://github-readme-stats.vercel.app/api?username=isyuricunha&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+    </div>
+ <br>
+    <div align="center">
+      <a href="https://github.com/isyuricunha">
+       <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isyuricunha&layout=compact&langs_count=7&theme=dracula"/>
+    </div>
+    <br>
+        <div align="center">
+     <a href="https://github.com/isyuricunha">
+      <img height="160em alt="Streak Graphics" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula">
+    </div>
 </details>
 
-<!-- [![Discord Badge](https://img.shields.io/badge/Acesse%20minha%20comunidade%20no%20Discord-7289da?style=for-the-badge&logo=discord&logoColor=white&link=https://discord.gg/fNgjj2mU)](https://discord.gg/fNgjj2mU) --->
+<details>
+ <summary>Contagem de visitantes</summary>
+ 
+  <p align="center">:round_pushpin: Contagem de visitantes</p>
+   
+   <div align="center">
+                      <a href="https://github.com/isyuricunha">
+    <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
+   </div>
+</details>
+
+<details>
+ <summary>Ouvindo no Spotify</summary>
+ 
+  <div align="center">
+                     <a href="https://github.com/isyuricunha">
+    <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
+  </div>
+</details>
