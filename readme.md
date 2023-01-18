@@ -35,8 +35,8 @@ All of my repos are public.<br><br>
 
 [![SQLServer](https://img.shields.io/badge/SQL%20Server-black?style=for-the-badge&logo=MicrosoftSQLServer&style=flat)](https://www.microsoft.com/en-us/sql-server/sql-server-2019)
 [![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-blue?style=for-the-badge&logo=microsoftazure&style=flat)](https://azure.microsoft.com/pt-br/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-navy?style=for-the-badge&logo=PostgreSQL&style=flat)
-[![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen?style=for-the-badge&logo=mongodb&style=plastic)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-navy?style=for-the-badge&logo=PostgreSQL&style=flat)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-darkgreen?style=for-the-badge&logo=mongodb&style=plastic)](https://www.mongodb.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-white?style=for-the-badge&logo=MySQL&style=plastic)](https://www.mysql.com/)
 [![Python](https://img.shields.io/badge/Python-gold?style=for-the-badge&logo=python&style=plastic)](https://www.python.org/)
 [![R](https://img.shields.io/badge/R-dimgrey?style=for-the-badge&logo=R&style=plastic)](https://www.r-project.org/)
