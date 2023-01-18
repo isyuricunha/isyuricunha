@@ -64,7 +64,7 @@ All of my repos are public.<br><br>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
     <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="160em alt="GitHub Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=isyuricunha&bg_color=000000&color=edffff&line=00ffff&point=ffffff&area=true&hide_border=true&radius=11">
+      <img height="160em alt="GitHub Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=isyuricunha&bg_color=000000&color=ffffff&line=ffffff&point=ff5900&area=true&hide_border=true">
     </div>    
  <br>
     <div align="center">
