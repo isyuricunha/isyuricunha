@@ -13,13 +13,13 @@ Most of my work is done on weekends, in my free time, but sometimes I also work 
 
 I spend all my free time doing open-source projects/websites/software/query's.<br>
 
-I recently lost my old account ([old account](https://github.com/isyuricunha-zz)), but I got my username and email back, thanks to GitHub support.<br>
+I lost my old account ([old account](https://github.com/isyuricunha-zz)), but I got my username and email back, thanks to GitHub support.<br>
 
 All old repositories will be added here.<br>
 
 If possible, follow me here again.<br>
 
-Most of my repos are private, but the new projects will be opened.<br><br>
+All of my repos are public.<br><br>
 
 ### <h2 align="center">Curiosities ✨</h2>
 
