@@ -49,6 +49,7 @@ All of my repos are public.<br><br>
 [![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
 [![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
+[![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
 [![Personal Site Badge](https://img.shields.io/badge/Website-2D425E?style=flat&logo=codeproject&logoColor=white)](https://yuricunha.xyz/)
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
