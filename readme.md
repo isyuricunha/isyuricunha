@@ -103,5 +103,3 @@ All of my repos are public.<br><br>
     <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
   </div>
 </details>
-
-
