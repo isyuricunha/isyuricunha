@@ -1,6 +1,7 @@
 <table align="right">
  <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme.md">:us: English</a></td></tr>
  <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme-pt-br.md">:brazil: Português</a></td></tr>
+ <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme-fr.md">:fr: French</a></td></tr>
 </table>
 
 ### <h2 align="center">Coé 👋</h2>
