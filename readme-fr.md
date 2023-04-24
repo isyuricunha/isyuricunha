@@ -1,35 +1,35 @@
 <table align="right">
- <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme.md">:us: English</a></td></tr>
- <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme-pt-br.md">:brazil: Português</a></td></tr>
+ <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme.md">:us: Anglais</a></td></tr>
+ <tr><td><a href="https://github.com/isyuricunha/isyuricunha/blob/main/readme-pt-br.md">:brazil: Portugais</a></td></tr>
 </table>
 
-### <h2 align="center">Hey 👋</h2>
+### <h2 align="center">Salut 👋</h2>
 
 <img align="right" src="https://github.com/isyuricunha/isyuricunha/raw/5cb4b213f667fff226839d2736c1d7c1e31351b1/images/database1.gif" width="180"/>
 
-My name is Yuri Cunha, I'm 24 years old, I live in São Paulo, I'm a Physicist, Database student and I'm currently a Frontend Programmer.<br><br>
+Je m'appelle Yuri Cunha, j'ai 24 ans, je vis à São Paulo, je suis physicien, étudiant en bases de données et je suis actuellement programmeur Frontend.<br><br>
 
-Most of my work is done on weekends, in my free time, but sometimes I also work during the week. If I don't respond to your problem, it's usually because I'm busy at the moment or I'm enjoying some of my free time. I will try to keep up to date everywhere I can, although I don't respond immediately.<br>
+La plupart de mon travail est effectué les week-ends, pendant mon temps libre, mais parfois je travaille également en semaine. Si je ne réponds pas à votre problème, c'est généralement parce que je suis occupé pour le moment ou que je profite de mon temps libre. J'essaierai de rester à jour partout où je le peux, même si je ne réponds pas immédiatement.<br>
 
-I spend all my free time doing open-source projects/websites/software/query's.<br>
+Je passe tout mon temps libre à faire des projets open source/sites web/logiciels/requêtes.<br>
 
-I lost my old account ([old account](https://github.com/isyuricunha-zz)), but I got my username and email back, thanks to GitHub support.<br>
+J'ai perdu mon ancien compte ([ancien compte](https://github.com/isyuricunha-zz)), mais j'ai récupéré mon nom d'utilisateur et mon adresse e-mail grâce au support de GitHub.<br>
 
-All old repositories will be added here.<br>
+Tous les anciens référentiels seront ajoutés ici.<br>
 
-If possible, follow me here again.<br>
+Si possible, suivez-moi à nouveau ici.<br>
 
-All of my repos are public.<br><br>
+Tous mes référentiels sont publics.<br><br>
 
-### <h2 align="center">Curiosities ✨</h2>
+### <h2 align="center">Curiosités ✨</h2>
 
-— I'm a fan of Mr. Robot and The Big Bang Theory.<br>
-— I like to read books and play american football.<br>
-— So far I know how to take care of "planks".<br>
-— Sometimes I make bad puns/jokes.<br>
-— Favorite food: pasta and ground beef.<br><br><br>
+— Je suis fan de Mr. Robot et The Big Bang Theory.<br>
+— J'aime lire des livres et jouer au football américain.<br>
+— Jusqu'à présent, je sais comment prendre soin des "planches".<br>
+— Parfois, je fais de mauvais jeux de mots/blagues.<br>
+— Plat préféré : les pâtes et le bœuf haché.<br><br><br>
 
-### <h2 align="center">Skills 📋</h2>
+### <h2 align="center">Compétences 📋</h2>
 
 <img align="right" src="https://user-images.githubusercontent.com/5232616/59125272-a90d0780-8916-11e9-9ef7-3c0c12205a71.gif" width="220"/>
 
@@ -52,7 +52,7 @@ All of my repos are public.<br><br>
 [![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
 [![Personal Site Badge](https://img.shields.io/badge/Website-2D425E?style=flat&logo=codeproject&logoColor=white)](https://yuricunha.xyz/)
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
-[![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
+[![Spotify Profile](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
 
 <!-- ### <h2 align="center">Websites 🌐</h2>
@@ -62,11 +62,11 @@ All of my repos are public.<br><br>
 [Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
 <details>
- <summary>GitHub Activity Graphs</summary>
-  <p align="center">:round_pushpin: GitHub Activity Graph</p>  
+ <summary>Graphiques d'activité GitHub</summary>
+  <p align="center">:round_pushpin: Graphique d'activité GitHub</p>  
     <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="280em alt="GitHub Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=isyuricunha&bg_color=000000&color=ffffff&line=ffffff&point=ff5900&area=true&hide_border=true">
+      <img height="280em" alt="Graphique d'activité GitHub" src="https://github-readme-activity-graph.cyclic.app/graph?username=isyuricunha&bg_color=000000&color=ffffff&line=ffffff&point=ff5900&area=true&hide_border=true">
     </div>    
  <br>
     <div align="center">
@@ -81,23 +81,23 @@ All of my repos are public.<br><br>
     <br>
         <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="160em alt="Streak Graphics" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula">
+      <img height="160em" alt="Graphique de série" src="https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula">
     </div>
 </details>
 
 <details>
- <summary>Profile visitors</summary>
+ <summary>Visiteurs du profil</summary>
  
-  <p align="center">:round_pushpin: Profile visitors</p>
+  <p align="center">:round_pushpin: Visiteurs du profil</p>
    
    <div align="center">
                       <a href="https://github.com/isyuricunha">
-    <img alt="visitors counter" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
+    <img alt="compteur de visiteurs" src="https://profile-counter.glitch.me/isyuricunha/count.svg">
    </div>
 </details>
 
 <details>
- <summary>Listening on the Spotify</summary>
+ <summary>Écoute sur Spotify</summary>
  
   <div align="center">
                      <a href="https://github.com/isyuricunha">
