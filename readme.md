@@ -8,27 +8,27 @@
 
 <img align="right" src="https://github.com/isyuricunha/isyuricunha/raw/5cb4b213f667fff226839d2736c1d7c1e31351b1/images/database1.gif" width="180"/>
 
-My name is Yuri Cunha, I'm 24 years old, I live in São Paulo, I'm a Physicist, Database student and I'm currently a Frontend Programmer.<br><br>
+My name is Yuri Cunha. I'm 24 years old, and I live in São Paulo. I'm a Physicist, a Database student, and currently a Frontend Programmer.<br><br>
 
-Most of my work is done on weekends, in my free time, but sometimes I also work during the week. If I don't respond to your problem, it's usually because I'm busy at the moment or I'm enjoying some of my free time. I will try to keep up to date everywhere I can, although I don't respond immediately.<br>
+Most of my work is done on weekends, in my free time, but sometimes I also work during the week. If I don't respond to your problem, it's usually because I'm busy at the moment or enjoying some of my free time. I will try to keep up-to-date everywhere I can, although I may not respond immediately.<br>
 
-I spend all my free time doing open-source projects/websites/software/query's.<br>
+I spend all my free time doing open-source projects/websites/software/queries.<br>
 
-I lost my old account ([old account](https://github.com/isyuricunha-zz)), but I got my username and email back, thanks to GitHub support.<br>
+I lost my old account ([old account](https://github.com/isyuricunha-zz)), but I retrieved my username and email thanks to GitHub support.<br>
 
 All old repositories will be added here.<br>
 
-If possible, follow me here again.<br>
+If possible, please follow me again.<br>
 
 All of my repos are public.<br><br>
 
 ### <h2 align="center">Curiosities ✨</h2>
 
 — I'm a fan of Mr. Robot and The Big Bang Theory.<br>
-— I like to read books and play american football.<br>
-— So far I know how to take care of "planks".<br>
-— Sometimes I make bad puns/jokes.<br>
-— Favorite food: pasta and ground beef.<br><br><br>
+— I like to read books and play American football.<br>
+— So far, I know how to take care of "planks".<br>
+— Sometimes, I make bad puns/jokes.<br>
+— My favorite food is pasta and ground beef.<br><br><br>
 
 ### <h2 align="center">Skills 📋</h2>
 
