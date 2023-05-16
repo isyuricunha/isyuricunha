@@ -6,7 +6,7 @@
 
 ### <h2 align="center">Hey 👋</h2>
 
-🟢 IN LIVE NOW [TWITCH](https://www.twitch.tv/isYuriCunha) 🟢
+
 
 <img align="right" src="https://github.com/isyuricunha/isyuricunha/raw/5cb4b213f667fff226839d2736c1d7c1e31351b1/images/database1.gif" width="180"/>
 
