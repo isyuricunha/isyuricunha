@@ -2,33 +2,30 @@ name: Update README
 
 on:
   push:
-  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */1 * * *"
 
 jobs:
   markscribe:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-go@v3
-        with:
-          go-version: '^1'
-      - run: |
-          go install github.com/muesli/markscribe@master
-          markscribe ./templates/READMR.md.tpl > README.md
-        shell: bash
+      - uses: actions/checkout@master
+
+      - uses: muesli/readme-scribe@master
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-          LITERAL_EMAIL: ${{ secrets.LITERAL_EMAIL }}
-          LITERAL_PASSWORD: ${{ secrets.LITERAL_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+        with:
+          template: "templates/README.md.tpl"
+          writeTo: "README.md"
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LITERAL_EMAIL: ${{ secrets.LITERAL_EMAIL }}
+          LITERAL_PASSWORD: ${{ secrets.LITERAL_PASSWORD }}
         with:
-          commit_message: 'docs: Update generated README'
+          commit_message: Update generated README
           branch: main
           commit_user_name: readme-scribe 🤖
           commit_user_email: actions@github.com
