@@ -31,5 +31,5 @@ jobs:
           commit_message: 'docs: Update generated README'
           branch: master
           commit_user_name: readme-scribe 🤖
-          commit_user_email: actions@github.com
-          commit_author: readme-scribe 🤖 <actions@github.com>
+          commit_user_email: "${GITHUB_ACTOR}@users.noreply.github.com"
+          commit_author: readme-scribe 🤖 <"${GITHUB_ACTOR}@users.noreply.github.com">
