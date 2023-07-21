@@ -15,8 +15,8 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 - [codinasion/program @ v0.3.8](https://github.com/codinasion/program/releases/tag/v0.3.8) (2 months ago)
 
 #### 📚 Books I'm reading
-- **[SQL em 10 Minutos por Dia](https://literal.club/caarlos0/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
-- **[A knight of the seven kingdoms](https://literal.club/caarlos0/book/george-r-r-martina-knight-of-the-seven-kingdoms-46ra1)** by _George R.R. Martin_
+- **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
+- **[A knight of the seven kingdoms](https://literal.club/isyuricunha/book/george-r-r-martina-knight-of-the-seven-kingdoms-46ra1)** by _George R.R. Martin_
 
 You might want to check out my [books
 wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X) and the my
