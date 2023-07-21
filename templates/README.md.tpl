@@ -17,7 +17,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 📚 Books I'm reading
 
 {{- range literalClubCurrentlyReading 5 }}
-- **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/caarlos0/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
+- **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
 {{- end }}
 
 You might want to check out my [books
