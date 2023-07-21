@@ -16,10 +16,9 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 📚 Books I'm reading
 
-{{range literalClubCurrentlyReading 5}}
-- {{.Title}} - {{.Subtitle}} - {{.Description}} - https://literal.club/isyuricunha/book/{{.Slug}}
-  {{- range .Authors }}{{ .Name }}{{ end }}
-{{- end}}
+{{- range literalClubCurrentlyReading 5 }}
+- **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/caarlos0/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
+{{- end }}
 
 You might want to check out my [books
 wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X) and the my
