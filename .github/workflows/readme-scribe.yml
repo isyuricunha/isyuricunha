@@ -26,7 +26,7 @@ jobs:
           LITERAL_PASSWORD: ${{ secrets.LITERAL_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         with:
           commit_message: 'docs: Update generated README'
           branch: main
