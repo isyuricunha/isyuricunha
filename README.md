@@ -5,7 +5,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 👷 Check out what I'm currently working on
 
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
 - [isyuricunha/my-links](https://github.com/isyuricunha/my-links) (1 day ago)
 - [isyuricunha/yuricunha](https://github.com/isyuricunha/yuricunha) (1 day ago)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (2 days ago)
