@@ -4,11 +4,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/my-links](https://github.com/isyuricunha/my-links) (1 day ago)
-- [isyuricunha/yuricunha](https://github.com/isyuricunha/yuricunha) (1 day ago)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (2 days ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/my-links](https://github.com/isyuricunha/my-links) (2 days ago)
+- [isyuricunha/yuricunha](https://github.com/isyuricunha/yuricunha) (2 days ago)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (3 days ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[isyuricunha/my-links](https://github.com/isyuricunha/my-links)**
@@ -25,8 +25,8 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 🔨 Latest Pull Requests I published
 
 
-- [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (1 day ago)
-- [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (4 weeks ago)
+- [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (2 days ago)
+- [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (1 month ago)
 - [update readme-pt-br](https://github.com/codinasion/program/pull/7660) on [codinasion/program](https://github.com/codinasion/program) (2 months ago)
 - [Update the version number in package.json and chrome/manifest.json](https://github.com/Geczy/tinder-autopilot/pull/32) on [Geczy/tinder-autopilot](https://github.com/Geczy/tinder-autopilot) (2 months ago)
 - [More langs in MOD.](https://github.com/Sown-Dev/NecesseTech/pull/2) on [Sown-Dev/NecesseTech](https://github.com/Sown-Dev/NecesseTech) (2 months ago)
@@ -40,9 +40,9 @@ wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X) and the my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)** - 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. (today)
-- **[coofcookie/Windows11Upgrade](https://github.com/coofcookie/Windows11Upgrade)** - Windows 11 Upgrade tool that bypasses Microsoft´s requirements (1 day ago)
-- **[shirooo39/Windows-11-Bypass](https://github.com/shirooo39/Windows-11-Bypass)** - Bypass Windows 11's system requirements in a simple and easy way. (1 day ago)
+- **[NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)** - 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. (1 day ago)
+- **[coofcookie/Windows11Upgrade](https://github.com/coofcookie/Windows11Upgrade)** - Windows 11 Upgrade tool that bypasses Microsoft´s requirements (2 days ago)
+- **[shirooo39/Windows-11-Bypass](https://github.com/shirooo39/Windows-11-Bypass)** - Bypass Windows 11's system requirements in a simple and easy way. (2 days ago)
 
 <details>
  <summary>GitHub Activity Graphs</summary>
