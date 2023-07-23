@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */6 * * *"
-    
+
 jobs:
   markscribe:
     runs-on: ubuntu-latest
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
         with:
-          go-version: '^1'
+          go-version: "^1"
       - run: |
           go install github.com/muesli/markscribe@master
           markscribe ./templates/README.md.tpl > README.md
@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         with:
-          commit_message: 'docs: Update generated README'
+          commit_message: "docs: Update generated README"
           branch: master
           commit_user_name: readme-scribe 🤖
           commit_user_email: "${GITHUB_ACTOR}@users.noreply.github.com"
