@@ -42,4 +42,4 @@ You might want to check out my
 
 #### 📃 Blog and posts
 
-- You can check my [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
+- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
