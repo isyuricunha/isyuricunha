@@ -39,10 +39,10 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[alii/website](https://github.com/alii/website)** - My personal website :octocat:  (1 day ago)
 - **[duckduckgo/tracker-radar-collector](https://github.com/duckduckgo/tracker-radar-collector)** - 🕸 Modular, multithreaded, puppeteer-based crawler (1 day ago)
 - **[duckduckgo/tracker-radar-detector](https://github.com/duckduckgo/tracker-radar-detector)** - Code used to build a Tracker Radar data set from raw crawl data. (1 day ago)
+- **[NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif)** - 🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. (3 days ago)
 
 #### 📃 Blog and posts
 
-- You can check my [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
+- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
