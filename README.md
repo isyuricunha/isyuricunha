@@ -5,8 +5,8 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 👷 Check out what I'm currently working on
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (4 days ago)
 - [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (5 days ago)
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (5 days ago)
 
@@ -25,11 +25,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 🔨 Latest Pull Requests I published
 
 
+- [add pt-br langs](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (today)
 - [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (1 week ago)
 - [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (1 month ago)
 - [update readme-pt-br](https://github.com/codinasion/program/pull/7660) on [codinasion/program](https://github.com/codinasion/program) (2 months ago)
 - [Update the version number in package.json and chrome/manifest.json](https://github.com/Geczy/tinder-autopilot/pull/32) on [Geczy/tinder-autopilot](https://github.com/Geczy/tinder-autopilot) (2 months ago)
-- [More langs in MOD.](https://github.com/Sown-Dev/NecesseTech/pull/2) on [Sown-Dev/NecesseTech](https://github.com/Sown-Dev/NecesseTech) (2 months ago)
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
