@@ -4,11 +4,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (3 days ago)
-- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (4 days ago)
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (4 days ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (4 days ago)
+- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (5 days ago)
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (5 days ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)** - SimpleX - the first messaging platform operating without user identifiers of any kind - 100% private by design! iOS and Android apps are released 📱! (today)
-- **[samuel-lucas6/Kryptor](https://github.com/samuel-lucas6/Kryptor)** - A simple, modern, and secure encryption and signing tool that aims to be a better version of age and Minisign. (today)
-- **[anonaddy/anonaddy](https://github.com/anonaddy/anonaddy)** - Anonymous email forwarding (today)
+- **[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)** - SimpleX - the first messaging platform operating without user identifiers of any kind - 100% private by design! iOS and Android apps are released 📱! (1 day ago)
+- **[samuel-lucas6/Kryptor](https://github.com/samuel-lucas6/Kryptor)** - A simple, modern, and secure encryption and signing tool that aims to be a better version of age and Minisign. (1 day ago)
+- **[anonaddy/anonaddy](https://github.com/anonaddy/anonaddy)** - Anonymous email forwarding (1 day ago)
 
 #### 📃 Blog and posts
 
