@@ -4,11 +4,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (5 days ago)
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (5 days ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (6 days ago)
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (6 days ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
@@ -25,7 +25,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 🔨 Latest Pull Requests I published
 
 
-- [add pt-br langs](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (today)
+- [add pt-br langs](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (1 day ago)
 - [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (1 week ago)
 - [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (1 month ago)
 - [update readme-pt-br](https://github.com/codinasion/program/pull/7660) on [codinasion/program](https://github.com/codinasion/program) (2 months ago)
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (today)
-- **[nhost/nhost](https://github.com/nhost/nhost)** - The Open Source Firebase Alternative with GraphQL. (today)
-- **[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)** - SimpleX - the first messaging platform operating without user identifiers of any kind - 100% private by design! iOS and Android apps are released 📱! (1 day ago)
+- **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (1 day ago)
+- **[nhost/nhost](https://github.com/nhost/nhost)** - The Open Source Firebase Alternative with GraphQL. (1 day ago)
+- **[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)** - SimpleX - the first messaging platform operating without user identifiers of any kind - 100% private by design! iOS and Android apps are released 📱! (2 days ago)
 
 #### 📃 Blog and posts
 
