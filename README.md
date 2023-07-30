@@ -5,8 +5,8 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 👷 Check out what I'm currently working on
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
 - [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (6 days ago)
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos) - Automatically generated list of ordered projects I've starred. (6 days ago)
 
