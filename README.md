@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
+- **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (today)
 - **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (1 day ago)
 - **[nhost/nhost](https://github.com/nhost/nhost)** - The Open Source Firebase Alternative with GraphQL. (1 day ago)
-- **[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)** - SimpleX - the first messaging platform operating without user identifiers of any kind - 100% private by design! iOS and Android apps are released 📱! (2 days ago)
 
 #### 📃 Blog and posts
 
