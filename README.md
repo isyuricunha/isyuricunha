@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
+- **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** - Master programming by recreating your favorite technologies from scratch. (today)
 - **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (1 day ago)
 - **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (2 days ago)
-- **[nhost/nhost](https://github.com/nhost/nhost)** - The Open Source Firebase Alternative with GraphQL. (2 days ago)
 
 #### 📃 Blog and posts
 
