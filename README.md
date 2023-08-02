@@ -4,11 +4,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [codinasion/codinasion](https://github.com/codinasion/codinasion) - Codinasion monorepo source code (2 days ago)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (2 days ago)
-- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr) - My SQL scripts. (1 week ago)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (3 days ago)
+- [codinasion/codinasion](https://github.com/codinasion/codinasion) - Codinasion monorepo source code (3 days ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
@@ -25,7 +25,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 🔨 Latest Pull Requests I published
 
 
-- [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (3 days ago)
+- [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (4 days ago)
 - [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (1 week ago)
 - [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (1 month ago)
 - [update readme-pt-br](https://github.com/codinasion/program/pull/7660) on [codinasion/program](https://github.com/codinasion/program) (2 months ago)
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** - Master programming by recreating your favorite technologies from scratch. (1 day ago)
-- **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (2 days ago)
-- **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (3 days ago)
+- **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** - Master programming by recreating your favorite technologies from scratch. (2 days ago)
+- **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (3 days ago)
+- **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (4 days ago)
 
 #### 📃 Blog and posts
 
