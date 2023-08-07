@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
+- **[nefarius/BthPS3](https://github.com/nefarius/BthPS3)** - Windows kernel-mode Bluetooth Profile & Filter Drivers for PS3 peripherals (today)
+- **[nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)** - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers (today)
 - **[pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)** - A definitive list of tools for generating static websites. (today)
-- **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** - Master programming by recreating your favorite technologies from scratch. (1 week ago)
-- **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (1 week ago)
 
 #### 📃 Blog and posts
 
