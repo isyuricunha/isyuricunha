@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
+- **[pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)** - A definitive list of tools for generating static websites. (today)
 - **[codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)** - Master programming by recreating your favorite technologies from scratch. (1 week ago)
 - **[skiff-org/skiff-ui](https://github.com/skiff-org/skiff-ui)** - React components for the Skiff UI Design System (1 week ago)
-- **[HamishMW/portfolio](https://github.com/HamishMW/portfolio)** - My personal portfolio website built using React and three js (1 week ago)
 
 #### 📃 Blog and posts
 
