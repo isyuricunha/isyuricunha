@@ -4,9 +4,9 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (5 days ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (6 days ago)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 week ago)
 - [codinasion/codinasion](https://github.com/codinasion/codinasion) - Codinasion monorepo source code (1 week ago)
 
@@ -25,7 +25,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 #### 🔨 Latest Pull Requests I published
 
 
-- [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (1 week ago)
+- [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556) on [codinasion/codinasion](https://github.com/codinasion/codinasion) (2 weeks ago)
 - [add isyuricunha](https://github.com/fatih-yavuz/links.dev/pull/224) on [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev) (3 weeks ago)
 - [Finished Portuguese Brazilian translate/locale](https://github.com/CombatExtended-Continued/CombatExtended/pull/2542) on [CombatExtended-Continued/CombatExtended](https://github.com/CombatExtended-Continued/CombatExtended) (1 month ago)
 - [update readme-pt-br](https://github.com/codinasion/program/pull/7660) on [codinasion/program](https://github.com/codinasion/program) (2 months ago)
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[nefarius/BthPS3](https://github.com/nefarius/BthPS3)** - Windows kernel-mode Bluetooth Profile & Filter Drivers for PS3 peripherals (4 days ago)
-- **[nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)** - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers (4 days ago)
-- **[pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)** - A definitive list of tools for generating static websites. (4 days ago)
+- **[nefarius/BthPS3](https://github.com/nefarius/BthPS3)** - Windows kernel-mode Bluetooth Profile & Filter Drivers for PS3 peripherals (5 days ago)
+- **[nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)** - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers (5 days ago)
+- **[pinceladasdaweb/Static-Site-Generators](https://github.com/pinceladasdaweb/Static-Site-Generators)** - A definitive list of tools for generating static websites. (5 days ago)
 
 #### 📃 Blog and posts
 
