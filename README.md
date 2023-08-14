@@ -4,9 +4,9 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (2 days ago)
 - [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 week ago)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 week ago)
 
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)** - Driver Store Explorer [RAPR] (today)
-- **[nefarius/BthPS3](https://github.com/nefarius/BthPS3)** - Windows kernel-mode Bluetooth Profile & Filter Drivers for PS3 peripherals (6 days ago)
-- **[nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)** - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers (6 days ago)
+- **[lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)** - Driver Store Explorer [RAPR] (1 day ago)
+- **[nefarius/BthPS3](https://github.com/nefarius/BthPS3)** - Windows kernel-mode Bluetooth Profile & Filter Drivers for PS3 peripherals (1 week ago)
+- **[nefarius/DsHidMini](https://github.com/nefarius/DsHidMini)** - Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers (1 week ago)
 
 #### 📃 Blog and posts
 
