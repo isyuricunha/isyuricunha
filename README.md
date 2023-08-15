@@ -1,6 +1,6 @@
 #### <h3 align="center">Hi there 👋</h3>
 
-I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
+- I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### <h4 align="center">👷 Check out what I'm currently working on</h4>
 
@@ -24,7 +24,7 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 - **[Berserk Deluxe Volume 1](https://literal.club/isyuricunha/book/berserk-deluxe-volume-1-h2gmg)** by _Kentaro Miura_
 
-You might want to check out my
+- You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### <h4 align="center">📃 Blog and posts</h4>
@@ -33,7 +33,6 @@ You might want to check out my
 
 #### <h4 align="center">📧 Contact </h4>
 
-<div align="center">
 [![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
 [![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
@@ -41,7 +40,6 @@ You might want to check out my
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
-</div>
 
 <details>
  <summary>GitHub Activity Graphs</summary>
