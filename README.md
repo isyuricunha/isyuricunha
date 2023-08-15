@@ -22,7 +22,9 @@
 
 - **[A knight of the seven kingdoms](https://literal.club/isyuricunha/book/george-r-r-martina-knight-of-the-seven-kingdoms-46ra1)** by _George R.R. Martin_
 
-- **[Berserk Deluxe Volume 1](https://literal.club/isyuricunha/book/berserk-deluxe-volume-1-h2gmg)** by _Kentaro Miura_
+- **[Overlord, Vol. 1 - The Undead King](https://literal.club/isyuricunha/book/overlord-vol-1-b33lg)** by _Kugane Maruyama_
+
+- **[Jujutsu Kaisen, Vol. 1 - Ryomen Sukuna](https://literal.club/isyuricunha/book/jujutsu-kaisen-vol-1-mi5f2)** by _Gege Akutami_
 
 - You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
