@@ -1,29 +1,26 @@
-#### <h3 align="center">Hi there 👋</h3>
+### Hi there 👋
 
 I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
-#### <h4 align="center">👷 Check out what I'm currently working on</h4>
-
+#### 👷 Check out what I'm currently working on
 {{range recentContributions 5}}
-
 - [{{.Repo.Name}}]({{.Repo.URL}}){{with .Repo.Description}} - {{.}}{{end}} ({{humanize .OccurredAt}})
-  {{- end}}
+{{- end}}
 
-#### <h4 align="center">📚 Books I'm reading</h4>
+#### 📚 Books I'm reading
 
 {{- range literalClubCurrentlyReading 5 }}
-
 - **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
-  {{- end }}
+{{- end }}
 
 You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### <h4 align="center">📃 Blog and posts</h4>
+#### <h2 align="center">📃 Blog and posts</h2>
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
-#### <h4 align="center">📧 Contact </h4>
+#### <h2 align="center">Contact 📧</h2>
 
 [![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
@@ -32,6 +29,12 @@ You might want to check out my
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
+
+#### <h2 align="center">Websites 🌐</h2>
+
+[Antigo Portfolio](https://www.portfolio-antigo.yuricunha.xyz//)<br>
+[Unes Page](https://wwww.unes.yuricunha.xyz/)<br>
+[Bluise Page](https://bluise.yuricunha.xyz/)<br> -->
 
 <details>
  <summary>GitHub Activity Graphs</summary>
