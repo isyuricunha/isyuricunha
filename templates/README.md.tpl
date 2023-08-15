@@ -4,17 +4,25 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### <h4 align="center">👷 Check out what I'm currently working on</h4>
 
-{{range recentContributions 5}}
 
-- [{{.Repo.Name}}]({{.Repo.URL}}){{with .Repo.Description}} - {{.}}{{end}} ({{humanize .OccurredAt}})
-  {{- end}}
+
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
+
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
+
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
+
+- [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (3 days ago)
+
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (2 weeks ago)
 
 #### <h4 align="center">📚 Books I'm reading</h4>
 
-{{- range literalClubCurrentlyReading 5 }}
+- **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
 
-- **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
-  {{- end }}
+- **[A knight of the seven kingdoms](https://literal.club/isyuricunha/book/george-r-r-martina-knight-of-the-seven-kingdoms-46ra1)** by _George R.R. Martin_
+
+- **[Berserk Deluxe Volume 1](https://literal.club/isyuricunha/book/berserk-deluxe-volume-1-h2gmg)** by _Kentaro Miura_
 
 You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
@@ -58,7 +66,7 @@ You might want to check out my
  <br>
         <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="160em alt="Streak Graphics" src="[https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula](https://metrics.lecoq.io/isyuricunha?template=terminal&languages=1&lines=1&discussions=1&followup=1&habits=1&code=1&tweets=1&stackoverflow=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&discussions=false&discussions.categories=true&discussions.categories.limit=0&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&tweets=false&tweets.user=.user.twitter&tweets.attachments=false&tweets.limit=2&stackoverflow=false&stackoverflow.user=0&stackoverflow.sections=answers-top%2C%20questions-recent&stackoverflow.limit=2&stackoverflow.lines=4&stackoverflow.lines.snippet=2&config.timezone=America%2FSao_Paulo)">
+      <img height="160em alt="Streak Graphics" src="[[https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula](https://streak-stats.demolab.com?user=isyuricunha&theme=shades-of-purple)](https://streak-stats.demolab.com?user=isyuricunha&theme=shades-of-purple)">
     </div>
       <br>
  <br>
