@@ -4,11 +4,11 @@ I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (2 days ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (3 days ago)
 - [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 week ago)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 week ago)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (2 weeks ago)
 
 #### 👨‍💻 Repositories I created recently
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
@@ -40,9 +40,9 @@ You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### ⭐ Recent Stars
-- **[beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis)** - A free, secure and open source app for Android to manage your 2-step verification tokens. (today)
-- **[HACKERALERT/Picocrypt](https://github.com/HACKERALERT/Picocrypt)** - A very small, very simple, yet very secure encryption tool. (today)
-- **[lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)** - Driver Store Explorer [RAPR] (1 day ago)
+- **[moezbhatti/qksms](https://github.com/moezbhatti/qksms)** - The most beautiful SMS messenger for Android (1 day ago)
+- **[beemdevelopment/Aegis](https://github.com/beemdevelopment/Aegis)** - A free, secure and open source app for Android to manage your 2-step verification tokens. (1 day ago)
+- **[HACKERALERT/Picocrypt](https://github.com/HACKERALERT/Picocrypt)** - A very small, very simple, yet very secure encryption tool. (1 day ago)
 
 #### 📃 Blog and posts
 
