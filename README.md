@@ -6,11 +6,11 @@
 
 
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (2 days ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
 
 - [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (4 days ago)
 
