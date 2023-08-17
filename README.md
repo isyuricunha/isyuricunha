@@ -6,11 +6,11 @@
 
 
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
 
 - [isyuricunha/github-follow-bot](https://github.com/isyuricunha/github-follow-bot) - Automated follow/unfollow bot for GitHub. Follow from multiple sources. Choose which users to unfollow. Custom options to control bot speed and maximum actions. (5 days ago)
 
@@ -20,11 +20,11 @@
 
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
 
-- **[A knight of the seven kingdoms](https://literal.club/isyuricunha/book/george-r-r-martina-knight-of-the-seven-kingdoms-46ra1)** by _George R.R. Martin_
-
 - **[Overlord, Vol. 1 - The Undead King](https://literal.club/isyuricunha/book/overlord-vol-1-b33lg)** by _Kugane Maruyama_
 
 - **[Jujutsu Kaisen, Vol. 1 - Ryomen Sukuna](https://literal.club/isyuricunha/book/jujutsu-kaisen-vol-1-mi5f2)** by _Gege Akutami_
+
+- **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
 
 - You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
