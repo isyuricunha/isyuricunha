@@ -10,11 +10,11 @@
 
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
+
+- [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website) - Refactoring website with new Next version and with updated packages. Let's broke up. (today)
+
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (today)
-
-- [isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge) - A simple website to Capitao Hookah Lounge. (3 days ago)
-
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (5 days ago)
 
 #### <h4 align="center">📚 Books I'm reading</h4>
 
