@@ -1,6 +1,6 @@
 #### <h3 align="center">Hi there 👋</h3>
 
-- I'm [Yuri](https://yuricunha.xyz), I write and operate database for a living.
+- I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### <h4 align="center">👷 Check out what I'm currently working on</h4>
 
@@ -21,7 +21,7 @@
 
 #### <h4 align="center">📃 Blog and posts</h4>
 
-- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.xyz/blog) and my [website](https://www.yuricunha.xyz/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
+- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
 #### <h4 align="center">📧 Contact </h4>
 
