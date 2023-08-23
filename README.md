@@ -4,21 +4,17 @@
 
 #### <h4 align="center">👷 Check out what I'm currently working on</h4>
 
-<<<<<<< Updated upstream
 
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
-=======
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
->>>>>>> Stashed changes
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
+
+- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax) - A simple website with rain sound to relax. (today)
 
 - [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website) - Refactoring website with new Next version and with updated packages. Let's broke up. (1 day ago)
-
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 day ago)
 
 #### <h4 align="center">📚 Books I'm reading</h4>
 
