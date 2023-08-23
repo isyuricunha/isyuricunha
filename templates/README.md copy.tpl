@@ -28,7 +28,7 @@ You might want to check out my
 [![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
-[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:isyuricunha@duck.com)<br><br><br><br>
+[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br><br><br>
 
 #### <h2 align="center">Websites 🌐</h2>
 
