@@ -37,7 +37,7 @@ Many thanks everyone! 🙏
 
 - **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
 
-- You might want to check out my
+You might want to check out my
   [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### 📃 Blog and posts
