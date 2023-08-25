@@ -9,11 +9,6 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - **[isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)** - A simple website to Capitao Hookah Lounge.
 - **[isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)** - A simple website with rain sound to relax.
 
-
-#### ❤️ Recent Sponsors
-
-Many thanks everyone! 🙏
-
 #### ⛏️ What I've been working on
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
