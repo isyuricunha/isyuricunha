@@ -11,16 +11,16 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### ⛏️ What I've been working on
 
+- [isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
+- [isyuricunha/github-auto-follow-and-unfollow](https://github.com/isyuricunha/github-auto-follow-and-unfollow)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
 - [isyuricunha/auto-github-follow-and-unfollow](https://github.com/isyuricunha/auto-github-follow-and-unfollow)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa)
 - [isyuricunha/old-website](https://github.com/isyuricunha/old-website)
-- [isyuricunha/old-blog](https://github.com/isyuricunha/old-blog)
-- [isyuricunha/website-new-project-version](https://github.com/isyuricunha/website-new-project-version)
 - [isyuricunha/old-website-second-version](https://github.com/isyuricunha/old-website-second-version)
-- [isyuricunha/website](https://github.com/isyuricunha/website)
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
