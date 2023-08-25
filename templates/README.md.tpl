@@ -29,7 +29,7 @@ Many thanks everyone! 🙏
 - **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
   {{- end }}
 
-- You might want to check out my
+You might want to check out my
   [literal.club profile](https://literal.club/isyuricunha) as well.
 
 #### 📃 Blog and posts
