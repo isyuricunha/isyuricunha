@@ -28,7 +28,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         with:
-          commit_message: "docs: Update generated README"
+          commit_message: "updating infos about news projects, prs and a lot more"
           branch: master
           commit_user_name: readme-scribe 🤖
           commit_user_email: "115634315+isyuricunha@users.noreply.github.com"

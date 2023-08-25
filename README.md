@@ -1,39 +1,40 @@
-#### <h3 align="center">Hi there 👋</h3>
+#### Hi there 👋
 
-- I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
+I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
-#### <h4 align="center">👷 Check out what I'm currently working on</h4>
+#### 👨‍💻 Repositories I created recently
+- **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
+- **[isyuricunha/my-links](https://github.com/isyuricunha/my-links)**
+- **[isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)** - Refactoring website with new Next version and with updated packages. Let's broke up.
+- **[isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)** - A simple website to Capitao Hookah Lounge.
+- **[isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)** - A simple website with rain sound to relax.
 
+#### ⛏️ What I've been working on
 
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
+- [isyuricunha/auto-github-follow-and-unfollow](https://github.com/isyuricunha/auto-github-follow-and-unfollow)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa)
+- [isyuricunha/old-website](https://github.com/isyuricunha/old-website)
+- [isyuricunha/old-blog](https://github.com/isyuricunha/old-blog)
+- [isyuricunha/website-new-project-version](https://github.com/isyuricunha/website-new-project-version)
+- [isyuricunha/old-website-second-version](https://github.com/isyuricunha/old-website-second-version)
+- [isyuricunha/website](https://github.com/isyuricunha/website)
 
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 day ago)
-
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
-
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
-
-- [isyuricunha/old-website](https://github.com/isyuricunha/old-website) - My first website. I'm not using it anymore. But, I'm keeping it here. It's a good memory. (2 days ago)
-
-- [isyuricunha/old-blog](https://github.com/isyuricunha/old-blog) - My personal blog. (2 days ago)
-
-#### <h4 align="center">📚 Books I'm reading</h4>
-
+#### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
-
 - **[Overlord, Vol. 1 - The Undead King](https://literal.club/isyuricunha/book/overlord-vol-1-b33lg)** by _Kugane Maruyama_
-
 - **[Jujutsu Kaisen, Vol. 1 - Ryomen Sukuna](https://literal.club/isyuricunha/book/jujutsu-kaisen-vol-1-mi5f2)** by _Gege Akutami_
-
 - **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
 
-- You might want to check out my
-  [literal.club profile](https://literal.club/isyuricunha) as well.
+You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### <h4 align="center">📃 Blog and posts</h4>
+#### 📃 Blog, playlist and wishlist
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
-#### <h4 align="center">📧 Contact </h4>
+#### 📧 Contact
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)

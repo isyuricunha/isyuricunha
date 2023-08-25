@@ -1,29 +1,31 @@
-#### <h3 align="center">Hi there 👋</h3>
+#### Hi there 👋
 
-- I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
+I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
-#### <h4 align="center">👷 Check out what I'm currently working on</h4>
+#### 👨‍💻 Repositories I created recently
 
-{{range recentContributions 5}}
+{{- range recentRepos 5 }}
+- **[{{ .Name }}]({{ .URL }})**{{ with .Description }} - {{ . }}{{ end }}
+{{- end }}
 
-- [{{.Repo.Name}}]({{.Repo.URL}}){{with .Repo.Description}} - {{.}}{{end}} ({{humanize .OccurredAt}})
-  {{- end}}
+#### ⛏️ What I've been working on
+{{ range recentContributions 10 }}
+- [{{.Repo.Name}}]({{.Repo.URL}})
+{{- end }}
 
-#### <h4 align="center">📚 Books I'm reading</h4>
+#### 📚 Books I'm reading
 
 {{- range literalClubCurrentlyReading 5 }}
-
 - **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
-  {{- end }}
+{{- end }}
 
-- You might want to check out my
-  [literal.club profile](https://literal.club/isyuricunha) as well.
+You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### <h4 align="center">📃 Blog and posts</h4>
+#### 📃 Blog, playlist and wishlist
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
-#### <h4 align="center">📧 Contact </h4>
+#### 📧 Contact
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
