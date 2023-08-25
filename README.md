@@ -6,15 +6,15 @@
 
 
 
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (today)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 day ago)
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
 
-- [isyuricunha/old-website](https://github.com/isyuricunha/old-website) - My first website. I'm not using it anymore. But, I'm keeping it here. It's a good memory. (1 day ago)
+- [isyuricunha/old-website](https://github.com/isyuricunha/old-website) - My first website. I'm not using it anymore. But, I'm keeping it here. It's a good memory. (2 days ago)
 
-- [isyuricunha/old-blog](https://github.com/isyuricunha/old-blog) - My personal blog. (1 day ago)
+- [isyuricunha/old-blog](https://github.com/isyuricunha/old-blog) - My personal blog. (2 days ago)
 
 #### <h4 align="center">📚 Books I'm reading</h4>
 
