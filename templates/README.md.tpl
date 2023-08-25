@@ -8,15 +8,6 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - **[{{ .Name }}]({{ .URL }})**{{ with .Description }} - {{ . }}{{ end }}
 {{- end }}
 
-
-#### ❤️ Recent Sponsors
-
-{{- range sponsors 5 }}
-- [{{ or .User.Name .User.Login }}]({{ .User.URL }})
-{{- end }}
-
-Many thanks everyone! 🙏
-
 #### ⛏️ What I've been working on
 {{ range recentContributions 10 }}
 - [{{.Repo.Name}}]({{.Repo.URL}})
