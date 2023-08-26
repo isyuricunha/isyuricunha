@@ -11,13 +11,13 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### ⛏️ What I've been working on
 
-- [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
-- [isyuricunha/github-auto-follow-and-unfollow](https://github.com/isyuricunha/github-auto-follow-and-unfollow)
 - [isyuricunha/website](https://github.com/isyuricunha/website)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 - [isyuricunha/MapReduce](https://github.com/isyuricunha/MapReduce)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa)
-- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
+- [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
 - [isyuricunha/auto-github-follow-and-unfollow](https://github.com/isyuricunha/auto-github-follow-and-unfollow)
 - [isyuricunha/guessing-game](https://github.com/isyuricunha/guessing-game)
 - [isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)
