@@ -23,7 +23,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### 🎈 PRs
 
 {{range recentPullRequests 4}}
-- **[{{.Title}}]({{.URL}})**{{ with .Description }} - 
+- **[{{.Title}}]({{.URL}})** - {{.Repo.Description}}
 {{end}}
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
