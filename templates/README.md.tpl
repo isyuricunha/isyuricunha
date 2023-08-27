@@ -23,13 +23,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### 🎈 PRs
 
 {{range recentPullRequests 4}}
-Title: {{.Title}}
-URL: {{.URL}}
-State: {{.State}}
-CreatedAt: {{humanize .CreatedAt}}
-Repository name: {{.Repo.Name}}
-Repository description: {{.Repo.Description}}
-Repository URL: {{.Repo.URL}}
+- **[{{.Title}}]({{.URL}})**
 {{end}}
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
