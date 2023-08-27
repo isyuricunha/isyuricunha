@@ -7,24 +7,54 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
 - **[isyuricunha/my-links](https://github.com/isyuricunha/my-links)**
 - **[isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)** - Refactoring website with new Next version and with updated packages. Let's broke up.
-- **[isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)** - A simple website to Capitao Hookah Lounge.
 
 #### ⛏️ What I've been working on
 
-- [isyuricunha/website](https://github.com/isyuricunha/website)
+
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/website](https://github.com/isyuricunha/website)
 - [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
-- [isyuricunha/MapReduce](https://github.com/isyuricunha/MapReduce)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa)
-- [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
-- [isyuricunha/auto-github-follow-and-unfollow](https://github.com/isyuricunha/auto-github-follow-and-unfollow)
-- [isyuricunha/guessing-game](https://github.com/isyuricunha/guessing-game)
-- [isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
 - **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
+
+#### 🎈 PRs
+
+
+Title: add readme pt-br and cn-sf
+URL: https://github.com/Chunnyluny/DogApparel/pull/45
+State: OPEN
+CreatedAt: 1 day ago
+Repository name: Chunnyluny/DogApparel
+Repository description: RimWorld mod: DogApparel
+Repository URL: https://github.com/Chunnyluny/DogApparel
+
+Title: readme support to Italian and French langs
+URL: https://github.com/codinasion/codinasion/pull/4583
+State: OPEN
+CreatedAt: 2 days ago
+Repository name: codinasion/codinasion
+Repository description: Codinasion monorepo source code
+Repository URL: https://github.com/codinasion/codinasion
+
+Title: Language Selection in Menu - Version 0.6.1
+URL: https://github.com/andrepolischuk/thomas/pull/26
+State: OPEN
+CreatedAt: 5 days ago
+Repository name: andrepolischuk/thomas
+Repository description: Simple pomodoro timer
+Repository URL: https://github.com/andrepolischuk/thomas
+
+Title: README, CONTRIBUTING & CODE_OF_CONDUCT Translations
+URL: https://github.com/codinasion/codinasion/pull/4556
+State: MERGED
+CreatedAt: 4 weeks ago
+Repository name: codinasion/codinasion
+Repository description: Codinasion monorepo source code
+Repository URL: https://github.com/codinasion/codinasion
+
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
