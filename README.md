@@ -16,10 +16,6 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - [isyuricunha/website](https://github.com/isyuricunha/website)
 - [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 
-#### 📚 Books I'm reading
-- **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
-- **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
-
 #### 🎈 PRs
 
 
@@ -31,6 +27,10 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - **[README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556)** - Codinasion monorepo source code
 
+
+#### 📚 Books I'm reading
+- **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
+- **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
