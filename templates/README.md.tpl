@@ -4,20 +4,33 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 👨‍💻 Repositories I created recently
 
-{{- range recentRepos 5 }}
+{{- range recentRepos 4 }}
 - **[{{ .Name }}]({{ .URL }})**{{ with .Description }} - {{ . }}{{ end }}
 {{- end }}
 
 #### ⛏️ What I've been working on
-{{ range recentContributions 10 }}
+
+{{ range recentContributions 4 }}
 - [{{.Repo.Name}}]({{.Repo.URL}})
 {{- end }}
 
 #### 📚 Books I'm reading
 
-{{- range literalClubCurrentlyReading 5 }}
+{{- range literalClubCurrentlyReading 4 }}
 - **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
 {{- end }}
+
+#### 🎈 PRs
+
+{{range recentPullRequests 4}}
+Title: {{.Title}}
+URL: {{.URL}}
+State: {{.State}}
+CreatedAt: {{humanize .CreatedAt}}
+Repository name: {{.Repo.Name}}
+Repository description: {{.Repo.Description}}
+Repository URL: {{.Repo.URL}}
+{{end}}
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
