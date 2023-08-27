@@ -11,10 +11,10 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### ⛏️ What I've been working on
 
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
+- [codinasion/codinasion](https://github.com/codinasion/codinasion)
 - [isyuricunha/website](https://github.com/isyuricunha/website)
-- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 
 #### 🎈 PRs
 - **[add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)** - RimWorld mod: DogApparel
