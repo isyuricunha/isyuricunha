@@ -17,16 +17,10 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 
 #### 🎈 PRs
-
-
 - **[add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)** - RimWorld mod: DogApparel
-
 - **[readme support to Italian and French langs](https://github.com/codinasion/codinasion/pull/4583)** - Codinasion monorepo source code
-
 - **[Language Selection in Menu - Version 0.6.1](https://github.com/andrepolischuk/thomas/pull/26)** - Simple pomodoro timer
-
 - **[README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556)** - Codinasion monorepo source code
-
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
