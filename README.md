@@ -14,7 +14,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
-- [codinasion/codinasion](https://github.com/codinasion/codinasion)
+- [isyuricunha/website](https://github.com/isyuricunha/website)
 
 #### 🎈 PRs
 - **[add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)** - RimWorld mod: DogApparel
