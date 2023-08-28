@@ -26,7 +26,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
-- **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura, Duane Johnson_
+- **[Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231)** by _Kentaro Miura,Duane Johnson_
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
 
