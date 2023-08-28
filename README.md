@@ -3,18 +3,18 @@
 I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 👨‍💻 Repositories I created recently
-- **[isyuricunha/test-multiple-actions-redme](https://github.com/isyuricunha/test-multiple-actions-redme)**
 - **[isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)** - My SQL scripts.
 - **[isyuricunha/my-links](https://github.com/isyuricunha/my-links)**
 - **[isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)** - Refactoring website with new Next version and with updated packages. Let's broke up.
+- **[isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)** - A simple website to Capitao Hookah Lounge.
 
 #### ⛏️ What I've been working on
 
 
-- [isyuricunha/test-multiple-actions-redme](https://github.com/isyuricunha/test-multiple-actions-redme)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
+- [codinasion/codinasion](https://github.com/codinasion/codinasion)
 
 #### 🎈 PRs
 - **[add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)** - RimWorld mod: DogApparel
