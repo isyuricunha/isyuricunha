@@ -5,19 +5,19 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### 👨‍💻 Repositories I created recently
 
 {{- range recentRepos 4 }}
-- **[{{ .Name }}]({{ .URL }})**{{ end }}
+- **[{{ .Name }}]({{ .URL }})**
 {{- end }}
 
 #### ⛏️ What I've been working on
 
 {{ range recentContributions 6 }}
-- [{{.Repo.Name}}]({{.Repo.URL}})
+- **[{{.Repo.Name}}]({{.Repo.URL}})**
 {{- end }}
 
 #### 🎈 PRs
 
 {{- range recentPullRequests 4}}
-- **[{{.Title}}]({{.URL}})** {{ end }}
+- **[{{.Title}}]({{.URL}})**
 {{- end}}
 
 #### 📚 Books I'm reading
