@@ -10,7 +10,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### ⛏️ What I've been working on
 
-{{ range recentContributions 4 }}
+{{ range recentContributions 6 }}
 - [{{.Repo.Name}}]({{.Repo.URL}})
 {{- end }}
 
