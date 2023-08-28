@@ -5,7 +5,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### 👨‍💻 Repositories I created recently
 
 {{- range recentRepos 4 }}
-- **[{{ .Name }}]({{ .URL }})**{{ with .Description }} - {{ . }}{{ end }}
+- **[{{ .Name }}]({{ .URL }})**{{ end }}
 {{- end }}
 
 #### ⛏️ What I've been working on
@@ -17,7 +17,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### 🎈 PRs
 
 {{- range recentPullRequests 4}}
-- **[{{.Title}}]({{.URL}})** - {{.Repo.Description}}{{ end }}
+- **[{{.Title}}]({{.URL}})** {{ end }}
 {{- end}}
 
 #### 📚 Books I'm reading
