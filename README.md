@@ -13,10 +13,10 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
-- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
-- [isyuricunha/website](https://github.com/isyuricunha/website)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa)
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+- [codinasion/codinasion](https://github.com/codinasion/codinasion)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
+- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 
 #### 🎈 PRs
 - [add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)
