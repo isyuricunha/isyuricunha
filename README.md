@@ -3,20 +3,20 @@
 I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 👨‍💻 Repositories I created recently
+- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 - [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)
 - [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
 - [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
-- [isyuricunha/capitao-hookah-lounge](https://github.com/isyuricunha/capitao-hookah-lounge)
 
 #### ⛏️ What I've been working on
 
 
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 - [codinasion/codinasion](https://github.com/codinasion/codinasion)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
-- [isyuricunha/rain-for-relax](https://github.com/isyuricunha/rain-for-relax)
 
 #### 🎈 PRs
 - [add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)
