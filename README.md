@@ -11,10 +11,10 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### ⛏️ What I've been working on
 
 
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
-- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
 - [codinasion/codinasion](https://github.com/codinasion/codinasion)
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
 
