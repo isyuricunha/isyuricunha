@@ -11,12 +11,12 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 #### ⛏️ What I've been working on
 
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/website](https://github.com/isyuricunha/website)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 - [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 - [codinasion/codinasion](https://github.com/codinasion/codinasion)
-- [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
 
 #### 🎈 PRs
 - [add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)
