@@ -3,29 +3,45 @@
 I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 👨‍💻 Repositories I created recently
+
 - [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
+
 - [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)
+
 - [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
+
 - [isyuricunha/beta-website](https://github.com/isyuricunha/beta-website)
 
 #### ⛏️ What I've been working on
 
 
+
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
+
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+
 - [isyuricunha/website](https://github.com/isyuricunha/website)
+
 - [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
+
 - [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
 
 #### 🎈 PRs
+
 - [add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)
+
 - [readme support to Italian and French langs](https://github.com/codinasion/codinasion/pull/4583)
+
 - [Language Selection in Menu - Version 0.6.1](https://github.com/andrepolischuk/thomas/pull/26)
+
 - [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556)
 
 #### 📚 Books I'm reading
+
 - [SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6) by _Ben Forta_
+
 - [Berserk Deluxe Volume 2](https://literal.club/isyuricunha/book/berserk-deluxe-volume-2-02231) by _Kentaro Miura,Duane Johnson_
 
 You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
