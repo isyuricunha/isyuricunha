@@ -30,6 +30,6 @@ jobs:
         with:
           commit_message: "updating infos about news projects, prs and a lot more"
           branch: master
-          commit_user_name: readme-scribe 🤖
+          commit_user_name: isyuricunha
           commit_user_email: "115634315+isyuricunha@users.noreply.github.com"
-          commit_author: readme-scribe 🤖 <"115634315+isyuricunha@users.noreply.github.com">
+          commit_author: isyuricunha <"115634315+isyuricunha@users.noreply.github.com">
