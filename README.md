@@ -16,17 +16,17 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+- [codinasion/codinasion](https://github.com/codinasion/codinasion)
+
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
 - [isyuricunha/website](https://github.com/isyuricunha/website)
 
 - [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
-
-- [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users)
 
 #### 🎈 PRs
 
