@@ -30,7 +30,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### 🎈 PRs
 
-- [add readme pt-br and cn-sf](https://github.com/Chunnyluny/DogApparel/pull/45)
+- [add readme pt-br and cn-sf](https://github.com/Chunnyluny-RimWorld-Modding/DogApparel/pull/45)
 
 - [readme support to Italian and French langs](https://github.com/codinasion/codinasion/pull/4583)
 
