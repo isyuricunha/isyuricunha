@@ -62,6 +62,9 @@ Last blog post: [Confessing my Stupidity](https://www.yuricunha.com/blog/confess
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br>
 
+### <p align="center"> 🚀 [![committers.top badge](https://user-badge.committers.top/brazil/isyuricunha.svg)](https://user-badge.committers.top/brazil/isyuricunha) 
+
+
 <details>
  <summary>GitHub Activity Graphs</summary>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
