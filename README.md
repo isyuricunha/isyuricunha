@@ -66,7 +66,6 @@ Last blog post: [Confessing my Stupidity](https://www.yuricunha.com/blog/confess
 
 [![committers.top badge](https://user-badge.committers.top/brazil/isyuricunha.svg)](https://user-badge.committers.top/brazil/isyuricunha) 
 
-
 <details>
  <summary>GitHub Activity Graphs</summary>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
