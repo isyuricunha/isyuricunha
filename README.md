@@ -20,11 +20,11 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 
+- [isyuricunha/website](https://github.com/isyuricunha/website)
+
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
 - [codinasion/codinasion](https://github.com/codinasion/codinasion)
-
-- [isyuricunha/website](https://github.com/isyuricunha/website)
 
 - [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 
