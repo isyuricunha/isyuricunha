@@ -16,15 +16,15 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 
 
-- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
-
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 
 - [isyuricunha/website](https://github.com/isyuricunha/website)
 
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
 - [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)
 
