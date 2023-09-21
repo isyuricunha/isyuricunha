@@ -22,11 +22,11 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
-- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
+- [isyuricunha/sands-of-salzaar-game-translation](https://github.com/isyuricunha/sands-of-salzaar-game-translation)
 
 - [isyuricunha/website](https://github.com/isyuricunha/website)
 
-- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)
+- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
 
 #### 🎈 PRs
 
