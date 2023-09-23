@@ -20,9 +20,9 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 
-- [isyuricunha/website](https://github.com/isyuricunha/website)
-
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+
+- [isyuricunha/website](https://github.com/isyuricunha/website)
 
 - [isyuricunha/sands-of-salzaar-game-translation](https://github.com/isyuricunha/sands-of-salzaar-game-translation)
 
