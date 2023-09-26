@@ -24,9 +24,9 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+- [isyuricunha/sands-of-salzaar-game-translation](https://github.com/isyuricunha/sands-of-salzaar-game-translation)
 
-- [isyuricunha/website](https://github.com/isyuricunha/website)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
 #### 🎈 PRs
 
