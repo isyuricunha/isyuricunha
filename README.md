@@ -2,38 +2,6 @@
 
 I'm [Yuri](https://links.dev/isyuricunha), I write and operate database for a living.
 
-#### 👨‍💻 Repositories I created recently
-
-- [isyuricunha/sands-of-salzaar-game-translation](https://github.com/isyuricunha/sands-of-salzaar-game-translation)
-
-- [isyuricunha/PomoEffective](https://github.com/isyuricunha/PomoEffective)
-
-- [isyuricunha/sql-server-always-on-hadr](https://github.com/isyuricunha/sql-server-always-on-hadr)
-
-- [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
-
-#### ⛏️ What I've been working on
-
-
-
-- [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
-
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
-
-- [isyuricunha/website](https://github.com/isyuricunha/website)
-
-- [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
-
-#### 🎈 PRs
-
-- [add readme pt-br and cn-sf](https://github.com/Chunnyluny-RimWorld-Modding/DogApparel/pull/45)
-
-- [readme support to Italian and French langs](https://github.com/codinasion/codinasion/pull/4583)
-
-- [Language Selection in Menu - Version 0.6.1](https://github.com/andrepolischuk/thomas/pull/26)
-
-- [README, CONTRIBUTING & CODE_OF_CONDUCT Translations](https://github.com/codinasion/codinasion/pull/4556)
-
 #### 📃 Blog, playlist and wishlist
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
