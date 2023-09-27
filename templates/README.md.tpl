@@ -1,6 +1,6 @@
 #### Hi there 👋
 
-I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
+I'm [Yuri](https://links.dev/isyuricunha), I write and operate database for a living.
 
 #### 👨‍💻 Repositories I created recently
 
@@ -11,7 +11,7 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 #### ⛏️ What I've been working on
 
-{{ range recentContributions 6 }}
+{{ range recentContributions 4 }}
 
 - [{{.Repo.Name}}]({{.Repo.URL}})
   {{- end }}
@@ -23,22 +23,13 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 - [{{.Title}}]({{.URL}})
   {{- end}}
 
-#### 📚 Books I'm reading
-
-{{- range literalClubCurrentlyReading 4 }}
-
-- [{{ .Title }}{{ with .Subtitle }} - {{ . }}{{- end }}](https://literal.club/isyuricunha/book/{{.Slug}}) by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{- end }}{{ $a.Name }}{{- end }}_
-  {{- end }}
-
-You might want to check out my [literal.club profile](https://literal.club/isyuricunha) as well.
-
 #### 📃 Blog, playlist and wishlist
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
 Last blog post: [Confessing my Stupidity](https://www.yuricunha.com/blog/confessing-my-stupidity)
 
-#### 📧 Contact
+#### 📧 Social
 
 [![Twitter Badge](https://img.shields.io/badge/Twitter-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
@@ -47,10 +38,6 @@ Last blog post: [Confessing my Stupidity](https://www.yuricunha.com/blog/confess
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
 [![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br>
-
-#### 💻 Comitters ranking
-
-[![committers.top badge](https://user-badge.committers.top/brazil/isyuricunha.svg)](https://user-badge.committers.top/brazil/isyuricunha) 
 
 <details>
  <summary>GitHub Activity Graphs</summary>
