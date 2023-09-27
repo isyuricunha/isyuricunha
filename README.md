@@ -18,15 +18,15 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following)
 
-- [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev)
-
 - [isyuricunha/list-of-my-stars-repos](https://github.com/isyuricunha/list-of-my-stars-repos)
+
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
+
+- [fatih-yavuz/links.dev](https://github.com/fatih-yavuz/links.dev)
 
 - [isyuricunha/my-links](https://github.com/isyuricunha/my-links)
 
 - [isyuricunha/sands-of-salzaar-game-translation](https://github.com/isyuricunha/sands-of-salzaar-game-translation)
-
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting)
 
 #### 🎈 PRs
 
