@@ -6,7 +6,7 @@ I'm [Yuri](https://www.links.yuricunha.com/), I write and operate database for a
 
 - You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
 
-Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://www.yuricunha.com/blog/the-unconventional-bonds-of-friendship-and-solitude)
+Last blog post: [I Don't Care](https://yuricunha.com/blog/i-dont-care)
 
 #### 📧 Social
 
