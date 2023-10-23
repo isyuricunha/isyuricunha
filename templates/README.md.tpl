@@ -8,22 +8,42 @@ I'm [Yuri](https://www.links.yuricunha.com/), I write and operate database for a
 
 Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://www.yuricunha.com/blog/the-unconventional-bonds-of-friendship-and-solitude)
 
-#### 📧 Social
+#### 👷 Check out what I'm currently working on
+{{range recentContributions 5}}
+- [{{.Repo.Name}}]({{.Repo.URL}}){{with .Repo.Description}} - {{.}}{{end}} ({{humanize .OccurredAt}})
+{{- end}}
 
-[![Twitter Badge](https://img.shields.io/badge/Twitter-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
-[![Linkedin Badge](https://img.shields.io/badge/Linkedin-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
+#### 📚 Books I'm reading
+
+{{- range literalClubCurrentlyReading 5 }}
+- **[{{ .Title }}{{ with .Subtitle }} - {{ . }}{{ end }}](https://literal.club/isyuricunha/book/{{.Slug}})** by _{{ range $i, $a := .Authors }}{{ if gt $i 0 }}, {{ end }}{{ $a.Name }}{{ end }}_
+{{- end }}
+
+You might want to check out my
+[literal.club profile](https://literal.club/isyuricunha) as well.
+
+#### <h2 align="center">Contact 📧</h2>
+
+[![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
+[![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
+[![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
 [![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
 [![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
 [![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
-[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br>
+[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br><br><br>
+
+#### <h2 align="center">Websites 🌐</h2>
+
+[Antigo Portfolio](https://www.portfolio-antigo.yuricunha.com//)<br>
+[Unes Page](https://wwww.unes.yuricunha.com/)<br>
+[Bluise Page](https://bluise.yuricunha.com/)<br> -->
 
 <details>
  <summary>GitHub Activity Graphs</summary>
   <p align="center">:round_pushpin: GitHub Activity Graph</p>  
     <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="280em alt="GitHub Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=isyuricunha&bg_color=000000&color=9e4c98&line=9e4c98&point=ffffff&area=true&hide_border=true">
+      <img height="280em alt="GitHub Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=isyuricunha&bg_color=000000&color=ffffff&line=ffffff&point=ff5900&area=true&hide_border=true">
     </div>    
  <br>
     <div align="center">
@@ -43,9 +63,10 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
  <br>
         <div align="center">
      <a href="https://github.com/isyuricunha">
-      <img height="160em alt="Streak Graphics" src="[https://streak-stats.demolab.com?user=isyuricunha&theme=radical](https://metrics.lecoq.io/isyuricunha?template=terminal&languages=1&lines=1&discussions=1&followup=1&habits=1&code=1&tweets=1&stackoverflow=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&discussions=false&discussions.categories=true&discussions.categories.limit=0&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&tweets=false&tweets.user=.user.twitter&tweets.attachments=false&tweets.limit=2&stackoverflow=false&stackoverflow.user=0&stackoverflow.sections=answers-top%2C%20questions-recent&stackoverflow.limit=2&stackoverflow.lines=4&stackoverflow.lines.snippet=2&config.timezone=America%2FSao_Paulo)">
+      <img height="160em alt="Streak Graphics" src="[https://github-readme-streak-stats.herokuapp.com/?user=isyuricunha&theme=dracula](https://metrics.lecoq.io/isyuricunha?template=terminal&languages=1&lines=1&discussions=1&followup=1&habits=1&code=1&tweets=1&stackoverflow=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&languages=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.analysis.timeout.repositories=7.5&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&lines=false&lines.sections=base&lines.repositories.limit=4&lines.history.limit=1&habits=false&habits.from=200&habits.days=14&habits.facts=true&habits.charts=false&habits.charts.type=classic&habits.trim=false&habits.languages.limit=8&habits.languages.threshold=0%25&followup=false&followup.sections=repositories&followup.indepth=false&followup.archived=true&discussions=false&discussions.categories=true&discussions.categories.limit=0&code=false&code.lines=12&code.load=400&code.days=3&code.visibility=public&tweets=false&tweets.user=.user.twitter&tweets.attachments=false&tweets.limit=2&stackoverflow=false&stackoverflow.user=0&stackoverflow.sections=answers-top%2C%20questions-recent&stackoverflow.limit=2&stackoverflow.lines=4&stackoverflow.lines.snippet=2&config.timezone=America%2FSao_Paulo)">
     </div>
       <br>
+ <br>
 </details>
 
 <details>
@@ -64,6 +85,9 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
  
   <div align="center">
                      <a href="https://github.com/isyuricunha">
+    <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
+  </div>
+</details>
     <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
   </div>
 </details>
