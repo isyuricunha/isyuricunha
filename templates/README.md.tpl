@@ -24,19 +24,7 @@ You might want to check out my
 
 #### <h2 align="center">Contact 📧</h2>
 
-[![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
-[![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
-[![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
-[![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
-[![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
-[![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
-[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br><br><br>
-
-#### <h2 align="center">Websites 🌐</h2>
-
-[Antigo Portfolio](https://www.portfolio-antigo.yuricunha.com//)<br>
-[Unes Page](https://wwww.unes.yuricunha.com/)<br>
-[Bluise Page](https://bluise.yuricunha.com/)<br> -->
+- You can see all my links [here](https://links.yuricunha.com/)
 
 <details>
  <summary>GitHub Activity Graphs</summary>
@@ -85,9 +73,6 @@ You might want to check out my
  
   <div align="center">
                      <a href="https://github.com/isyuricunha">
-    <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
-  </div>
-</details>
     <img alt="Spotify" src="https://spotify-recently-played-readme.vercel.app/api?user=22wrcoowop6hb63heywvtaypy">
   </div>
 </details>
