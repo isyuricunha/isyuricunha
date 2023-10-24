@@ -10,11 +10,11 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 
 #### 👷 Check out what I'm currently working on
 
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (today)
-- [isyuricunha/rover-explorer](https://github.com/isyuricunha/rover-explorer) - Flutter App using NASA API. (1 day ago)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (1 day ago)
+- [isyuricunha/rover-explorer](https://github.com/isyuricunha/rover-explorer) - Flutter App using NASA API. (2 days ago)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (2 days ago)
 
 #### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
