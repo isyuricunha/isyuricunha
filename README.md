@@ -12,8 +12,8 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
-- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (3 days ago)
+- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (today)
+- [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (today)
 - [isyuricunha/rover-explorer](https://github.com/isyuricunha/rover-explorer) - Flutter App using NASA API. (4 days ago)
 
 #### 📚 Books I'm reading
@@ -23,7 +23,7 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### 📧 Contact
+#### <h2 align="center">Contact 📧</h2>
 
 - You can see all my links [here](https://links.yuricunha.com/)
 
