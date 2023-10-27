@@ -22,7 +22,7 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### <h2 align="center">Contact 📧</h2>
+#### 📧 Contact
 
 - You can see all my links [here](https://links.yuricunha.com/)
 
