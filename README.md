@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm [Yuri](https://www.links.yuricunha.com/), I write and operate database for a living.
+I'm [Yuri](https://www.yuricunha.com/), I write and operate database for a living.
 
 ### 📃 Blog, playlist and wishlist
 
