@@ -1,6 +1,12 @@
-### Hi there 👋
+#### Hi there 👋
 
-I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
+I'm [Yuri](https://www.links.yuricunha.com/), I write and operate database for a living.
+
+#### 📃 Blog, playlist and wishlist
+
+- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
+
+Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://www.yuricunha.com/blog/the-unconventional-bonds-of-friendship-and-solitude)
 
 #### 👷 Check out what I'm currently working on
 {{range recentContributions 5}}
@@ -16,25 +22,9 @@ I'm [Yuri](https://yuricunha.com), I write and operate database for a living.
 You might want to check out my
 [literal.club profile](https://literal.club/isyuricunha) as well.
 
-#### <h2 align="center">📃 Blog and posts</h2>
+#### 📧 Contact
 
-- You can check my personal [coding playlist](https://open.spotify.com/playlist/2d1HFycfFZ4XGUvO2hr240?si=34de76551a27425b), [blog](https://www.yuricunha.com/blog) and my [website](https://www.yuricunha.com/). And finally, my [wishlist](https://www.amazon.com.br/hz/wishlist/ls/3DF4K19CCQP1X)
-
-#### <h2 align="center">Contact 📧</h2>
-
-[![Twitter Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=twitter&logoColor=white&link=https://twitter.com/isyuricunha)](https://twitter.com/isyuricunha)
-[![Instagram Badge](https://img.shields.io/badge/@isyuricunha-2D425E?style=flat&labelColor=2D425E&logo=instagram&logoColor=white&link=https://instagram.com/isyuricunha)](https://instagram.com/isyuricunha)
-[![Linkedin Badge](https://img.shields.io/badge/Yuri%20Cunha-2D425E?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/isyuricunha/)](https://www.linkedin.com/in/isyuricunha/)
-[![Telegram Badge](https://img.shields.io/badge/Telegram-2D425E?style=flat&logo=telegram&logoColor=white)](https://t.me/isyuricunha)
-[![Discord Direct Message](https://img.shields.io/badge/Discord-2D425E?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/1018988240151253002)
-[![Spotify](https://img.shields.io/badge/Spotify-2D425E?style=flat&logo=spotify&logoColor=white)](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=4bf407bdcdef4a05)
-[![E-mail](https://img.shields.io/badge/Email-2D425E?style=flat&logo=duckduckgo&logoColor=white)](mailto:me@yuricunha.com)<br><br><br><br>
-
-#### <h2 align="center">Websites 🌐</h2>
-
-[Antigo Portfolio](https://www.portfolio-antigo.yuricunha.com//)<br>
-[Unes Page](https://wwww.unes.yuricunha.com/)<br>
-[Bluise Page](https://bluise.yuricunha.com/)<br> -->
+- You can see all my links [here](https://links.yuricunha.com/)
 
 <details>
  <summary>GitHub Activity Graphs</summary>
