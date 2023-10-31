@@ -10,11 +10,11 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 
 ### 👷 Check out what I'm currently working on
 
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
-- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
-- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (today)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (1 day ago)
-- [ashkulz/committers.top](https://github.com/ashkulz/committers.top) - CLI tool which uses the GitHub GraphQL API to rank users according to number of contributions, and corresponding static website. (3 days ago)
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
+- [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (1 day ago)
+- [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (1 day ago)
+- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (2 days ago)
+- [ashkulz/committers.top](https://github.com/ashkulz/committers.top) - CLI tool which uses the GitHub GraphQL API to rank users according to number of contributions, and corresponding static website. (4 days ago)
 
 ### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
