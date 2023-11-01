@@ -10,9 +10,9 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 
 ### 👷 Check out what I'm currently working on
 
+- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
 - [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
-- [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (1 day ago)
 - [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (2 days ago)
 - [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (3 days ago)
 
