@@ -12,9 +12,9 @@ Last blog post: [The Unconventional Bonds of Friendship and Solitude](https://ww
 
 - [isyuricunha/list-all-followers-and-following](https://github.com/isyuricunha/list-all-followers-and-following) - Easy view and filter all follows and following. Auto update by GitHub Action. (today)
 - [isyuricunha/pokemon-greeting](https://github.com/isyuricunha/pokemon-greeting) - Get greeted by a Pokémon. Have a wonderful day! (today)
+- [isyuricunha/top-github-users](https://github.com/isyuricunha/top-github-users) - Check your ranking in GitHub! Don't forget to star ⭐ this repository. (today)
 - [isyuricunha/website](https://github.com/isyuricunha/website) - My personal website and blog. (1 day ago)
 - [isyuricunha/links](https://github.com/isyuricunha/links) - links to my social medias (2 days ago)
-- [isyuricunha/massage-alternativa](https://github.com/isyuricunha/massage-alternativa) - Website for Massage Alternativa. (3 days ago)
 
 ### 📚 Books I'm reading
 - **[SQL em 10 Minutos por Dia](https://literal.club/isyuricunha/book/ben-forta-sql-em-10-minutos-por-dia-yzwl6)** by _Ben Forta_
