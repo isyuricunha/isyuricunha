@@ -7,3 +7,6 @@ i solve complex data management challenges by designing, implementing, and maint
 
 **link with me:**<br>
 [x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [telegram](https://t.me/isyuricunha), [mail](mailto:me@yuricunha.com)
+
+**last two blog post:**<br>
+[disconnected](https://www.yuricunha.com/blog/disconnected) and [Sometimes Humans Just Need to Sit in One Place and, Like, Hurt](https://www.yuricunha.com/blog/sometimes-humans-just-need-to-sit-in-one-place-and-like-hurt)
