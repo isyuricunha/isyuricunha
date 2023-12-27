@@ -10,3 +10,6 @@ i solve complex data management challenges by designing, implementing, and maint
 
 **last two blog post:**<br>
 [disconnected](https://www.yuricunha.com/blog/disconnected) and [sometimes humans just need to sit in one place and, like, hurt](https://www.yuricunha.com/blog/sometimes-humans-just-need-to-sit-in-one-place-and-like-hurt)
+
+**podcast and last ep:**<br>
+[Yuri Cunha - Blog Speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
