@@ -46,7 +46,7 @@ i solve complex data management challenges by designing, implementing, and maint
 '''
 
 def write_readme(text):
-    with open("./readme.md", "w", encoding='utf8') as readme_file:
+    with open("./README.md", "w", encoding='utf8') as readme_file:
         readme_file.write(text)
 
 def main():

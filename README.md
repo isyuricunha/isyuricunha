@@ -1,6 +1,7 @@
+
 #### database administrator based in brazil.
 
-i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database solutions.
+i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database solutions
 
 **find me on the web:**<br>
 [website](https://yuricunha.com), [quick links](https://links.yuricunha.com), [meeting with me](https://cal.com/isyuricunha)
@@ -14,3 +15,7 @@ i solve complex data management challenges by designing, implementing, and maint
 
 **podcast and last ep:**<br>
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
+
+**a sentence to brighten your day:**<br>
+    impossible is for the unwilling
+
