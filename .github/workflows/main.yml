@@ -4,7 +4,7 @@ on:
   push:
     branches: main
   schedule:
-    - cron: "*/8 * * * *" # 15 minutes update quote/link/info
+    - cron: "*/15 * * * *" # 15 minutes update quote/link/info
 
 jobs:
   build:
