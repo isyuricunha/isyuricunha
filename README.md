@@ -16,5 +16,6 @@ i solve complex data management challenges by designing, implementing, and maint
 **podcast and last ep:**<br>
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
 
-
+**a sentence to brighten your day:**<br>
+    slow down
 
