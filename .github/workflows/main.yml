@@ -1,4 +1,4 @@
-name: update readme
+name: auto update readme quote
 
 on:
   push:
