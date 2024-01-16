@@ -10,8 +10,8 @@ i solve complex data management challenges by designing, implementing, and maint
 [x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [telegram](https://t.me/isyuricunha), [mail](mailto:me@yuricunha.com), [boo](https://signup.boo.world/jejk), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
 **last two blog post:**<br>
-[my last goodbye](https://yuricunha.com/blog/my-last-goodbye) and [embracing feelings amidst indifference
-](https://yuricunha.com/blog/embracing-feelings-indifference)
+ [embracing feelings amidst indifference
+](https://yuricunha.com/blog/embracing-feelings-indifference) and [disconnected](https://www.yuricunha.com/blog/disconnected)
 
 **podcast and last ep:**<br>
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
