@@ -38,8 +38,7 @@ i solve complex data management challenges by designing, implementing, and maint
 ](https://yuricunha.com/blog/embracing-feelings-indifference)
 
 **podcast and last ep:**<br>
-[my last goodbye](https://yuricunha.com/blog/my-last-goodbye) and [embracing feelings amidst indifference
-](https://yuricunha.com/blog/embracing-feelings-indifference)
+[yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
 
 **a sentence to brighten your day:**<br>
     {line}
