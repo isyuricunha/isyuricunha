@@ -10,13 +10,13 @@ i solve complex data management challenges by designing, implementing, and maint
 [x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [telegram](https://t.me/isyuricunha), [mail](mailto:me@yuricunha.com), [boo](https://signup.boo.world/jejk), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
 **last two blog post:**<br>
- [embracing feelings amidst indifference
-](https://yuricunha.com/blog/embracing-feelings-indifference) and [disconnected](https://www.yuricunha.com/blog/disconnected)
+[my last goodbye](https://yuricunha.com/blog/my-last-goodbye) and [embracing feelings amidst indifference
+](https://yuricunha.com/blog/embracing-feelings-indifference)
 
 **podcast and last ep:**<br>
 [my last goodbye](https://yuricunha.com/blog/my-last-goodbye) and [embracing feelings amidst indifference
 ](https://yuricunha.com/blog/embracing-feelings-indifference)
 
 **a sentence to brighten your day:**<br>
-    keep going. be all in
+    if you’re going through hell, keep going
 
