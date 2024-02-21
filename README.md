@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
 
 **a sentence to brighten your day:**<br>
-    if you are not willing to risk the usual, you will have to settle for the ordinary
+    it does not matter how slowly you go as long as you do not stop
 
