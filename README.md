@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
 
 **a sentence to brighten your day:**<br>
-    don't be afraid to give up the good to go for the great.
+    great things never come from comfort zones.
 
