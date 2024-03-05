@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [disconnected](https://open.spotify.com/episode/5vRjCOijzce9ChR6H9KdAR?si=1LIH2FlGR-OXd98I2rVLAg)
 
 **a sentence to brighten your day:**<br>
-    the only way to do great work is to love what you do.
+    success doesn’t just find you. you have to go out and get it
 
