@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [trabalho, viagens, culturas e decisões](https://open.spotify.com/episode/4iqTnRWh5BC9Qy57h9CNGV?si=d38cf151deec4d47)
 
 **a sentence to brighten your day:**<br>
-    a champion is defined not by their wins but by how they can recover when they fall.
+    too many of us are not living our dreams because we are living our fears
 
