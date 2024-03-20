@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [trabalho, viagens, culturas e decisões](https://open.spotify.com/episode/4iqTnRWh5BC9Qy57h9CNGV?si=d38cf151deec4d47)
 
 **a sentence to brighten your day:**<br>
-    the fastest road to meaning and success: choose one thing and go all in
+    wake up with determination. go to bed with satisfaction.
 
