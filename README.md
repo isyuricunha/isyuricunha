@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [trabalho, viagens, culturas e decisões](https://open.spotify.com/episode/4iqTnRWh5BC9Qy57h9CNGV?si=d38cf151deec4d47)
 
 **a sentence to brighten your day:**<br>
-    you miss 100% of the shots you don’t take
+    success is not final, failure is not fatal: it is the courage to continue that counts
 
