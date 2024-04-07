@@ -10,12 +10,12 @@ i solve complex data management challenges by designing, implementing, and maint
 [x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [mail](mailto:isyuricunha@duck.com), [boo](https://signup.boo.world/jejk), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
 **last two blog post:**<br>
-[One month after leaving the internet and leaving everyone believing I'm still active
-](https://yuricunha.com/blog/one-month-after-leaving-the-internet-and-leaving-everyone-believing-im-still-active) and [My last goodbye](https://yuricunha.com/blog/my-last-goodbye)
+[I'm proud of you](https://yuricunha.com/blog/im-proud-of-you) and [I was born in the wrong generation
+](https://yuricunha.com/blog/i-was-born-in-the-wrong-generation)
 
 **podcast and last ep:**<br>
-[yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [trabalho, viagens, culturas e decisões](https://open.spotify.com/episode/4iqTnRWh5BC9Qy57h9CNGV?si=d38cf151deec4d47)
+[yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
 
 **a sentence to brighten your day:**<br>
-    no guts, no story
+    success doesn’t just find you. you have to go out and get it
 
