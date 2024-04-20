@@ -17,5 +17,5 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
 
 **a sentence to brighten your day:**<br>
-    do not wait to strike till the iron is hot; but make it hot by striking
+    a champion is defined not by their wins but by how they can recover when they fall.
 
