@@ -32,7 +32,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
           automatic_release_tag: "latest"
-          title: "Development Build"
+          title: "isyuricunha / ${{ github.ref_name }}"
           files: |
             LICENSE.txt
             *.jar
