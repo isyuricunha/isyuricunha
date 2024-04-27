@@ -12,14 +12,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: artifact
-          merge-multiple: true
-
       - name: Create Nightly release
-        if: ${{ github.repository == 'rime/librime' && github.ref == 'refs/heads/master' }}
+        if: ${{ github.repository == 'isyuricunha/isyuricunha' && github.ref == 'refs/heads/master' }}
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
@@ -27,7 +21,7 @@ jobs:
           prerelease: true
           title: "Nightly Build"
           files: |
-            *
+            *.*
 
       - name: Create Stable release
         if: ${{ github.ref != 'refs/heads/master' }}
@@ -38,4 +32,5 @@ jobs:
           prerelease: ${{ contains(github.ref_name, '-') }}
           title: librime ${{ github.ref_name }}
           files: |
-            *
+            *.*
+            ./*
