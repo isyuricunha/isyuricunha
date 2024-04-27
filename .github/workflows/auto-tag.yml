@@ -1,9 +1,9 @@
 name: Auto Tag
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches:
+      - "**" # Executa em qualquer branch
 
 jobs:
   tag:
