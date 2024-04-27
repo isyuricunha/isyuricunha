@@ -15,37 +15,21 @@ jobs:
 
       - name: Get latest tag
         id: latest_tag
-        run: |
-          latest_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-          if [ -z "$latest_tag" ]; then
-            echo "No tags found, creating initial tag"
-            latest_tag="v0.1.0" # Set initial tag if none found
-          fi
-          echo "Latest tag: $latest_tag"
-          echo "LATEST_TAG=$latest_tag" >> $GITHUB_ENV
+        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
 
-      - name: Extract version components
-        id: extract_version
-        run: |
-          major=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f1)
-          minor=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f2)
-          patch=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f3)
-          echo "Major: $major, Minor: $minor, Patch: $patch"
-          echo "MAJOR=$major" >> $GITHUB_ENV
-          echo "MINOR=$minor" >> $GITHUB_ENV
-          echo "PATCH=$patch" >> $GITHUB_ENV
-
-      - name: Increment patch version
-        id: increment_version
-        run: |
-          patch=$((${{ steps.extract_version.outputs.PATCH }} + 1))
-          new_tag="v${{ steps.extract_version.outputs.MAJOR }}.${{ steps.extract_version.outputs.MINOR }}.$patch"
-          echo "New tag: $new_tag"
-          echo "NEW_TAG=$new_tag" >> $GITHUB_ENV
+      - name: Create tag
+        if: steps.latest_tag.outputs.tag == ''
+        id: tag
+        run: echo "TAG=v${{ github.run_number }}.${{ github.run_number }}.${{ github.run_number }}" >> $GITHUB_ENV
 
       - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git tag ${{ steps.increment_version.outputs.NEW_TAG }}
-          git push origin ${{ steps.increment_version.outputs.NEW_TAG }}
+          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
+            VERSION=$(node -pe "require('./package.json').version")
+            git tag $VERSION
+            git push origin $VERSION
+          else
+            git push origin ${{ steps.latest_tag.outputs.tag }}
+          fi
