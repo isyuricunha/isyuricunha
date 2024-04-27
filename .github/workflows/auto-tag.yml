@@ -3,7 +3,7 @@ name: Auto Tag
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   tag:
@@ -20,15 +20,12 @@ jobs:
       - name: Create tag
         if: steps.latest_tag.outputs.tag == ''
         id: tag
-        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
+        run: |
+          echo "TAG=v1.0.0" >> $GITHUB_ENV
+          git tag v1.0.0
 
       - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
-            git tag v1.0.0
-            git push origin v1.0.0
-          else
-            git push origin ${{ steps.latest_tag.outputs.tag }}
-          fi
+          git push origin ${{ steps.latest_tag.outputs.tag }}
