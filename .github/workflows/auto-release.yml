@@ -19,6 +19,11 @@ jobs:
         run: |
           # Your build and test commands here
           echo "Build and test completed successfully!"
+        
+      - name: "Set up Git"
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: "Generate Changelog and Release"
         id: release
