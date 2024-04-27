@@ -13,23 +13,27 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Get latest tag
-        id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
+      - name: Get latest tag (if exists)
+        id: get_latest_tag
+        run: |
+          git describe --tags --abbrev=0 --match "v*" 2>/dev/null || true
 
-      - name: Create tag
-        if: steps.latest_tag.outputs.tag == ''
-        id: tag
-        run: echo "TAG=v${{ github.run_number }}.${{ github.run_number }}.${{ github.run_number }}" >> $GITHUB_ENV
+      - name: Create tag (if no tag exists)
+        run: |
+          if [ -z "${{ steps.get_latest_tag.outputs }}" ]; then
+            echo "TAG=v1.0.0" >> $GITHUB_ENV
+          else
+            # Increment the patch version of the latest tag
+            # You can modify this logic to suit your versioning scheme
+            IFS='.' read -ra parts <<< "${{ steps.get_latest_tag.outputs }}"
+            parts[2]=$((${parts[2]}+1))
+            VERSION="v${parts[0]}.${parts[1]}.${parts[2]}"
+            echo "TAG=$VERSION" >> $GITHUB_ENV
+          fi
 
       - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
-            VERSION=$(node -pe "require('./package.json').version")
-            git tag $VERSION
-            git push origin $VERSION
-          else
-            git push origin ${{ steps.latest_tag.outputs.tag }}
-          fi
+          git tag ${{ env.TAG }}
+          git push origin ${{ env.TAG }}
