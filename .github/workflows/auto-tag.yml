@@ -1,9 +1,9 @@
 name: Auto Tag
 
 on:
-  # Execute when there is a push on the default branch
+  # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
 
 jobs:
   tag:
@@ -14,34 +14,30 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Get latest tag
-        id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
-
-      - name: Fetch tags from the remote repository
-        run: git fetch --tags
-
-      - name: Check if tag exists locally
-        id: check_local_tag
+        id: get_tag
         run: |
-          if git rev-parse ${{ steps.latest_tag.outputs.tag }} >/dev/null 2>&1; then
-            echo "Tag ${{ steps.latest_tag.outputs.tag }} already exists locally."
-            echo "::set-output name=tag_exists::true"
-          else
-            echo "Tag ${{ steps.latest_tag.outputs.tag }} does not exist locally."
-            echo "::set-output name=tag_exists::false"
-          fi
+          LAST_TAG=$(git describe --tags --abbrev=0)
+          echo "LAST_TAG=${LAST_TAG}" >> $GITHUB_ENV
 
-      - name: Create and push tag if it doesn't exist
-        if: steps.check_local_tag.outputs.tag_exists == 'false'
+      - name: Create new tag
+        id: create_tag
         run: |
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config user.name "${GITHUB_ACTOR}"
-          git tag v1.0.0
-          git push origin v1.0.0
+          # Extract major, minor, and patch versions from the last tag
+          IFS='.' read -r -a VERSION_PARTS <<< "${LAST_TAG//v/}"
+          MAJOR=${VERSION_PARTS[0]}
+          MINOR=${VERSION_PARTS[1]}
+          PATCH=${VERSION_PARTS[2]}
 
-      - name: Push the updated tag
-        if: steps.check_local_tag.outputs.tag_exists == 'true'
+          # Increment the patch version
+          PATCH=$((PATCH + 1))
+
+          # Create new tag
+          NEW_TAG="v${MAJOR}.${MINOR}.${PATCH}"
+          echo "NEW_TAG=${NEW_TAG}" >> $GITHUB_ENV
+
+      - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git push origin ${{ steps.latest_tag.outputs.tag }}
+          git tag $NEW_TAG
+          git push origin $NEW_TAG
