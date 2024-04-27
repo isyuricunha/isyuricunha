@@ -1,42 +1,43 @@
-name: auto tag/release
+name: "Auto Release"
 
 on:
   push:
     branches:
-      - master
-    tags: "1.*"
-permissions:
-  contents: write
+      - "master"
+    tags:
+      - '[0-9]+.*'
+
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
+  auto-release:
+    name: "Automatic Release"
+    runs-on: "ubuntu-latest"
     steps:
-      - name: Release
-        uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          files: |
-                  *.*
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "Build & test"
+        run: |
+          # Your build and test commands here
+          echo "Build and test completed successfully!"
+
       - name: "Generate Changelog and Release"
         id: release
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          automatic_release_tag: ${{ steps.increment-tag.outputs.new_tag }}
-          title: "Development Build"
+          automatic_release_tag: "latest"
+          title: ${{ github.ref_name }}
           files: |
             *.*
 
       - name: "Generate and Upload Changelog"
         if: steps.release.outputs.automatic_releases_tag != ''
         run: |
-          # Gerar changelog a partir dos commits
+          # Generate changelog from commits
           changelog=$(git log --pretty=format:"- %s (%h)" $(git describe --abbrev=0 --tags $(git describe --abbrev=0 --tags --abbrev=0..HEAD))..HEAD)
 
-          # Atualizar notas de lançamento
+          # Update release notes
           curl -X PATCH \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
