@@ -36,9 +36,9 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
           if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
-            git tag v1.0.0
-            git push origin v1.0.0
+          git tag v1.0.0
+          git push origin v1.0.0
           else
-            git tag ${{ steps.tag.outputs.TAG }}
-            git push origin ${{ steps.tag.outputs.TAG }}
+          git tag ${{ steps.tag.outputs.TAG }}
+          git push origin ${{ steps.tag.outputs.TAG }}
           fi
