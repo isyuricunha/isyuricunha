@@ -17,4 +17,3 @@ i solve complex data management challenges by designing, implementing, and maint
 
 **a sentence to brighten your day:**<br>
     slow down
-
