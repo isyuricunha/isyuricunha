@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - "**" # Executa em qualquer branch
+  workflow_dispatch:
+    # Permite acionar manualmente o fluxo de trabalho se necessário
 
 jobs:
   tag:
