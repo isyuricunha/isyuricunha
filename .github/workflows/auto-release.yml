@@ -26,16 +26,17 @@ jobs:
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
       - name: "Generate Changelog and Release"
+        if: ${{ github.ref != 'refs/heads/master' }}
         id: release
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
           automatic_release_tag: "latest"
+          tags: true
           title: "isyuricunha / ${{ github.ref_name }}"
           files: |
-            LICENSE.txt
-            *.jar
+            *
 
       - name: "Generate and Upload Changelog"
         if: steps.release.outputs.automatic_releases_tag != ''
