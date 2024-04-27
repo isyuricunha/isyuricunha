@@ -33,7 +33,8 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "v$(date +'%Y%m%d%H%M%S')"
           prerelease: false
-          title: "Release ${{ github.ref }}"
+          title: "Release v$(date +'%Y%m%d%H%M%S')"
           files: |
             *
