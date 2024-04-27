@@ -13,7 +13,12 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v2
-      
+
+      - name: "Set up Git"
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
       - name: "Build & test"
         run: |
           echo "done!"
