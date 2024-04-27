@@ -3,7 +3,7 @@ name: Auto Tag
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   tag:
