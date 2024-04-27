@@ -1,26 +1,36 @@
-# This is a basic workflow to help you get started with the GitHub Auto-Release on Commit Action.
-
-name: AutoRelease
+name: Release
 
 on:
   push:
-    branches: [ master ]
+    # Sequence of patterns matched against refs/tags
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+*' # Push events to any matching semantic tag. For example, 1.10.1 or 2.0.0 or 3.0.0-alpha.
+        # For more details, see https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+        # and https://docs.npmjs.com/about-semantic-versioning
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   release:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v2
-      - uses: CupOfTea696/gh-action-auto-release@v1.0.0
+      - name: Checkout code
+        uses: actions/checkout@v2
         with:
-          title: "Release: $version"
-          tag: "v$semver"
-          draft: false
-          regex: "/^Release: #{semver}$/i"
+          fetch-depth: 0
+      - name: Build changelog
+        id: build_changelog
+        uses: mikepenz/release-changelog-builder-action@main
+        with:
+          configuration: 'release-changelog-builder-config.json'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: ${{steps.build_changelog.outputs.changelog}}
+          draft: false
+          prerelease: false
