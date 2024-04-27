@@ -24,14 +24,22 @@ jobs:
           echo "Latest tag: $latest_tag"
           echo "LATEST_TAG=$latest_tag" >> $GITHUB_ENV
 
-      - name: Create tag
-        id: create_tag
+      - name: Extract version components
+        id: extract_version
         run: |
-          # Extract version components
-            IFS='.' read -r major minor patch <<< "${{ steps.latest_tag.outputs.LATEST_TAG }}"
-          # Increment the patch version
-          patch=$((patch + 1))
-          new_tag="v$major.$minor.$patch"
+          major=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f1)
+          minor=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f2)
+          patch=$(echo "${{ steps.latest_tag.outputs.LATEST_TAG }}" | cut -d. -f3)
+          echo "Major: $major, Minor: $minor, Patch: $patch"
+          echo "MAJOR=$major" >> $GITHUB_ENV
+          echo "MINOR=$minor" >> $GITHUB_ENV
+          echo "PATCH=$patch" >> $GITHUB_ENV
+
+      - name: Increment patch version
+        id: increment_version
+        run: |
+          patch=$((${{ steps.extract_version.outputs.PATCH }} + 1))
+          new_tag="v${{ steps.extract_version.outputs.MAJOR }}.${{ steps.extract_version.outputs.MINOR }}.$patch"
           echo "New tag: $new_tag"
           echo "NEW_TAG=$new_tag" >> $GITHUB_ENV
 
@@ -39,5 +47,5 @@ jobs:
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git tag ${{ steps.create_tag.outputs.NEW_TAG }}
-          git push origin ${{ steps.create_tag.outputs.NEW_TAG }}
+          git tag ${{ steps.increment_version.outputs.NEW_TAG }}
+          git push origin ${{ steps.increment_version.outputs.NEW_TAG }}
