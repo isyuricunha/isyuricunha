@@ -1,27 +1,45 @@
-name: "pre-release"
+name: "Auto Release"
 
 on:
   push:
     branches:
       - "master"
+    tags:
+      - "v*"
 
 jobs:
-  pre-release:
-    name: "Pre Release"
+  auto-release:
+    name: "Automatic Release"
     runs-on: "ubuntu-latest"
-
     steps:
-      # ...
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+
       - name: "Build & test"
         run: |
-          echo "done!"
+          # Your build and test commands here
+          echo "Build and test completed successfully!"
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - name: "Generate Changelog and Release"
+        id: release
+        uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease: false
           automatic_release_tag: "latest"
-          prerelease: true
           title: "Development Build"
           files: |
-            LICENSE.txt
-            *.jar
+            *.*
+
+      - name: "Generate and Upload Changelog"
+        if: steps.release.outputs.automatic_releases_tag != ''
+        run: |
+          # Generate changelog from commits
+          changelog=$(git log --pretty=format:"- %s (%h)" $(git describe --abbrev=0 --tags $(git describe --abbrev=0 --tags --abbrev=0..HEAD))..HEAD)
+
+          # Update release notes
+          curl -X PATCH \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases/${{ steps.release.outputs.automatic_releases_tag }} \
+            -d '{"body": "'"$changelog"'"}'
