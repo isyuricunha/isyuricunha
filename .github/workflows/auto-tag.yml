@@ -22,3 +22,5 @@ jobs:
         run: |
           git tag -a ${{ steps.get_last_commit.outputs.commit }} -m "$(git log --format='%s' -n 1)"
           git push origin ${{ steps.get_last_commit.outputs.commit }}
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name "${GITHUB_ACTOR}"
