@@ -1,77 +1,87 @@
-name: "Auto Release"
+name: "Semantic Versioning and Auto Release"
 
 on:
   push:
     branches:
       - "master"
-    tags:
-      - "v*" # Certifique-se de ajustar se suas tags seguirem um padrão diferente
 
 jobs:
   auto-release:
     name: "Automatic Release"
     runs-on: "ubuntu-latest"
     steps:
-      - name: "Checkout repository"
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: "Build & test"
+      - name: "Install required tools"
         run: |
-          # Seus comandos de construção e teste aqui
-          echo "Construção e teste concluídos com sucesso!"
-        
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: "Get latest tag version"
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "Latest tag version: $latest_tag"
+
+      - name: "Determine version increment based on commit message"
+        id: determine_version_increment
+        run: |
+          if [[ $(git log -1 --pretty=%B | grep -E '!(feat|fix|breaking change)') ]]; then
+            echo "::set-output name=version_increment patch"
+          elif [[ $(git log -1 --pretty=%B | grep -E '(feat|breaking change)') ]]; then
+            echo "::set-output name=version_increment minor"
+          else
+            echo "::set-output name=version_increment major"
+          fi
+
+      - name: "Extract current version (if exists)"
+        id: extract_current_version
+        if: steps.get_latest_tag.outputs.latest_tag != ''
+        run: |
+          current_version=$(echo $latest_tag | sed 's/^v//' | cut -d '.' -f1,2,3)
+          echo "Current version (if exists): $current_version"
+
+      - name: "Construct new version number"
+        id: construct_new_version
+        run: |
+          version_increment=$(steps.determine_version_increment.outputs.version_increment)
+          current_version=$(steps.extract_current_version.outputs.current_version)
+
+          if [[ $current_version == "" ]]; then
+            new_version="1.0.0"  # Initial version
+          else
+            major=$(echo $current_version | cut -d '.' -f1)
+            minor=$(echo $current_version | cut -d '.' -f2)
+            patch=$(echo $current_version | cut -d '.' -f3)
+
+            case $version_increment in
+              "patch")
+                patch=$((patch + 1))
+                ;;
+              "minor")
+                minor=$((minor + 1))
+                patch=0
+                ;;
+              "major")
+                major=$((major + 1))
+                minor=0
+                patch=0
+                ;;
+            esac
+
+            new_version="$major.$minor.$patch"
+          fi
+
+          echo "New version: $new_version"
+
       - name: "Set up Git"
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
-      - name: "Get latest tag"
-        id: get_latest_tag
+      - name: "Create tag with new version"
         run: |
-          latest_tag=$(git describe --tags --abbrev=0)
-          echo "::set-output name=latest_tag::$latest_tag"
+          git tag -a "v$new_version" -m "v$new_version"
 
-      - name: "Increment tag"
-        id: increment_tag
+      - name: "Push tag to remote"
         run: |
-          # Extrair a versão da última tag
-          last_tag=${{ steps.get_latest_tag.outputs.latest_tag }}
-          version=${last_tag#"v"} # Remove o 'v' da tag
-
-          # Incrementar a versão
-          IFS='.' read -r major minor patch <<< "$version"
-          patch=$((patch + 1)) # Incrementar o número do patch
-          new_tag="v${major}.${minor}.${patch}"
-
-          echo "::set-output name=new_tag::$new_tag"
-
-      - name: "Tag and push"
-        run: |
-          new_tag=${{ steps.increment_tag.outputs.new_tag }}
-          git tag $new_tag
-          git push origin $new_tag
-
-      - name: "Generate Changelog and Release"
-        if: ${{ github.ref != 'refs/heads/master' }}
-        id: release
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          prerelease: false
-          automatic_release_tag: ${{ steps.increment_tag.outputs.new_tag }}
-          title: "isyuricunha / ${{ github.ref_name }}"
-          files: |
-            *
-
-      - name: "Generate and Upload Changelog"
-        if: steps.release.outputs.automatic_releases_tag != ''
-        run: |
-          # Gerar changelog a partir dos commits
-          changelog=$(git log --pretty=format:"- %s (%h)" $(git describe --abbrev=0 --tags $(git describe --abbrev=0 --tags --abbrev=0..HEAD))..HEAD)
-
-          # Atualizar notas de lançamento
-          curl -X PATCH \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/releases/${{ steps.release.outputs.automatic_releases_tag }} \
-            -d '{"body": "'"$changelog"'"}'
+          git push origin "v$new_version"
