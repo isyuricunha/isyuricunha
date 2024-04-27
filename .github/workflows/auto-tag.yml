@@ -1,37 +1,44 @@
 name: Auto Tag
 
 on:
+  # Executa quando houver push no branch padrão
   push:
-    branches:
-      - "**" # Executa em qualquer branch
-  workflow_dispatch:
-    # Permite acionar manualmente o fluxo de trabalho se necessário
+    branches: ["master"]
 
 jobs:
   tag:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Get latest tag
+      - name: Obter última tag
         id: latest_tag
         run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
 
-      - name: Determine next version
-        id: next_version
+      - name: Criar tag
         if: steps.latest_tag.outputs.tag == ''
-        run: echo "::set-output name=version::1.0.0"
+        id: tag
+        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
 
-      - name: Determine next version
-        id: next_version_2
+      - name: Atualizar versão da tag
         if: steps.latest_tag.outputs.tag != ''
-        run: echo "::set-output name=version::$(echo "${{ steps.latest_tag.outputs.tag }}" | awk -F. '{$NF = $NF + 1;} 1' | sed 's/ /./g')"
+        id: update_tag
+        run: |
+          TAG=${{ steps.latest_tag.outputs.tag }}
+          IFS='.' read -r -a VERSION <<< "$TAG"
+          NEW_VERSION="${VERSION[0]}.${VERSION[1]}.$((${VERSION[2]} + 1))"
+          echo "TAG=$NEW_VERSION" >> $GITHUB_ENV
 
-      - name: Push tag
+      - name: Push da tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git tag -a v${{ steps.next_version.outputs.version }} -m "Version ${{ steps.next_version.outputs.version }}"
-          git push origin v${{ steps.next_version.outputs.version }}
+          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
+            git tag v1.0.0
+            git push origin v1.0.0
+          else
+            git tag ${{ steps.tag.outputs.TAG }}
+            git push origin ${{ steps.tag.outputs.TAG }}
+          fi
