@@ -1,7 +1,9 @@
 name: Create Release
 
-on: push
-
+on:
+  push:
+    branches:
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
