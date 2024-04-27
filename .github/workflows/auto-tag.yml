@@ -13,17 +13,12 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Obter última tag
-        id: get_last_tag
-        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
+      - name: Obter hash do último commit
+        id: get_last_commit
+        run: echo "::set-output name=commit::$(git log --format='%H' -n 1)"
 
-      - name: Incrementar número da versão
-        id: increment_version
-        run: echo "::set-output name=version::$(echo ${{ steps.get_last_tag.outputs.tag }} | awk -F. '{{print $1"."$2"."$3 + 1}}')"
-
-      - name: Criar nova tag
+      - name: Criar tag
         id: create_tag
-        run: git tag ${{ steps.increment_version.outputs.version }}
-
-      - name: Enviar nova tag
-        run: git push origin ${{ steps.increment_version.outputs.version }}
+        run: |
+          git tag -a ${{ steps.get_last_commit.outputs.commit }} -m "$(git log --format='%s' -n 1)"
+          git push origin ${{ steps.get_last_commit.outputs.commit }}
