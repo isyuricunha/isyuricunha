@@ -1,4 +1,4 @@
-name: "tagged-release"
+name: "pre-release"
 
 on:
   push:
@@ -6,43 +6,25 @@ on:
       - "master"
 
 jobs:
-  tagged-release:
-    name: "Tagged Release"
+  pre-release:
+    name: "Pre Release"
     runs-on: "ubuntu-latest"
 
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v2
-
-      - name: "Set up Git"
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-
+      
       - name: "Build & test"
         run: |
           echo "done!"
-
-      - name: "Get latest tag"
-        id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
-
-      - name: "Parse latest tag version"
-        id: parse_tag
-        run: echo "::set-output name=version::${{ steps.latest_tag.outputs.tag | sed 's/v//' | awk -F. '{$NF = $NF + 1;} 1' OFS=. }"
-
-      - name: "Create a new tag"
-        run: git tag -a "v${{ steps.parse_tag.outputs.version }}" -m "Automatically generated tag from workflow"
-        
-      - name: "Push the new tag"
-        run: git push origin --tags
           
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "v${{ steps.parse_tag.outputs.version }}"
-          prerelease: false
-          title: "Release v${{ steps.parse_tag.outputs.version }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
           files: |
-            *
+            LICENSE.txt
+            *.jar
