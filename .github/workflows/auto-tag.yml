@@ -1,7 +1,7 @@
 name: Auto Tag
 
 on:
-  # Runs on pushes targeting the default branch
+  # Executa em commits no branch padrão
   push:
     branches: ["master"]
 
@@ -10,22 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout do código
         uses: actions/checkout@v3
 
-      - name: Get latest tag
-        id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
+      - name: Obter última tag
+        id: get_last_tag
+        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
 
-      - name: Create tag
-        if: steps.latest_tag.outputs.tag == ''
-        id: tag
-        run: |
-          echo "TAG=v1.0.0" >> $GITHUB_ENV
-          git tag v1.0.0
+      - name: Incrementar número da versão
+        id: increment_version
+        run: echo "::set-output name=version::$(echo ${{ steps.get_last_tag.outputs.tag }} | awk -F. '{{print $1"."$2"."$3 + 1}}')"
 
-      - name: Push tag
+      - name: Criar nova tag
+        id: create_tag
+        run: echo "TAG=${{ steps.increment_version.outputs.version }}" >> $GITHUB_ENV
+
+      - name: Enviar nova tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git push origin ${{ steps.latest_tag.outputs.tag }}
+          git tag ${{ steps.increment_version.outputs.version }}
+          git push origin ${{ steps.increment_version.outputs.version }}
