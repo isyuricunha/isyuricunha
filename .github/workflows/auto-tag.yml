@@ -2,6 +2,7 @@ name: Create release
 
 on:
   push:
+    branches: ["master"]
     tags:
       - v*
 
