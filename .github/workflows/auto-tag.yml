@@ -15,29 +15,20 @@ jobs:
 
       - name: Get latest tag
         id: latest_tag
-        run: |
-          latest_tag=$(git describe --tags --abbrev=0)
-          if [ -z "$latest_tag" ]; then
-            echo "No tags found, creating initial tag"
-            latest_tag="v0.1.0" # Set initial tag if none found
-          fi
-          echo "Latest tag: $latest_tag"
-          echo "LATEST_TAG=$latest_tag" >> $GITHUB_ENV
+        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
 
       - name: Create tag
-        id: create_tag
-        run: |
-          # Extract version components
-          IFS='.' read -r major minor patch <<< "${{ steps.latest_tag.outputs.LATEST_TAG }}"
-          # Increment the patch version
-          patch=$((patch + 1))
-          new_tag="v$major.$minor.$patch"
-          echo "New tag: $new_tag"
-          echo "NEW_TAG=$new_tag" >> $GITHUB_ENV
+        if: steps.latest_tag.outputs.tag == ''
+        id: tag
+        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
 
       - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          git tag ${{ steps.create_tag.outputs.NEW_TAG }}
-          git push origin ${{ steps.create_tag.outputs.NEW_TAG }}
+          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
+            git tag v1.0.0
+            git push origin v1.0.0
+          else
+            git push origin ${{ steps.latest_tag.outputs.tag }}
+          fi
