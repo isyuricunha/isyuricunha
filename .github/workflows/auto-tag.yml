@@ -1,7 +1,7 @@
 name: Auto Tag
 
 on:
-  # Executa quando houver push no branch padrão
+  # Execute when there is a push on the default branch
   push:
     branches: ["master"]
 
@@ -10,35 +10,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout do código
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Obter última tag
+      - name: Get latest tag
         id: latest_tag
         run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
 
-      - name: Criar tag
-        if: steps.latest_tag.outputs.tag == ''
-        id: tag
-        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
-
-      - name: Atualizar versão da tag
-        if: steps.latest_tag.outputs.tag != ''
-        id: update_tag
+      - name: Check if tag exists locally
         run: |
-          TAG=${{ steps.latest_tag.outputs.tag }}
-          IFS='.' read -r -a VERSION <<< "$TAG"
-          NEW_VERSION="${VERSION[0]}.${VERSION[1]}.$((${VERSION[2]} + 1))"
-          echo "TAG=$NEW_VERSION" >> $GITHUB_ENV
+          if git rev-parse ${{ steps.latest_tag.outputs.tag }} >/dev/null 2>&1; then
+            echo "Tag ${{ steps.latest_tag.outputs.tag }} already exists locally."
+          else
+            echo "Tag ${{ steps.latest_tag.outputs.tag }} does not exist locally."
+          fi
 
-      - name: Push da tag
+      - name: Fetch tags from the remote repository
+        run: git fetch --tags
+
+      - name: Create and push tag if it doesn't exist
+        if: steps.latest_tag.outputs.tag == ''
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
           git tag v1.0.0
           git push origin v1.0.0
-          else
-          git tag ${{ steps.tag.outputs.TAG }}
-          git push origin ${{ steps.tag.outputs.TAG }}
-          fi
+
+      - name: Push the updated tag
+        if: steps.latest_tag.outputs.tag != ''
+        run: |
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name "${GITHUB_ACTOR}"
+          git push origin ${{ steps.latest_tag.outputs.tag }}
