@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - "master"
+    tags:
+      - "v*" # Ação acionada apenas por tags que começam com 'v'
 
 jobs:
   auto-release:
@@ -15,7 +17,7 @@ jobs:
 
       - name: "Build & test"
         run: |
-          # Your build and test commands here
+          # Seus comandos de build e teste aqui
           echo "Build and test completed successfully!"
         
       - name: "Set up Git"
@@ -23,29 +25,38 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
 
-      - name: "Get latest tag"
-        id: get_tag
-        run: |
-          latest_tag=$(git describe --tags --abbrev=0)
-          echo "::set-output name=latest_tag::$latest_tag"
+      - name: "Generate Changelog and Release"
+        if: ${{ github.ref != 'refs/heads/master' }}
+        id: release
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease: false
+          automatic_release_tag: "latest"
+          title: "isyuricunha / ${{ github.ref_name }}"
+          files: |
+            *
 
-      - name: "Generate new tag"
-        id: generate_tag
+      - name: "Generate and Upload Changelog"
+        if: steps.release.outputs.automatic_releases_tag != ''
         run: |
-          latest_tag=$1
-          IFS='.' read -r -a version_parts <<< "$latest_tag"
-          major=${version_parts[0]}
-          minor=${version_parts[1]}
-          patch=${version_parts[2]}
-          new_patch=$((patch + 1))
-          new_tag="$major.$minor.$new_patch"
-          echo "::set-output name=new_tag::$new_tag"
+          # Gerar changelog a partir dos commits
+          changelog=$(git log --pretty=format:"- %s (%h)" $(git describe --abbrev=0 --tags $(git describe --abbrev=0 --tags --abbrev=0..HEAD))..HEAD)
 
-      - name: "Create tag"
-        id: create_tag
+          # Atualizar notas de lançamento
+          curl -X PATCH \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases/${{ steps.release.outputs.automatic_releases_tag }} \
+            -d '{"body": "'"$changelog"'"}'
+
+      - name: "Increment Version"
+        if: github.ref == 'refs/tags/v*' # Ação acionada apenas quando o push é para uma tag
         run: |
-          new_tag=$1
-          git tag $new_tag
-          git push origin $new_tag
-        env:
-          NEW_TAG: ${{ steps.generate_tag.outputs.new_tag }}
+          # Extrair a versão atual da tag
+          current_version=$(echo "${{ github.ref }}" | sed 's/v//')
+
+          # Incrementar a versão
+          new_version=$(echo "${current_version}" | awk -F '[.]' '{print $1"."$2"."$3+1}')
+
+          # Criar 
