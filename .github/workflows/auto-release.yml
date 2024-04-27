@@ -1,34 +1,30 @@
-name: Auto Tag
+name: "pre-release"
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ['master']
+    branches:
+      - "master"
 
 jobs:
-  tag:
-    runs-on: ubuntu-latest
+  pre-release:
+    name: "Pre Release"
+    runs-on: "ubuntu-latest"
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Get latest tag
-        id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
-
-      - name: Create tag
-        if: steps.latest_tag.outputs.tag == ''
-        id: tag
-        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
-
-      - name: Push tag
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+      
+      - name: "Build & test"
         run: |
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config user.name "${GITHUB_ACTOR}"
-          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
-            git tag v1.0.0
-            git push origin v1.0.0
-          else
-            git push origin ${{ steps.latest_tag.outputs.tag }}
-          fi
+          echo "done!"
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
+          files: |
+            LICENSE.txt
+            *.jar
