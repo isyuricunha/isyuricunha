@@ -1,24 +1,32 @@
-name: Release CI
+name: "tagged-release"
 
 on:
   push:
-    branches:
-      - master
     tags:
-      - "[0-9]+.*"
-  workflow_dispatch:
+      - "v*"
 
 jobs:
-  release:
-    runs-on: ubuntu-latest
+  tagged-release:
+    name: "Tagged Release"
+    runs-on: "ubuntu-latest"
+
     steps:
-      - name: Create Stable release
-        if: ${{ github.ref != 'refs/heads/master' }}
-        uses: "marvinpinto/action-automatic-releases@latest"
+      - name: "Checkout Repository"
+        uses: actions/checkout@v2
+
+      - name: "Build & Test"
+        run: |
+          echo "Building and testing..."
+
+      - name: "Generate Changelog and Release"
+        id: create_release
+        uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          draft: false
-          prerelease: ${{ contains(github.ref_name, '-') }}
-          title: isyuricunha ${{ github.ref_name }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
           files: |
-            *.*
+            *
+
+      - name: "Release URL"
+        run: |
+          echo "Release created at ${{ steps.create_release.outputs.upload_url }}"
