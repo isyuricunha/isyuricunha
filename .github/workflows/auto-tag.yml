@@ -19,18 +19,19 @@ jobs:
         id: latest_tag
         run: echo "::set-output name=tag::$(git describe --tags --abbrev=0)"
 
-      - name: Create tag
+      - name: Determine next version
+        id: next_version
         if: steps.latest_tag.outputs.tag == ''
-        id: tag
-        run: echo "TAG=v1.0.0" >> $GITHUB_ENV
+        run: echo "::set-output name=version::1.0.0"
+
+      - name: Determine next version
+        id: next_version_2
+        if: steps.latest_tag.outputs.tag != ''
+        run: echo "::set-output name=version::$(echo "${{ steps.latest_tag.outputs.tag }}" | awk -F. '{$NF = $NF + 1;} 1' | sed 's/ /./g')"
 
       - name: Push tag
         run: |
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "${GITHUB_ACTOR}"
-          if [ -z "${{ steps.latest_tag.outputs.tag }}" ]; then
-            git tag v1.0.0
-            git push origin v1.0.0
-          else
-            git push origin ${{ steps.latest_tag.outputs.tag }}
-          fi
+          git tag -a v${{ steps.next_version.outputs.version }} -m "Version ${{ steps.next_version.outputs.version }}"
+          git push origin v${{ steps.next_version.outputs.version }}
