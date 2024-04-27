@@ -5,7 +5,7 @@ on:
     branches:
       - "master"
     tags:
-      - "v*" # Ação acionada apenas por tags que começam com 'v'
+      - "v*" # Certifique-se de ajustar se suas tags seguirem um padrão diferente
 
 jobs:
   auto-release:
@@ -17,13 +17,39 @@ jobs:
 
       - name: "Build & test"
         run: |
-          # Seus comandos de build e teste aqui
-          echo "Build and test completed successfully!"
+          # Seus comandos de construção e teste aqui
+          echo "Construção e teste concluídos com sucesso!"
         
       - name: "Set up Git"
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
+      - name: "Get latest tag"
+        id: get_latest_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0)
+          echo "::set-output name=latest_tag::$latest_tag"
+
+      - name: "Increment tag"
+        id: increment_tag
+        run: |
+          # Extrair a versão da última tag
+          last_tag=${{ steps.get_latest_tag.outputs.latest_tag }}
+          version=${last_tag#"v"} # Remove o 'v' da tag
+
+          # Incrementar a versão
+          IFS='.' read -r major minor patch <<< "$version"
+          patch=$((patch + 1)) # Incrementar o número do patch
+          new_tag="v${major}.${minor}.${patch}"
+
+          echo "::set-output name=new_tag::$new_tag"
+
+      - name: "Tag and push"
+        run: |
+          new_tag=${{ steps.increment_tag.outputs.new_tag }}
+          git tag $new_tag
+          git push origin $new_tag
 
       - name: "Generate Changelog and Release"
         if: ${{ github.ref != 'refs/heads/master' }}
@@ -32,7 +58,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           prerelease: false
-          automatic_release_tag: "latest"
+          automatic_release_tag: ${{ steps.increment_tag.outputs.new_tag }}
           title: "isyuricunha / ${{ github.ref_name }}"
           files: |
             *
@@ -49,14 +75,3 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/${{ github.repository }}/releases/${{ steps.release.outputs.automatic_releases_tag }} \
             -d '{"body": "'"$changelog"'"}'
-
-      - name: "Increment Version"
-        if: github.ref == 'refs/tags/v*' # Ação acionada apenas quando o push é para uma tag
-        run: |
-          # Extrair a versão atual da tag
-          current_version=$(echo "${{ github.ref }}" | sed 's/v//')
-
-          # Incrementar a versão
-          new_version=$(echo "${current_version}" | awk -F '[.]' '{print $1"."$2"."$3+1}')
-
-          # Criar 
