@@ -1,26 +1,24 @@
-name: Auto Tag
+name: Create release
 
 on:
-  # Executa em commits no branch padrão
   push:
-    branches: ["master"]
+    tags:
+      - v*
+
+permissions:
+  contents: write
 
 jobs:
-  tag:
-    runs-on: ubuntu-latest
-
+  release:
+    name: Release pushed tag
+    runs-on: ubuntu-22.04
     steps:
-      - name: Checkout do código
-        uses: actions/checkout@v3
-
-      - name: Obter hash do último commit
-        id: get_last_commit
-        run: echo "::set-output name=commit::$(git log --format='%H' -n 1)"
-
-      - name: Criar tag
-        id: create_tag
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
         run: |
-          git tag -a ${{ steps.get_last_commit.outputs.commit }} -m "$(git log --format='%s' -n 1)"
-          git push origin ${{ steps.get_last_commit.outputs.commit }}
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config user.name "${GITHUB_ACTOR}"
+          gh release create "$tag" \
+              --repo="$GITHUB_REPOSITORY" \
+              --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
+              --generate-notes
