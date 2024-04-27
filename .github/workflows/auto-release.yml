@@ -1,4 +1,4 @@
-name: "pre-release"
+name: "tagged-release"
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - "master"
 
 jobs:
-  pre-release:
-    name: "Pre Release"
+  tagged-release:
+    name: "Tagged Release"
     runs-on: "ubuntu-latest"
 
     steps:
@@ -17,14 +17,18 @@ jobs:
       - name: "Build & test"
         run: |
           echo "done!"
+
+      - name: "Create a new tag"
+        run: git tag -a "v$(date +'%Y%m%d%H%M%S')" -m "Automatically generated tag from workflow"
+        
+      - name: "Push the new tag"
+        run: git push origin --tags
           
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Development Build"
+          prerelease: false
+          title: "Release ${{ github.ref }}"
           files: |
-            LICENSE.txt
-            *.jar
+            *
