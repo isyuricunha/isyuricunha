@@ -57,7 +57,8 @@ jobs:
         id: create_new_tag
         run: |
           new_tag="${{ steps.extract_version.outputs.major }}.${{ steps.increment_minor.outputs.minor }}.${{ steps.extract_version.outputs.patch }}"
-          echo "::set-output name=new_tag::$new_tag"
+          echo "$new_tag"
+          git tag -a "$new_tag" -m "Version $new_tag"
 
       - name: "Build & test"
         run: |
