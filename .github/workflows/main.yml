@@ -2,7 +2,8 @@ name: update readme and deploy new release
 
 on:
   push:
-    branches: master
+    branches: 
+      - master
     tags:
       - '[0-9]+.*'
   schedule:
@@ -31,11 +32,33 @@ jobs:
       - name: readme update
         run: python update_readme.py
 
-      - name: commit readme
+      - name: Get last tag
+        id: get_last_tag
         run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      
+          last_tag=$(git describe --abbrev=0 --tags)
+          echo "::set-output name=last_tag::$last_tag"
+
+      - name: Extract version number
+        id: extract_version
+        run: |
+          IFS='.' read -ra VERSION <<< "${{ steps.get_last_tag.outputs.last_tag }}"
+          major="${VERSION[0]}"
+          minor="${VERSION[1]}"
+          patch="${VERSION[2]}"
+          echo "::set-output name=major::$major"
+          echo "::set-output name=minor::$minor"
+          echo "::set-output name=patch::$patch"
+
+      - name: Increment minor version
+        id: increment_minor
+        run: echo "::set-output name=minor::$((${{ steps.extract_version.outputs.minor }} + 1))"
+
+      - name: Create new tag
+        id: create_new_tag
+        run: |
+          new_tag="${{ steps.extract_version.outputs.major }}.${{ steps.increment_minor.outputs.minor }}.${{ steps.extract_version.outputs.patch }}"
+          echo "::set-output name=new_tag::$new_tag"
+
       - name: "Build & test"
         run: |
           echo "done!"
@@ -44,7 +67,7 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: "${{ steps.create_new_tag.outputs.new_tag }}"
           prerelease: false
           title: "Last build: ${{ github.sha }}"
           files: |
