@@ -13,14 +13,6 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v2
-
-      - name: "Set up Git"
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add .
-          git commit -am "update info/link/quote, idk"
-          git push --all --tags -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
       
       - name: "Build & test"
         run: |
@@ -39,3 +31,11 @@ jobs:
           title: "Release v${{ steps.parse_tag.outputs.version }}"
           files: |
             *
+
+      - name: "Set up Git"
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add .
+          git commit -am "update info/link/quote, idk"
+          git push --all --tags -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
