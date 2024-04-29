@@ -38,7 +38,7 @@ jobs:
           git add README.md
           git commit -m "Update info/link/quote"  # Clear and concise commit message
 
-      - name: "Build & test" (Optional)
+      - name: "Build & test"
         # Assuming you don't currently have a build & test step,
         # remove this line if not applicable to your workflow.
         run: |
