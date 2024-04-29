@@ -94,8 +94,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: v${{ steps.taggerFinal.outputs.new_tag }}
+          release_name: Release v${{ steps.taggerFinal.outputs.new_tag }}
           body: |
             Changes in this release:
             - Update readme
