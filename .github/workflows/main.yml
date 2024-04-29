@@ -41,14 +41,34 @@ jobs:
           git commit -m "Update info/link/quote"
           git push
       
+      - name: Determine tag name
+        id: tag_name
+        run: |
+          if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" == 'refs/heads/master' ]; then
+            echo "v${{ github.run_number }}";
+          else
+            echo "${{ github.ref }}";
+          fi
+        shell: bash
+      
+      - name: Determine release name
+        id: release_name
+        run: |
+          if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" == 'refs/heads/master' ]; then
+            echo "Release v${{ github.run_number }}";
+          else
+            echo "${{ github.ref }}";
+          fi
+        shell: bash
+      
       - name: Generate changelog and create release
         id: create_release
         uses: softprops/action-gh-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && ('v' + github.run_number) || github.ref }}
-          name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && ('Release v' + github.run_number) || github.ref }}
+          tag_name: ${{ steps.tag_name.outputs.stdout }}
+          name: ${{ steps.release_name.outputs.stdout }}
           body: |
             Changes in this release:
             - Update readme
