@@ -38,13 +38,43 @@ jobs:
 
       - name: "Get latest tag"
         id: latest_tag
-        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
+        run: |
+          latest_tag=$(git describe --abbrev=0 --tags 2>/dev/null || echo "v0.0.0")
+          echo "::set-output name=tag::$latest_tag"
+
+      - name: "Parse and increment version"
+        id: parse_tag
+        run: |
+          python <<EOF
+          import re
+
+          def parse_version(tag):
+          match = re.search(r"^v(\d+)\.(\d+)\.(\d+)", tag)
+          if match:
+          return {
+          "major": int(match.group(1)),
+          "minor": int(match.group(2)),
+          "patch": int(match.group(3)) + 1
+          }
+          else:
+          return {"major": 0, "minor": 0, "patch": 0}
+
+          def format_version(version):
+          return f"v{version['major']}.{version['minor']}.{version['patch']}"
+
+          # Get version from previous step output
+          tag = '${{ steps.latest_tag.outputs.tag }}'
+          version_data = parse_version(tag)
+          new_version = format_version(version_data)
+
+          print(f"::set-output name=version::{new_version}")
+          EOF
           
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "v${{ steps.parse_tag.outputs.version }}"
+          automatic_release_tag: "${{ steps.parse_tag.outputs.version }}"
           prerelease: false
           title: "Release v${{ steps.parse_tag.outputs.version }}"
           files: |
