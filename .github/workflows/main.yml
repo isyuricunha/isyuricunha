@@ -3,6 +3,8 @@ name: update readme and deploy new release
 on:
   push:
     branches: master
+    tags:
+      - '[0-9]+.*'
   schedule:
     - cron: "*/15 * * * *" # 15 minutes update quote/link/info
 
