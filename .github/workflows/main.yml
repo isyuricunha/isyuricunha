@@ -39,16 +39,6 @@ jobs:
       - name: "Build & test"
         run: |
           echo "done!"
-          
-      - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: false
-          title: "Last build: ${{ github.sha }}"
-          files: |
-            *
 
       - name: Minor version for each merge
         id: taggerDryRun
@@ -94,10 +84,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ steps.taggerFinal.outputs.new_tag }}
-          release_name: Release v${{ steps.taggerFinal.outputs.new_tag }}
+          tag_name: ${{ steps.taggerFinal.outputs.new_tag }}
+          release_name: Release ${{ steps.taggerFinal.outputs.new_tag }}
           body: |
             Changes in this release:
             - Update readme
           draft: false
- 
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "${{ steps.taggerFinal.outputs.new_tag }}"
+          prerelease: false
+          title: "Last build: ${{ steps.taggerFinal.outputs.new_tag }}"
+          files: |
+            *
