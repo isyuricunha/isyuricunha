@@ -41,24 +41,34 @@ jobs:
         id: latest_tag
         run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
 
-      - name: "Automatic versioning"
-        id: version
-        uses: marvinpinto/auto-semantic-version@v1
+      - name: "Increment version"
+        id: increment_version
+        run: |
+          current_tag="${{ steps.latest_tag.outputs.tag }}"
+          version=$(echo $current_tag | cut -c 2-) # Remove the 'v' prefix
+          IFS='.' read -r -a parts <<< "$version"
+          major="${parts[0]}"
+          minor="${parts[1]}"
+          patch="${parts[2]}"
+          # Increment the patch version
+          patch=$((patch + 1))
+          new_version="$major.$minor.$patch"
+          echo "::set-output name=version::$new_version"
 
       - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases
+        uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "${{ steps.version.outputs.next_tag }}"
+          automatic_release_tag: "v${{ steps.increment_version.outputs.version }}"
           prerelease: false
-          title: "Release ${{ steps.version.outputs.next_tag }}"
+          title: "Release v${{ steps.increment_version.outputs.version }}"
           files: |
             *
 
-      - name: "Commit readme"
+      - name: commit readme
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add .
           git commit -am "update info/link/quote, idk"
-          git push --all --tags -f "https://github.com/${{ github.repository }}"
+          git push --all --tags -f "https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
