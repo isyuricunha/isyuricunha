@@ -47,8 +47,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          name: Release ${{ github.ref }}
+          tag_name: ${{ github.sha }}
+          name: Release ${{ github.sha }}
           body: |
             Changes in this release:
             - Update readme
@@ -59,16 +59,3 @@ jobs:
         with:
           name: release-artifact
           path: '*' # Include all files in the release artifact
-
-      - name: Generate tag and create release
-        id: create_release_tag
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this release:
-            - Update readme
-          draft: false
