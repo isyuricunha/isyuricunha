@@ -13,6 +13,12 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v2
+
+        
+      - name: commit readme
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       
       - name: "Build & test"
         run: |
@@ -24,14 +30,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: false
-          title: "Development Build: ${{ github.sha }}"
+          title: "Last build: ${{ github.sha }}"
           files: |
             *
-
-      - name: commit readme
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add README.md
-          git commit -am "update info/link/quote, idk"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
