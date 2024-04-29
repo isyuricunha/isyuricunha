@@ -71,6 +71,7 @@ jobs:
           WITH_V: true
           DEFAULT_BUMP: patch
           BRANCH_HISTORY: full
+          DRY_RUN: true
           TAG_NAME: "v${{ steps.taggerFinal.outputs.new_tag }}"
 
       - name: commit readme
