@@ -2,8 +2,8 @@ name: update readme and deploy new release
 
 on:
   push:
-    branches: master
-    tags:
+    branches: [ master ]
+    tags: # Include tags for automatic release on tag push
       - '[0-9]+.*'
   schedule:
     - cron: "*/15 * * * *" # 15 minutes update quote/link/info
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: config python ${{ matrix.python-version }}
+      - name: Configure Python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
@@ -28,41 +28,39 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: readme update
+      - name: Update readme
         run: python update_readme.py
 
-      - name: commit readme
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      
-      - name: "Build & test"
-        run: |
-          echo "done!"
-          
-      - name: "Generate changelog and create release"
-        id: create_release
-        uses: marvinpinto/action-automatic-releases@latest
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: false
-          title: "Last build: ${{ github.sha }}"
-          files: |
-            *
-
-      - name: Create Git tag
-        if: steps.create_release.outputs.release_created == 'true'
-        run: git tag -a -m "Release ${{ github.sha }}" ${{ github.sha }}
-        
-      - name: Push Git tag
-        if: steps.create_release.outputs.release_created == 'true'
-        run: git push origin ${{ github.sha }}        
-
-      - name: commit readme
+      - name: Commit readme changes
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add README.md
-          git commit -am "update info/link/quote, idk"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git commit -m "Update info/link/quote"  # Clear and concise commit message
+
+      - name: "Build & test" (Optional)
+        # Assuming you don't currently have a build & test step,
+        # remove this line if not applicable to your workflow.
+        run: |
+          echo "Implement your build and test commands here"
+          # ...
+
+      - name: Create a lightweight tag (if not on a tag push)
+        run: |
+          if [[ ${GITHUB_REF_TYPE} != "tag" ]]; then
+            git tag -l | grep -Eq "^${GITHUB_SHA}$" || git tag "${GITHUB_SHA}"
+          fi
+
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          automatic_release_tag: ${{ github.sha }}  # Use the commit SHA for the tag name
+          prerelease: false
+          title: "Release based on commit: ${{ github.sha }}"
+          files: |
+            *
+
+      - name: Push changes (including tag, if created)
+        run: |
+          git push --follow-tags origin  # Push all commits and created tags
