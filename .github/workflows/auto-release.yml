@@ -1,35 +1,47 @@
-name: "pre-release"
+---
+name: 'tagged-release'
 
 on:
   push:
-    branches:
-      - "master"
+    tags:
+      - 'v*'
 
 jobs:
-  pre-release:
-    name: "Pre Release"
-    runs-on: "ubuntu-latest"
+  gh_tagged_release:
+    runs-on: 'ubuntu-latest'
+    env:
+      JEST_VERBOSE: ${{ secrets.JEST_VERBOSE }}
 
     steps:
-      - name: "Checkout repository"
-        uses: actions/checkout@v2
-
-        
-      - name: commit readme
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      
-      - name: "Build & test"
-        run: |
-          echo "done!"
-          
-      - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases@latest
+      - name: 'Checkout source code'
+        uses: 'actions/checkout@v3'
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          lfs: true
+          fetch-depth: 0
+
+      - name: '🔧 setup node'
+        uses: actions/setup-node@v3
+        with:
+          cache: 'yarn'
+          node-version: 16
+          cache-dependency-path: 'yarn.lock'
+
+      - run: 'yarn install --frozen-lockfile'
+      - run: 'yarn lint'
+      - run: 'yarn build'
+      - run: 'yarn jest --env=node --colors --forceExit'
+
+      - uses: 'marvinpinto/action-automatic-releases@latest'
+        with:
+          repo_token: '${{ secrets.GITHUB_TOKEN }}'
           prerelease: false
-          title: "Last build: ${{ github.sha }}"
           files: |
-            *
+            packages/automatic-releases/dist/index.js
+        id: 'automatic_releases'
+
+      # marvinpinto/action-automatic-releases
+      - name: 'Automatically mirror release artifacts'
+        env:
+          GITHUB_SUPER_TOKEN: ${{ secrets.GITHUB_SUPER_TOKEN }}
+        run: |
+          ./scripts/mirror-actions.sh "$AUTOMATIC_RELEASES_TAG"
