@@ -56,7 +56,6 @@ jobs:
           echo "New version: $new_version" # Print the new version for debugging
           echo "::set-output name=version::$new_version"
 
-
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
