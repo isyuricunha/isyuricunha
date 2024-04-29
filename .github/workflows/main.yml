@@ -60,9 +60,9 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "v${{ steps.increment_version.outputs.version }}"
+          automatic_release_tag: "${{ steps.increment_version.outputs.version }}"
           prerelease: false
-          title: "Release v${{ steps.increment_version.outputs.version }}"
+          title: "Release ${{ steps.increment_version.outputs.version }}"
           files: |
             *
 
