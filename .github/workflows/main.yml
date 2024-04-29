@@ -71,7 +71,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
           DEFAULT_BUMP: patch
-          BRANCH_HISTORY: compare
+          BRANCH_HISTORY: full
           TAG_NAME: "v${{ steps.taggerFinal.outputs.new_tag }}"
 
       - name: commit readme
