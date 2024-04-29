@@ -29,6 +29,28 @@ jobs:
       - name: readme update
         run: python update_readme.py
 
+        steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+      
+      - name: "Build & test"
+        run: |
+          echo "done!"
+
+      - name: "Get latest tag"
+        id: latest_tag
+        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "v${{ steps.parse_tag.outputs.version }}"
+          prerelease: false
+          title: "Release v${{ steps.parse_tag.outputs.version }}"
+          files: |
+            *
+
       - name: commit readme
         run: |
           git config user.name "${GITHUB_ACTOR}"
