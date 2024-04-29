@@ -47,8 +47,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && format('v%s', github.run_number) || github.ref }}
-          name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && format('Release v%s', github.run_number) || github.ref }}
+          tag_name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && 'v' + github.run_number || github.ref }}
+          name: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && 'Release v' + github.run_number || github.ref }}
           body: |
             Changes in this release:
             - Update readme
