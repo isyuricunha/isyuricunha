@@ -46,7 +46,7 @@ jobs:
         uses: marvinpinto/auto-semantic-version@v1
 
       - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases@latest
+        uses: marvinpinto/action-automatic-releases
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ steps.version.outputs.next_tag }}"
