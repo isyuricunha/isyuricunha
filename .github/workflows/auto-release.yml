@@ -24,12 +24,13 @@ jobs:
         run: |
           echo "done!"
           
-      - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases@latest
+      - name: Create Stable release
+        if: ${{ github.ref != 'refs/heads/master' }}
+        uses: 'marvinpinto/action-automatic-releases@latest'
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: false
-          title: "Last build: ${{ github.sha }}"
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          draft: true
+          prerelease: ${{ contains(github.ref_name, '-') }}
+          title: librime ${{ github.ref_name }}
           files: |
             *
