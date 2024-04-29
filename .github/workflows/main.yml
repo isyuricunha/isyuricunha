@@ -2,7 +2,8 @@ name: update readme
 
 on:
   push:
-    branches: master
+    branches:
+      - master
   schedule:
     - cron: "*/15 * * * *" # 15 minutes update quote/link/info
 
@@ -31,59 +32,33 @@ jobs:
 
       - name: "Checkout repository"
         uses: actions/checkout@v2
-      
+
       - name: "Build & test"
         run: |
           echo "done!"
 
       - name: "Get latest tag"
         id: latest_tag
-        run: |
-          latest_tag=$(git describe --abbrev=0 --tags 2>/dev/null || echo "v0.0.0")
-          echo "::set-output name=tag::$latest_tag"
+        run: echo "::set-output name=tag::$(git describe --abbrev=0 --tags)"
 
-      - name: "Parse and increment version"
-        id: parse_tag
-        run: |
-          python <<EOF
-          import re
+      - name: "Automatic versioning"
+        id: version
+        uses: marvinpinto/auto-semantic-version@v1
 
-          def parse_version(tag):
-          match = re.search(r"^v(\d+)\.(\d+)\.(\d+)", tag)
-          if match:
-          return {
-          "major": int(match.group(1)),
-          "minor": int(match.group(2)),
-          "patch": int(match.group(3)) + 1
-          }
-          else:
-          return {"major": 0, "minor": 0, "patch": 0}
-
-          def format_version(version):
-          return f"v{version['major']}.{version['minor']}.{version['patch']}"
-
-          # Get version from previous step output
-          tag = '${{ steps.latest_tag.outputs.tag }}'
-          version_data = parse_version(tag)
-          new_version = format_version(version_data)
-
-          print(f"::set-output name=version::{new_version}")
-          EOF
-          
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "${{ steps.parse_tag.outputs.version }}"
+          automatic_release_tag: "${{ steps.version.outputs.next_tag }}"
           prerelease: false
-          title: "Release v${{ steps.parse_tag.outputs.version }}"
+          title: "Release ${{ steps.version.outputs.next_tag }}"
           files: |
             *
 
-      - name: commit readme
+      - name: "Commit readme"
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add .
           git commit -am "update info/link/quote, idk"
-          git push --all --tags -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git push --all --tags -f "https://github.com/${{ github.repository }}"
