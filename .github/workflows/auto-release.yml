@@ -1,33 +1,32 @@
-name: update readme
+name: "pre-release"
 
 on:
   push:
-    branches: master
-  schedule:
-    - cron: "*/15 * * * *" # 15 minutes update quote/link/info
+    branches:
+      - "master"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.11]
+  pre-release:
+    name: "Pre Release"
+    runs-on: "ubuntu-latest"
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: config python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Install dependencies
+      - name: "Checkout repository"
+        uses: actions/checkout@v2
+      
+      - name: "Build & test"
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: readme update
-        run: python update_readme.py
+          echo "done!"
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "${{ github.sha }}"
+          prerelease: false
+          title: "Development Build: ${{ github.sha }}"
+          files: |
+            *
 
       - name: commit readme
         run: |
