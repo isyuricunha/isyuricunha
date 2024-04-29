@@ -35,23 +35,22 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add README.md
-          git commit -m "update info/link/quote, idk"
-          git push origin master
-
-      - name: "Generate tag and create release"
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: "Build & test"
+        run: |
+          echo "done!"
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this release:
-            - Update readme
-          draft: false
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
           prerelease: false
+          title: "Last build: ${{ github.sha }}"
+          files: |
+            *
+
+                 prerelease: false
 
       - name: Minor version for each merge
         id: taggerDryRun
@@ -80,3 +79,26 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
+
+
+      - name: commit readme
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git add README.md
+          git commit -am "update info/link/quote, idk"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+
+      - name: "Generate tag and create release"
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this release:
+            - Update readme
+          draft: false
+ 
