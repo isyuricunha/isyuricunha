@@ -4,7 +4,7 @@ on:
   push:
     branches: master
     tags:
-      - '[0-9]+.*'
+      - "[0-9]+.*"
   schedule:
     - cron: "*/15 * * * *" # 15 minutes update quote/link/info
 
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      
+
       - name: "Build & test"
         run: |
           echo "done!"
@@ -60,9 +60,8 @@ jobs:
       - name: echo part
         run: |
           echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
-    # DO MY BUILD HERE
-    # IN CASE OF FAILURE, THE STEP BELOW WILL NOT RUN.
-    
+      # DO MY BUILD HERE
+      # IN CASE OF FAILURE, THE STEP BELOW WILL NOT RUN.
 
       - name: Minor version for each merge
         id: taggerFinal
@@ -91,7 +90,7 @@ jobs:
           tag_name: ${{ steps.taggerFinal.outputs.new_tag }}
           release_name: Release ${{ steps.taggerFinal.outputs.new_tag }}
           draft: false
-          
+
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:

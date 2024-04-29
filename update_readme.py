@@ -30,6 +30,9 @@ i solve complex data management challenges by designing, implementing, and maint
 **find me on the web:**<br>
 [website](https://yuricunha.com), [quick links](https://links.yuricunha.com), [meeting with me](https://cal.com/isyuricunha)
 
+**join in my social media, privacy-first focused:**<br>
+[memo](https://memo.yuricunha.com/) - no ad, trackers, email, phone number or others stuff
+
 **link with me:**<br>
 [x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [mail](mailto:isyuricunha@duck.com), [boo](https://signup.boo.world/jejk), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
