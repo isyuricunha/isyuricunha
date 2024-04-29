@@ -2,8 +2,7 @@ name: update readme and deploy new release
 
 on:
   push:
-    branches:
-      - master
+    branches: master
     tags:
       - '[0-9]+.*'
   schedule:
@@ -17,11 +16,10 @@ jobs:
         python-version: [3.11]
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+      - name: config python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -30,57 +28,75 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Update readme
+      - name: readme update
         run: python update_readme.py
 
-      - name: Commit changes
+      - name: commit readme
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      
+      - name: "Build & test"
+        run: |
+          echo "done!"
+          
+      - name: "Generate changelog and create release"
+        uses: marvinpinto/action-automatic-releases@latest
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Last build: ${{ github.sha }}"
+          files: |
+            *
+
+      - name: Minor version for each merge
+        id: taggerDryRun
+        uses: anothrNick/github-tag-action@1.36.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WITH_V: true
+          DRY_RUN: true
+
+      - name: echo new tag
+        run: |
+          echo "The next tag version will be: ${{ steps.taggerDryRun.outputs.new_tag }}"
+      - name: echo tag
+        run: |
+          echo "The current tag is: ${{ steps.taggerDryRun.outputs.tag }}"
+      - name: echo part
+        run: |
+          echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
+    # DO MY BUILD HERE
+    # IN CASE OF FAILURE, THE STEP BELOW WILL NOT RUN.
+    
+
+      - name: Minor version for each merge
+        id: taggerFinal
+        uses: anothrNick/github-tag-action@1.36.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WITH_V: true
+
+
+      - name: commit readme
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add README.md
-          git commit -m "Update info/link/quote"
-          git push
-      
-      - name: Determine tag name
-        id: tag_name
-        run: |
-          if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" == 'refs/heads/master' ]; then
-            echo "v${{ github.run_number }}";
-          else
-            echo "${{ github.ref }}";
-          fi
-        shell: bash
-      
-      - name: Determine release name
-        id: release_name
-        run: |
-          if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref }}" == 'refs/heads/master' ]; then
-            echo "Release v${{ github.run_number }}";
-          else
-            echo "${{ github.ref }}";
-          fi
-        shell: bash
-      
-      - name: Check if tag exists
-        id: check_tag
-        run: echo ::set-output name=tag_exists::$(if [ "${{ github.event_name }}" == 'push' ] && [ "${{ github.ref_type }}" == 'tag' ]; then echo "true"; else echo "false"; fi)
-        
-      - name: Create GitHub Release
+          git commit -am "update info/link/quote, idk"
+          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+
+      - name: "Generate tag and create release"
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.tag_name.outputs.stdout }}
-          release_name: ${{ steps.release_name.outputs.stdout }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
           body: |
             Changes in this release:
             - Update readme
           draft: false
-        if: steps.check_tag.outputs.tag_exists == 'true'
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: release-artifact
-          path: '*' # Include all files in the release artifact
+ 
