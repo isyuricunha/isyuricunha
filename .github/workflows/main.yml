@@ -60,6 +60,9 @@ jobs:
           echo "$new_tag"
           git tag -a "$new_tag" -m "Version $new_tag"
 
+      - name: Push new tag
+        run: git push origin $new_tag
+
       - name: "Build & test"
         run: |
           echo "done!"
