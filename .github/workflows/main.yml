@@ -46,8 +46,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           WITH_V: true
+          DRY_RUN: true
           DEFAULT_BUMP: patch
-          BRANCH_HISTORY: full
+          BRANCH_HISTORY: compare
           TAG_NAME: "v${{ steps.taggerDryRun.outputs.new_tag }}"
 
       - name: echo new tag
@@ -71,7 +72,6 @@ jobs:
           WITH_V: true
           DEFAULT_BUMP: patch
           BRANCH_HISTORY: full
-          DRY_RUN: true
           TAG_NAME: "v${{ steps.taggerFinal.outputs.new_tag }}"
 
       - name: commit readme
