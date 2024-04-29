@@ -1,4 +1,4 @@
-name: update readme
+name: update readme and deploy new release
 
 on:
   push:
@@ -42,7 +42,7 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
+          automatic_release_tag: true
           prerelease: false
           title: "Last build: ${{ github.sha }}"
           files: |
