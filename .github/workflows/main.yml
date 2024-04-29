@@ -29,7 +29,6 @@ jobs:
       - name: readme update
         run: python update_readme.py
 
-        steps:
       - name: "Checkout repository"
         uses: actions/checkout@v2
       
