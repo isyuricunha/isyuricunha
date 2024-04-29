@@ -31,15 +31,11 @@ jobs:
       - name: readme update
         run: python update_readme.py
 
-      - name: commit readme
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-      
       - name: "Build & test"
         run: |
           echo "done!"
-          
+
+      # Gera o changelog e cria uma release
       - name: "Generate changelog and create release"
         uses: marvinpinto/action-automatic-releases@latest
         with:
@@ -50,55 +46,31 @@ jobs:
           files: |
             *
 
-                 prerelease: false
-
-      - name: Minor version for each merge
-        id: taggerDryRun
-        uses: anothrNick/github-tag-action@1.36.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WITH_V: true
-          DRY_RUN: true
-
-      - name: echo new tag
+      # Define a nova tag usando o número da versão (sem hash do commit)
+      - name: "Set release tag"
+        id: set_release_tag
         run: |
-          echo "The next tag version will be: ${{ steps.taggerDryRun.outputs.new_tag }}"
-      - name: echo tag
-        run: |
-          echo "The current tag is: ${{ steps.taggerDryRun.outputs.tag }}"
-      - name: echo part
-        run: |
-          echo "The version increment was: ${{ steps.taggerDryRun.outputs.part }}"
-    # DO MY BUILD HERE
-    # IN CASE OF FAILURE, THE STEP BELOW WILL NOT RUN.
-    
+          TAG=$(echo "${GITHUB_REF}" | sed -E 's/refs\/tags\/(.*)/\1/g')
+          git tag "${TAG}" "${GITHUB_SHA}"
+          echo "::set-output name=tag::${TAG}"
 
-      - name: Minor version for each merge
-        id: taggerFinal
-        uses: anothrNick/github-tag-action@1.36.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          WITH_V: true
-
-
-      - name: commit readme
+      # Commit e push para adicionar a tag ao repositório
+      - name: "Commit and push tag"
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add README.md
-          git commit -am "update info/link/quote, idk"
-          git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git push origin "${TAG}"
 
-      - name: "Generate tag and create release"
+      # Cria a release usando a tag definida
+      - name: "Create release"
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ steps.set_release_tag.outputs.tag }}
+          release_name: Release ${{ steps.set_release_tag.outputs.tag }}
           body: |
             Changes in this release:
             - Update readme
           draft: false
- 
