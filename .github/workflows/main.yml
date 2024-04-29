@@ -2,8 +2,8 @@ name: update readme and deploy new release
 
 on:
   push:
-    branches: [ master ]
-    tags: # Include tags for automatic release on tag push
+    branches: master
+    tags:
       - '[0-9]+.*'
   schedule:
     - cron: "*/15 * * * *" # 15 minutes update quote/link/info
@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Configure Python ${{ matrix.python-version }}
+      - name: config python ${{ matrix.python-version }}
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
@@ -28,39 +28,27 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Update readme
+      - name: readme update
         run: python update_readme.py
 
-      - name: Commit readme changes
+      - name: commit readme
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git add README.md
-          git commit -m "Update info/link/quote"  # Clear and concise commit message
+          git commit -m "update info/link/quote, idk"
+          git push origin master
 
-      - name: "Build & test"
-        # Assuming you don't currently have a build & test step,
-        # remove this line if not applicable to your workflow.
-        run: |
-          echo "Implement your build and test commands here"
-          # ...
-
-      - name: Create a lightweight tag (if not on a tag push)
-        run: |
-          if [[ ${GITHUB_REF_TYPE} != "tag" ]]; then
-            git tag -l | grep -Eq "^${GITHUB_SHA}$" || git tag "${GITHUB_SHA}"
-          fi
-
-      - name: "Generate changelog and create release"
-        uses: marvinpinto/action-automatic-releases@latest
+      - name: "Generate tag and create release"
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          automatic_release_tag: ${{ github.sha }}  # Use the commit SHA for the tag name
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            Changes in this release:
+            - Update readme
+          draft: false
           prerelease: false
-          title: "Release based on commit: ${{ github.sha }}"
-          files: |
-            *
-
-      - name: Push changes (including tag, if created)
-        run: |
-          git push --follow-tags origin  # Push all commits and created tags
