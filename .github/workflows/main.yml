@@ -73,6 +73,7 @@ jobs:
             Changes in this release:
             - Update readme
           draft: false
+        if: steps.tag_name.outputs.stdout != 'refs/heads/master' # Run the action only if the tag is not 'refs/heads/master'
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
