@@ -19,4 +19,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
 
 **a sentence to brighten your day:**<br>
-    don’t stop when you’re tired. stop when you’re done
+    success is not the key to happiness. happiness is the key to success. if you love what you are doing, you will be successful.
