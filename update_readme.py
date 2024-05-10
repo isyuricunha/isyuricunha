@@ -25,7 +25,7 @@ def generate_markdown_sentence(line):
     return f'''
 #### database administrator based in brazil.
 
-i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database solutions
+i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud and server solutions
 
 **find me on the web:**<br>
 [website](https://yuricunha.com), [quick links](https://links.yuricunha.com), [meeting with me](https://cal.com/isyuricunha)
