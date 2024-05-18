@@ -19,4 +19,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
 
 **a sentence to brighten your day:**<br>
-    it does not matter how slowly you go as long as you do not stop
+    forget about style; worry about results
