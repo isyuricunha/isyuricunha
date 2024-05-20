@@ -19,4 +19,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
 
 **a sentence to brighten your day:**<br>
-    if you’re going through hell, kegep going
+    the greatest glory in living lies not in never falling, but in rising every time we fall
