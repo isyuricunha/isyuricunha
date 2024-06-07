@@ -1,22 +1,19 @@
 
-#### database administrator based in brazil.
+#### database administrator.
 
 i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud and server solutions
 
 **find me on the web:**<br>
-[website](https://yuricunha.com), [quick links](https://links.yuricunha.com), [meeting with me](https://cal.com/isyuricunha)
-
-**join in my social media, privacy-first focused:**<br>
-[memo](https://memo.yuricunha.com/) - no ad, trackers, email, phone number or others stuff
+[website](https://yuricunha.com) and [quick links](https://links.yuricunha.com)
 
 **link with me:**<br>
-[x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [mail](mailto:isyuricunha@duck.com), [boo](https://signup.boo.world/jejk), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
+[x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [mail](mailto:isyuricunha@duck.com), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
 **last two blog post:**<br>
-[navigating contradictions in life](https://yuricunha.com/blog/navigating-contradictions-in-life) and [im glad you’re here. dont go anywhere](https://yuricunha.com/blog/im-glad-youre-here-dont-go-anywhere)
+[reflections of a conflicted impostor](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) and [navigating contradictions in life](https://yuricunha.com/blog/navigating-contradictions-in-life)
 
 **podcast and last ep:**<br>
-[yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [eu nasci na geração errada](https://open.spotify.com/episode/720qm2ZXIGVodsPvDUYjU5)
+[yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [reflections of a conflicted impostor](https://open.spotify.com/episode/28601w7FP7PjsAHzaULo4x?si=wLqWnng5SUKnQbfXQ1zogw)
 
 **a sentence to brighten your day:**<br>
-    we can do anything we want to if we stick to it long enough
+    you matter
