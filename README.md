@@ -16,4 +16,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [yuri cunha - blog speech](https://open.spotify.com/show/2XRQ2mpUbtT0ZqxFVrl0KK) and [reflections of a conflicted impostor](https://open.spotify.com/episode/28601w7FP7PjsAHzaULo4x?si=wLqWnng5SUKnQbfXQ1zogw)
 
 **a sentence to brighten your day:**<br>
-    wake up with determination. go to bed with satisfaction
+    the secret of getting ahead is getting started.
