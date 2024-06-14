@@ -1,5 +1,5 @@
 
-#### database administrator.
+**database administrator**
 
 i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud and server/hardware solutions
 
@@ -13,4 +13,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    success doesn't just find you. you have to go out and get it.
+    the true success is the person who invented himself
