@@ -1,4 +1,3 @@
-
 **database administrator**
 
 i solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud and server/hardware solutions
