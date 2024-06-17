@@ -13,4 +13,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    our greatest glory is not in never falling, but in rising every time we fall
+    leave no stone unturned
