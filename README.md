@@ -13,4 +13,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    keep going. be all in
+    the only person you should try to be better than is the person you were yesterday
