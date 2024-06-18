@@ -13,4 +13,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the best time to plant a tree was 20 years ago. the second best time is now
+    don't watch the clock; do what it does. keep going
