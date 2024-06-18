@@ -13,4 +13,4 @@ i solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    do not wait to strike till the iron is hot; but make it hot by striking
+    the best time to plant a tree was 20 years ago. the second best time is now
