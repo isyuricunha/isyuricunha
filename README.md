@@ -13,4 +13,4 @@ I solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the only limit is your mind.
+    life is 10% what happens to us and 90% how we react to it
