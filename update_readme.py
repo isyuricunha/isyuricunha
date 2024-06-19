@@ -24,6 +24,7 @@ def read_lines_from_json():
 def generate_markdown_sentence(line):
     return f'''
 **database administrator**
+
 I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
 
 **find me on the web:**<br>
