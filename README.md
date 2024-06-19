@@ -3,7 +3,7 @@
 
 I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
 
-if you usa any of my services, you can check the status of service here:
+if you usa any of my services, you can check the status of service here:<br>
 [status page](https://status-page.yuricunha.com/)
 
 **find me on the web:**<br>
@@ -16,4 +16,4 @@ if you usa any of my services, you can check the status of service here:
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    great things never come from comfort zones
+    success is walking from failure to failure with no loss of enthusiasm
