@@ -1,5 +1,6 @@
 
 **database administrator**
+
 I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
 
 **find me on the web:**<br>
@@ -12,4 +13,4 @@ I solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    let go
+    dream bigger. do bigger
