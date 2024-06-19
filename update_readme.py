@@ -27,6 +27,9 @@ def generate_markdown_sentence(line):
 
 I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
 
+if you usa any of my services, you can check the status of service here:
+[status page](https://status-page.yuricunha.com/)
+
 **find me on the web:**<br>
 [website](https://yuricunha.com) and [quick links](https://links.yuricunha.com)
 
