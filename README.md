@@ -3,6 +3,9 @@
 
 I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
 
+if you usa any of my services, you can check the status of service here:
+[status page](https://status-page.yuricunha.com/)
+
 **find me on the web:**<br>
 [website](https://yuricunha.com) and [quick links](https://links.yuricunha.com)
 
@@ -13,4 +16,4 @@ I solve complex data management challenges by designing, implementing, and maint
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    life is 10% what happens to us and 90% how we react to it
+    great things never come from comfort zones
