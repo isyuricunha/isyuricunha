@@ -16,4 +16,4 @@ if you usa any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the only way to achieve the impossible is to believe it is possible.
+    a champion is defined not by their wins but by how they can recover when they fall.
