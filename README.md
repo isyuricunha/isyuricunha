@@ -16,4 +16,4 @@ if you usa any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/reflections-of-a-conflicted-impostor) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    our greatest glory is not in never falling, but in rising every time we fall
+    the only way to do great work is to love what you do.
