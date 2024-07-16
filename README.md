@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    you matter
+    all progress takes place outside the comfort zone
