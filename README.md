@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    a champion is defined not by their wins but by how they can recover when they fall.
+    it does not matter how slowly you go as long as you do not stop
