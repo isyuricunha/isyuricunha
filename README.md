@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    success is not the key to happiness. happiness is the key to success. if you love what you are doing, you will be successful.
+    a champion is defined not by their wins but by how they can recover when they fall.
