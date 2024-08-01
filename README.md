@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the fastest road to meaning and success: choose one thing and go all in
+    keep your face always toward the sunshine—and shadows will fall behind you
