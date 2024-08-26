@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    don't watch the clock; do what it does. keep going
+    what you do today can improve all your tomorrows.
