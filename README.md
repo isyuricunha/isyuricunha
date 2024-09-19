@@ -10,10 +10,10 @@ if you use any of my services, you can check the status of service here:<br>
 [website](https://yuricunha.com) and [quick links](https://links.yuricunha.com)
 
 **link with me:**<br>
-[x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [mail](mailto:me@yuricunha.com), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
+[x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [email for personal purpose](mailto:me@yuricunha.com), [email for work purpose](mailto:contact@yuricunha.com) [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
 
 **blogs:**<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    do not wait for opportunity. create it
+    don't limit your challenges. challenge your limits
