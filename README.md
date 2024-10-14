@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    life is what happens when you’re busy making other plans
+    you are never too old to set another goal or to dream a new dream
