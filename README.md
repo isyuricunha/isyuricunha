@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    if you are not willing to risk the usual, you will have to settle for the ordinary
+    the greatest glory in living lies not in never falling, but in rising every time we fall
