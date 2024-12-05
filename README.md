@@ -16,4 +16,4 @@ if you use any of my services, you can check the status of service here:<br>
 [website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    your time is limited, don't waste it living someone else's life
+    you can totally do this
