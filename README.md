@@ -6,19 +6,19 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 if you're using any of my services, you can monitor their status here:<br>
 [Status Page](https://status-page.yuricunha.com/)
 
-**Find me on the web:**<br>
+**find me on the web:**<br>
 [personal website](https://yuricunha.com) | [quick links](https://links.yuricunha.com)
 
-**Connect with me:**<br>
+**connect with me:**<br>
 - [x/twitter](https://twitter.com/isyuricunha)  
 - [read.cv](https://read.cv/isyuricunha)  
 - [email (personal)](mailto:me@yuricunha.com)  
 - [email (work)](mailto:contact@yuricunha.com)  
 - [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)  
 
-**Blogs:**<br>
+**blogs:**<br>
 - [website blog](https://yuricunha.com/blog/)  
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    the best is yet to come
+    your time is limited, don't waste it living someone else's life
