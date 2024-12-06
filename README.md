@@ -7,7 +7,7 @@ if you're using any of my services, you can monitor their status here:<br>
 [status Page](https://status-page.yuricunha.com/)
 
 **find me on the web:**<br>
-[personal website](https://yuricunha.com/?utm_source=yuricunha.com) | [quick links](https://links.yuricunha.com)
+[personal website](https://yuricunha.com/?utm_source=github.com) | [quick links](https://links.yuricunha.com)
 
 **connect with me:**<br>
 - [x/twitter](https://twitter.com/isyuricunha)  
@@ -17,8 +17,8 @@ if you're using any of my services, you can monitor their status here:<br>
 - [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)  
 
 **blogs:**<br>
-- [website blog](https://yuricunha.com/blog/?utm_source=yuricunha.com)  
+- [website blog](https://yuricunha.com/blog/?utm_source=github.com)  
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    believe you can and you're halfway there.
+    choose joy
