@@ -23,21 +23,26 @@ def read_lines_from_json():
 
 def generate_markdown_sentence(line):
     return f'''
-**database administrator**
+**cloud and infrastructure specialist**
 
-I solve complex data management challenges by designing, implementing, and maintaining high-performance, scalable, and secure database, cloud, and server/hardware solutions
+i design, implement, and maintain robust, scalable, and secure infrastructure solutions for servers, clouds, and enterprise environments. with a focus on reliability and performance, i ensure systems run efficiently and effectively, solving challenges from hardware to the cloud.
 
-if you use any of my services, you can check the status of service here:<br>
-[status page](https://status-page.yuricunha.com/)
+if you're using any of my services, you can monitor their status here:<br>
+[Status Page](https://status-page.yuricunha.com/)
 
-**find me on the web:**<br>
-[website](https://yuricunha.com) and [quick links](https://links.yuricunha.com)
+**Find me on the web:**<br>
+[personal website](https://yuricunha.com) | [quick links](https://links.yuricunha.com)
 
-**link with me:**<br>
-[x/twitter](https://twitter.com/isyuricunha), [readcv](https://read.cv/isyuricunha), [email for personal purpose](mailto:me@yuricunha.com), [email for work purpose](mailto:contact@yuricunha.com), [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
+**Connect with me:**<br>
+- [x/twitter](https://twitter.com/isyuricunha)  
+- [read.cv](https://read.cv/isyuricunha)  
+- [email (personal)](mailto:me@yuricunha.com)  
+- [email (work)](mailto:contact@yuricunha.com)  
+- [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)  
 
-**blogs:**<br>
-[website blog](https://yuricunha.com/blog/) & [bear blog](https://yuricunha.bearblog.dev/)
+**Blogs:**<br>
+- [website blog](https://yuricunha.com/blog/)  
+- [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
     {line}
