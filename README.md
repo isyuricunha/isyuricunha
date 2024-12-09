@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    it's not about how bad you want it. it's about how hard you're willing to work for it.
+    don't watch the clock; do what it does. keep going
