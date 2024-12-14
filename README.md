@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    keep your face always toward the sunshine—and shadows will fall behind you
+    push yourself, because no one else is going to do it for you.
