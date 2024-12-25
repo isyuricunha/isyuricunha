@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    push yourself, because no one else is going to do it for you.
+    the best time to plant a tree was 20 years ago. the second best time is now
