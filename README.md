@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    success is not the key to happiness. happiness is the key to success
+    do not wait to strike till the iron is hot; but make it hot by striking
