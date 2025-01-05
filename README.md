@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    don't wait for opportunity. create it.
+    the harder you work for something, the greater you'll feel when you achieve it.
