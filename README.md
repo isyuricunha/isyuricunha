@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    do not wait to strike till the iron is hot; but make it hot by striking
+    success is not final, failure is not fatal: it is the courage to continue that counts.
