@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    our greatest glory is not in never falling, but in rising every time we fall
+    if it matters to you, you’ll find a way
