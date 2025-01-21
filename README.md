@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    life is 10% what happens to us and 90% how we react to it
+    the only way to achieve the impossible is to believe it is possible.
