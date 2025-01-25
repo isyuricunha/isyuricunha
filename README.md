@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    too many of us are not living our dreams because we are living our fears
+    you can’t use up creativity. the more you use, the more you have
