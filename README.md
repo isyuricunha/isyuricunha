@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    you can’t use up creativity. the more you use, the more you have
+    the harder you work for something, the greater you'll feel when you achieve it.
