@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    the journey of a thousand miles begins with one step.
+    the best time to plant a tree was 20 years ago. the second best time is now
