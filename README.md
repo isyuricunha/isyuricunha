@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    success is walking from failure to failure with no loss of enthusiasm.
+    what you do today can improve all your tomorrows.
