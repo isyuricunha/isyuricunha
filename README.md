@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    hardships often prepare ordinary people for an extraordinary destiny.
+    success is walking from failure to failure with no loss of enthusiasm.
