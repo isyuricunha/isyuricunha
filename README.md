@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    you miss 100% of the shots you don’t take
+    if you are not willing to risk the usual, you will have to settle for the ordinary
