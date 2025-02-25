@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    the best way to predict the future is to create it
+    what you get by achieving your goals is not as important as what you become by achieving your goals
