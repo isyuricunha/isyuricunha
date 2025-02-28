@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    you are enough just as you are
+    success is not the key to happiness. happiness is the key to success. if you love what you are doing, you will be successful.
