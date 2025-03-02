@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    dream it. wish it. do it
+    do something today that your future self will thank you for.
