@@ -4,7 +4,7 @@
 i design, implement, and maintain robust, scalable, and secure infrastructure solutions for servers, clouds, and enterprise environments. with a focus on reliability and performance, i ensure systems run efficiently and effectively, solving challenges from hardware to the cloud.
 
 if you're using any of my services, you can monitor their status here:<br>
-[status page](https://status-page.yuricunha.com/)
+[monitor page](https://monitor.yuricunha.com/status/public)
 
 **find me on the web:**<br>
 [personal website](https://yuricunha.com/?utm_source=github.com) | [quick links](https://links.yuricunha.com)
@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    if it matters to you, you’ll find a way
+    the only limit is your mind.
