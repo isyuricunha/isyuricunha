@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    what you do today can improve all your tomorrows.
+    the greatest glory in living lies not in never falling, but in rising every time we fall
