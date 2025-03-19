@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    every noble work is at first impossible
+    if you are not willing to risk the usual, you will have to settle for the ordinary
