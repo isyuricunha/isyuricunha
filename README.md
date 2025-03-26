@@ -21,4 +21,4 @@ if you're using any of my services, you can monitor their status here:<br>
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    success is the sum of small efforts repeated day in and day out.
+    a comfort zone is a beautiful place, but nothing ever grows there.
