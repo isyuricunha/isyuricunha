@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    solitary trees, if they grow at all, grow strong
+    don’t stop when you’re tired. stop when you’re done
