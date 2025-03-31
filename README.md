@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    success doesn’t just find you. you have to go out and get it
+    the only way to achieve the impossible is to believe it is possible
