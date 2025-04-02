@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    what you do today can improve all your tomorrows.
+    success is not the key to happiness. happiness is the key to success. if you love what you are doing, you will be successful.
