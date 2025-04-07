@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    the best is yet to come
+    try again. fail again. fail better
