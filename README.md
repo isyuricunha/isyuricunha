@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    i would rather die on my feet than live on my knees
+    prove them wrong
