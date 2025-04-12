@@ -18,4 +18,4 @@ i design, implement, and maintain robust, scalable, and secure infrastructure so
 - [bear blog](https://yuricunha.bearblog.dev/)  
 
 **a sentence to brighten your day:**<br>
-    no pressure, no diamonds
+    success is not final, failure is not fatal: it is the courage to continue that counts
