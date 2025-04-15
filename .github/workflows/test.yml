@@ -1,24 +1,16 @@
 on:
-  release:
-    types: [published]
-name: test-action
+  push:
+    branches:
+      - master
+name: release-please
 jobs:
-  github-releases-to-discord:
+  release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Github Releases To Discord
-        uses: ./ # Uses an action in the root directory
+      - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
-          webhook_url: ${{ inputs.WEBHOOK_URL }}
-          color: ${{ inputs.COLOR }}
-          username: ${{ inputs.USERNAME }}
-          avatar_url: ${{ inputs.AVATAR_URL }}
-          content: ${{ inputs.CONTENT }}
-          footer_title: ${{ inputs.FOOTER_TITLE }}
-          footer_icon_url: ${{ inputs.FOOTER_ICON_URL }}
-          footer_timestamp: ${{ inputs.FOOTER_TIMESTAMP }}
-          max_description: ${{ inputs.MAX_DESCRIPTION }}
-          reduce_headings: ${{ inputs.REDUCE_HEADINGS }}
-          
+          release-type: node
+          package-name: release-please-action
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"revert","section":"Reverts","hidden":false},{"type":"docs","section":"Documentation","hidden":false},{"type":"style","section":"Styles","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false},{"type":"refactor","section":"Code Refactoring","hidden":false}]'
