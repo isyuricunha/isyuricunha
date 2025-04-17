@@ -18,4 +18,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    dream bigger. do bigger
+    the best time to plant a tree was 20 years ago. the second best time is now
