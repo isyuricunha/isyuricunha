@@ -18,4 +18,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    don’t stop when you’re tired. stop when you’re done
+    the best revenge is massive success
