@@ -18,4 +18,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    it does not matter how slowly you go as long as you do not stop
+    keep moving forward
