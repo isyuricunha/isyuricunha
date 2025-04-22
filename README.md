@@ -18,4 +18,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    life is 10% what happens to us and 90% how we react to it
+    it’s going to be hard, but hard does not mean impossible
