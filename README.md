@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    be in the now
+    success doesn't just find you. you have to go out and get it.
