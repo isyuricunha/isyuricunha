@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    solitary trees, if they grow at all, grow strong
+    the future belongs to those who believe in the beauty of their dreams
