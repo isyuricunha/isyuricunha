@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the only limit is your mind.
+    you are never too old to set another goal or to dream a new dream.
