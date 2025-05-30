@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    he who is brave is free
+    you miss 100% of the shots you don’t take
