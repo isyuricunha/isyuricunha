@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    don't wait for opportunity. create it.
+    hardships often prepare ordinary people for an extraordinary destiny.
