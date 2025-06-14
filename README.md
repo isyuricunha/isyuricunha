@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    whatever the mind of man can conceive and believe, it can achieve
+    keep your face always toward the sunshine—and shadows will fall behind you
