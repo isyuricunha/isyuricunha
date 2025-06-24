@@ -6,7 +6,7 @@ on:
     tags:
       - "[0-9]+.*"
   schedule:
-    - cron: "0 */24 * * *" # 6 hours update quote/link/info
+    - cron: "0 */24 * * *" # 24 hours update quote/link/info
 
 jobs:
   build:
