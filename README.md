@@ -17,4 +17,4 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    dream bigger. do bigger
+    hardships often prepare ordinary people for an extraordinary destiny.
