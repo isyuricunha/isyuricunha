@@ -42,6 +42,12 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 
 **a sentence to brighten your day:**<br>
     {line}
+
+---
+
+✅ Use in videos and streaming is permitted. <br>
+❌ Modification, redistribution, and claiming original authorship are NOT permitted. <br>
+❌ AI training or learning use is NOT permitted. <br>
 '''
 
 def write_readme(text):
