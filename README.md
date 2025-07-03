@@ -18,3 +18,9 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 
 **a sentence to brighten your day:**<br>
     enjoy the little things
+
+---
+
+✅ Use in videos and streaming is permitted.
+❌ Modification, redistribution, and claiming original authorship are NOT permitted.
+❌ AI training or learning use is NOT permitted.
