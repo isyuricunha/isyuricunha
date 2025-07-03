@@ -45,9 +45,10 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 
 ---
 
-✅ Use in videos and streaming is permitted. <br>
-❌ Modification, redistribution, and claiming original authorship are NOT permitted. <br>
-❌ AI training or learning use is NOT permitted. <br>
+- Use of the code or derived products in videos, streaming, or similar public media is permitted with proper credit to the Author.  
+- Modification, redistribution, or claiming original authorship without attribution is strictly forbidden.  
+- Use of the code, in any form or derivative, for AI training, machine learning, or any artificial intelligence development is expressly prohibited.
+
 '''
 
 def write_readme(text):
