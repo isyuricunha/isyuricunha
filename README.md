@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    boldness be my friend
+    it's not about how bad you want it. it's about how hard you're willing to work for it.
 
 ---
 
