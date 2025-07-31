@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    forget about style; worry about results
+    let him that would move the world first move himself
 
 ---
 
