@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    life is about making an impact, not making an income
+    don't watch the clock; do what it does. keep going.
 
 ---
 
