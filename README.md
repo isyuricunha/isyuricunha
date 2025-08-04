@@ -17,11 +17,9 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    don't watch the clock; do what it does. keep going.
+    you are never too old to set another goal or to dream a new dream
 
 ---
 
-- Use of the code or derived products in videos, streaming, or similar public media is permitted with proper credit to the Author.  
-- Modification, redistribution, or claiming original authorship without attribution is strictly forbidden.  
 - Use of the code, in any form or derivative, for AI training, machine learning, or any artificial intelligence development is expressly prohibited.
 
