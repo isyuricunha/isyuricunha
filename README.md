@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    every noble work is at first impossible
+    you can’t use up creativity. the more you use, the more you have
 
 ---
 
