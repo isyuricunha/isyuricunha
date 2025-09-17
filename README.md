@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    if you are not willing to risk the usual, you will have to settle for the ordinary
+    do what you can, with what you have, where you are
 
 ---
 
