@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the greatest glory in living lies not in never falling, but in rising every time we fall
+    no guts, no story
 
 ---
 
