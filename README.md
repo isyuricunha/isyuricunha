@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    believe you can and you're halfway there.
+    don't limit your challenges. challenge your limits
 
 ---
 
