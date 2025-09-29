@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    success is walking from failure to failure with no loss of enthusiasm
+    the harder you work for something, the greater you'll feel when you achieve it.
 
 ---
 
