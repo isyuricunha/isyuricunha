@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    it’s not a loss, it’s a lesson
+    the best way to predict the future is to create it
 
 ---
 
