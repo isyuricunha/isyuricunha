@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    if you want to achieve greatness stop asking for permission
+    the only way to achieve the impossible is to believe it is possible.
 
 ---
 
