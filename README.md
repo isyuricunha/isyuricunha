@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    the only way to achieve the impossible is to believe it is possible.
+    what you get by achieving your goals is not as important as what you become by achieving your goals
 
 ---
 
