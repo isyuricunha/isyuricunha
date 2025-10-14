@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    don't downgrade your dream just to fit your reality. upgrade your conviction to match your destiny
+    i can and i will
 
 ---
 
