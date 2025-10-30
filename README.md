@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    take it easy
+    success is not final, failure is not fatal: it is the courage to continue that counts
 
 ---
 
