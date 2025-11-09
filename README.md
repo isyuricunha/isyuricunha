@@ -17,7 +17,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    i would rather die on my feet than live on my knees
+    life is about making an impact, not making an income
 
 ---
 
