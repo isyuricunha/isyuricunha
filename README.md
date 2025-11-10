@@ -7,7 +7,7 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 [personal website](https://yuricunha.com/?utm_source=github.com) | [quick links](https://links.yuricunha.com)
 
 **connect with me:**<br>
-- [x/twitter](https://twitter.com/isyuricunha)  
+- [x/twitter](https://x.com/isyuricunha)  
 - [email (personal)](mailto:me@yuricunha.com)  
 - [email (work)](mailto:contact@yuricunha.com)  
 - [spotify](https://open.spotify.com/user/22wrcoowop6hb63heywvtaypy?si=e1e818483a1a43a1)
@@ -17,9 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    you are enough just as you are
-
----
-
-- Use of the code, in any form or derivative, for AI training, machine learning, or any artificial intelligence development is expressly prohibited.
+    the greatest glory in living lies not in never falling, but in rising every time we fall
 
