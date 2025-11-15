@@ -17,5 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    you miss 100% of the shots you don’t take
+    great things never come from comfort zones
 
