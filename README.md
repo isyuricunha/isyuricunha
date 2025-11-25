@@ -17,5 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    if you want to lift yourself up, lift up someone else
+    you are capable of more than you know.
 
