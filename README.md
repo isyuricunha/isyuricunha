@@ -17,5 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    push yourself, because no one else is going to do it for you
+    keep going. be all in
 
