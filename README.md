@@ -17,5 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    keep going. be all in
+    success is not the key to happiness. happiness is the key to success. if you love what you are doing, you will be successful.
 
