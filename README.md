@@ -17,5 +17,5 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [bear blog](https://yuricunha.bearblog.dev/)
 
 **a sentence to brighten your day:**<br>
-    let it be
+    life is what happens when you’re busy making other plans
 
