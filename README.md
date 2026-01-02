@@ -16,6 +16,9 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [website blog](https://yuricunha.com/blog/?utm_source=github.com)  
 - [bear blog](https://yuricunha.bearblog.dev/)
 
+so you know, i am trying to get used to conventional commits, it is a bit annoying, actually
+
+
 **a sentence to brighten your day:**<br>
-    don't wait for opportunity. create it.
+    hardships often prepare ordinary people for an extraordinary destiny.
 
