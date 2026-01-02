@@ -15,18 +15,18 @@ def download_json():
     """
     file_id = os.getenv('QUOTES_FILE_ID', DEFAULT_FILE_ID)
     file_url = f'https://drive.google.com/uc?id={file_id}'
-    
+
     print(f"downloading quotes from google drive...")
-    
+
     try:
         response = requests.get(file_url, timeout=10)
         response.raise_for_status()
-        
+
         with open('./quotes.json', 'wb') as quotes_file:
             quotes_file.write(response.content)
-        
+
         print("quotes downloaded successfully")
-        
+
     except requests.exceptions.Timeout:
         print("error: request timed out while downloading quotes")
         sys.exit(1)
@@ -44,24 +44,24 @@ def read_lines_from_json():
     returns a flat list of all quote lines.
     """
     print("reading quotes from file...")
-    
+
     try:
         with open('./quotes.json', 'r', encoding="utf-8") as quotes_file:
             quotes = json.load(quotes_file)
-        
+
         # flatten all lines from all quotes into a single list
         lines = []
         for quote in quotes:
             for line in quote.get("lines", []):
                 lines.append(line)
-        
+
         if not lines:
             print("warning: no quotes found in file")
             return ["no quote available today"]
-        
+
         print(f"found {len(lines)} quotes")
         return lines
-        
+
     except FileNotFoundError:
         print("error: quotes.json file not found")
         sys.exit(1)
@@ -95,6 +95,9 @@ i manage, configure, and optimize databases and data systems to ensure high avai
 - [website blog](https://yuricunha.com/blog/?utm_source=github.com)  
 - [bear blog](https://yuricunha.bearblog.dev/)
 
+so you know, i am trying to get used to conventional commits, it is a bit annoying, actually
+
+
 **a sentence to brighten your day:**<br>
     {line}
 
@@ -106,13 +109,13 @@ def write_readme(text):
     writes the generated markdown content to the readme file.
     """
     print("updating readme...")
-    
+
     try:
         with open("./README.md", "w", encoding='utf8') as readme_file:
             readme_file.write(text)
-        
+
         print("readme updated successfully")
-        
+
     except IOError as e:
         print(f"error: failed to write readme file - {e}")
         sys.exit(1)
@@ -124,22 +127,23 @@ def main():
     downloads quotes, picks a random one, and updates the readme.
     """
     print("starting readme update process...")
-    
+
     # download the quotes file from google drive
     download_json()
-    
+
     # read all quotes and pick a random one
     lines = read_lines_from_json()
     line = random.choice(lines)
-    
-    print(f"selected quote: {line[:50]}..." if len(line) > 50 else f"selected quote: {line}")
-    
+
+    print(f"selected quote: {line[:50]}..." if len(
+        line) > 50 else f"selected quote: {line}")
+
     # generate the full readme content
     markdown_sentence = generate_markdown_sentence(line)
-    
+
     # write to readme file
     write_readme(markdown_sentence)
-    
+
     print("all done!")
 
 
