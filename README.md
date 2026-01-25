@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    enjoy the little things
+    no pressure, no diamonds
 
