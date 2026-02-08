@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    you are enough just as you are
+    do what you can, with what you have, where you are
 
