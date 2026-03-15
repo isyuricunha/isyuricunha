@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    do what you can with all you have, wherever you are
+    my life is my message
 
