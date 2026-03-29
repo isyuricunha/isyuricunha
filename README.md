@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    we are twice armed if we fight with faith
+    you are never too old to set another goal or to dream a new dream.
 
