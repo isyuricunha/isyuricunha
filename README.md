@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    success is not the key to happiness. happiness is the key to success
+    if you want it, work for it
 
