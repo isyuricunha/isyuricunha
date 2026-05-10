@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    don’t tell people your plans. show them your results
+    success is not final, failure is not fatal: it is the courage to continue that counts
 
