@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    success is not final, failure is not fatal: it is the courage to continue that counts
+    the future belongs to those who believe in the beauty of their dreams
 
