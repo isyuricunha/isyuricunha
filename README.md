@@ -20,5 +20,5 @@ so you know, i am trying to get used to conventional commits, it is a bit annoyi
 
 
 **a sentence to brighten your day:**<br>
-    once you choose hope, anything’s possible
+    the future belongs to those who believe in the beauty of their dreams
 
