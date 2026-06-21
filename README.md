@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    don't limit your challenges. challenge your limits
+    the only person you should try to be better than is the person you were yesterday
 
