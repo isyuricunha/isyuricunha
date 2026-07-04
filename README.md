@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    enjoy the little things
+    you are enough just as you are
 
