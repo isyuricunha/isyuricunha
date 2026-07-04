@@ -49,6 +49,9 @@ jobs:
           ELLA_AI_API_KEY: ${{ secrets.ELLA_AI_API_KEY }}
           ELLA_AI_BASE_URL: ${{ secrets.ELLA_AI_BASE_URL }}
           ELLA_AI_MODEL: ${{ secrets.ELLA_AI_MODEL }}
+          ELLA_AI_SMALL_MODEL: ${{ secrets.ELLA_AI_SMALL_MODEL }}
+          ELLA_AI_SMALL_API_KEY: ${{ secrets.ELLA_AI_SMALL_API_KEY }}
+          ELLA_AI_SMALL_BASE_URL: ${{ secrets.ELLA_AI_SMALL_BASE_URL }}
           YURI_COMMIT_NAME: ${{ secrets.YURI_COMMIT_NAME }}
           YURI_COMMIT_EMAIL: ${{ secrets.YURI_COMMIT_EMAIL }}
           GITHUB_EVENT_NAME: schedule
