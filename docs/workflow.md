@@ -23,7 +23,7 @@ Runs only when `github.event_name` is `schedule` or `workflow_dispatch`.
 | 1 | Checkout | `actions/checkout@v7` with `GITHUB_TOKEN`, `fetch-depth: 0` |
 | 2 | Setup Python | `actions/setup-python@v6`, Python 3.11, pip cache enabled |
 | 3 | Install dependencies | `python -m pip install --upgrade pip` then `pip install -r requirements.txt` |
-| 4 | Generate quote via Ella | `isyuricunha/ella@v1.10.1` (composite action). Fails gracefully with `continue-on-error: true` so the fallback can run. Requires `ELLA_APP_*` and `ELLA_AI_*` secrets. |
+| 4 | Generate quote via Ella | `isyuricunha/ella@v1.10.2` (composite action). Fails gracefully with `continue-on-error: true` so the fallback can run. Requires `ELLA_APP_*` and `ELLA_AI_*` secrets. |
 | 5 | Fallback - random quote from Drive | `python update_readme.py` (only runs if step 4 failed) |
 | 6 | Commit and push | Configures git, stages `README.md`, commits only if there are changes, pushes |
 

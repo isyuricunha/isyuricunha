@@ -23,7 +23,7 @@
   │  (primary)         │          │  (if Ella fails)   │
   │                    │          │                    │
   │ isyuricunha/ella   │          │ update_readme.py   │
-  │ @v1.10.1           │          │                    │
+  │ @v1.10.2           │          │                    │
   │                    │          │ 1. download_json() │──► Google Drive
   │ small model call   │          │ 2. random.choice() │
   │ sanitize + rewrite │          │ 3. write_readme()  │──► README.md
@@ -85,7 +85,7 @@ GitHub Actions schedule / workflow_dispatch
     │
     │  triggers update-readme job
     ▼
-isyuricunha/ella@v1.10.1 (composite action)
+isyuricunha/ella@v1.10.2 (composite action)
     │
     │  GITHUB_EVENT_NAME=schedule → parse_command routes to "quote" mode
     ▼
