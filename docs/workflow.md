@@ -80,11 +80,11 @@ Required because creating a release writes to the repository's releases API, whi
 
 | Action | Version | Used for |
 | --- | --- | --- |
-| `actions/checkout` | v4 | Repository checkout |
-| `actions/setup-python` | v5 | Python toolcache setup |
-| `softprops/action-gh-release` | v2 | GitHub release creation |
+| `actions/checkout` | v7 | Repository checkout |
+| `actions/setup-python` | v6 | Python toolcache setup |
+| `softprops/action-gh-release` | v3 | GitHub release creation |
 
-These are pinned to major version tags (`@v4`, `@v5`, `@v2`), not to specific commit SHAs. This is the common convention for GitHub-maintained actions and for `softprops/action-gh-release`.
+These are pinned to major version tags (`@v7`, `@v6`, `@v3`), not to specific commit SHAs. This is the common convention for GitHub-maintained actions and for `softprops/action-gh-release`. The v6/v7/v3 major bumps move the runtime from Node 20 to Node 24 (GitHub is force-migrating all actions off Node 20). The action inputs used by this workflow are unchanged across these major versions, so the bumps are drop-in replacements.
 
 ## Environment variables
 
