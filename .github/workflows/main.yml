@@ -41,6 +41,7 @@ jobs:
         id: ella
         uses: isyuricunha/ella@v1.10.0
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
         with:
           ella_app_client_id: ${{ secrets.ELLA_APP_CLIENT_ID }}
           ella_app_private_key: ${{ secrets.ELLA_APP_PRIVATE_KEY }}
