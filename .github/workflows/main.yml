@@ -24,6 +24,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: setup python
         uses: actions/setup-python@v6
@@ -36,7 +37,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: update readme with new quote
+      - name: generate quote via ella
+        id: ella
+        uses: isyuricunha/ella@v1.10.0
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        with:
+          ella_app_client_id: ${{ secrets.ELLA_APP_CLIENT_ID }}
+          ella_app_private_key: ${{ secrets.ELLA_APP_PRIVATE_KEY }}
+        env:
+          ELLA_AI_API_KEY: ${{ secrets.ELLA_AI_API_KEY }}
+          ELLA_AI_BASE_URL: ${{ secrets.ELLA_AI_BASE_URL }}
+          ELLA_AI_MODEL: ${{ secrets.ELLA_AI_MODEL }}
+          YURI_COMMIT_NAME: ${{ secrets.YURI_COMMIT_NAME }}
+          YURI_COMMIT_EMAIL: ${{ secrets.YURI_COMMIT_EMAIL }}
+          GITHUB_EVENT_NAME: schedule
+
+      - name: fallback - random quote from drive
+        if: steps.ella.outcome == 'failure' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         run: python update_readme.py
 
       - name: commit and push changes
