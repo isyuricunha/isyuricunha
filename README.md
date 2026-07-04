@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    you are enough just as you are
+    Every line of code is a step toward building something meaningful
 
