@@ -13,9 +13,9 @@ This directory contains the full documentation for the `isyuricunha` GitHub prof
 
 ## Overview
 
-`isyuricunha` is a self-updating GitHub profile repository. A scheduled GitHub Actions job downloads a collection of quotes from Google Drive, picks one at random, and writes it into the profile `README.md`. On tag push (`v*.*.*`), a second job creates a GitHub release with auto-generated notes.
+`isyuricunha` is a self-updating GitHub profile repository. A scheduled GitHub Actions job generates a quote of the week - primarily via the [Ella AI agent](https://github.com/isyuricunha/ella) (small model), with a fallback to random quotes from Google Drive. The quote is written into the profile `README.md`. On tag push (`v*.*.*`), a second job creates a GitHub release with auto-generated notes.
 
-The project is intentionally minimal: a single Python script plus a pinned `requirements.txt`. No build step, no server, no database. The only external dependency is `requests`, which pulls the quotes file from Google Drive.
+The project is intentionally minimal: a single Python script (`update_readme.py`, used as fallback) plus a pinned `requirements.txt`. The primary path uses Ella as a composite GitHub Action - no additional code in this repo. The only external dependency is `requests`, used by the fallback to pull the quotes file from Google Drive.
 
 ## Quick Facts
 
@@ -23,4 +23,4 @@ The project is intentionally minimal: a single Python script plus a pinned `requ
 - **Runtime**: GitHub Actions (ubuntu-latest)
 - **Entry point**: `update_readme.py`
 - **Dependencies**: 5 (all transitive of `requests`)
-- **Secrets**: none required (uses the default `GITHUB_TOKEN`)
+- **Secrets**: `ELLA_APP_*` and `ELLA_AI_*` required for the AI path (see [workflow.md](./workflow.md)). Fallback path uses only the default `GITHUB_TOKEN`.
