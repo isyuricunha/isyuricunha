@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    work on what matters, ignore the noise
+    build things that make you proud
 
