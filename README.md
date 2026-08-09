@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    code evolves, so does curiosity, keep iterating toward brilliance
+    documentation is the bridge between intent and understanding
 
