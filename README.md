@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    small acts of consistency lead to massive results
+    backups are like insurance — you only miss them when you need them
 
