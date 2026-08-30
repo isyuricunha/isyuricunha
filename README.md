@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    build things that outlive their first purpose
+    code evolves when curiosity meets persistence and simplicity guides progress
 
