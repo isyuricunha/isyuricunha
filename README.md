@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    your data should answer to you, and only to you
+    good systems get out of the way
 
