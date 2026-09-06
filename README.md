@@ -26,5 +26,5 @@ i care about private systems, clear boundaries, and tools that give people more 
 built slowly. kept simple on purpose.
 
 **a sentence to brighten your day:**<br>
-    write it for the reader, not the trophy
+    if you can't explain it simply, you don't understand it yet
 
